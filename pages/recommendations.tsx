@@ -171,7 +171,7 @@ export default function Recommendations() {
           </div>
         ) : (
           <p className="text-gray-500 text-sm italic mt-10 animate-pulse">
-            Fetching your perfect match...
+            Add a destination to your favorites to checkout some cool recommendations ...
           </p>
         )}
       </main>
