@@ -114,6 +114,9 @@ export default function DestinationPage() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-10">
           <h1 className="text-5xl font-extrabold text-blue-800 tracking-tight animate-fade-in">
             {place.name}
+            <h3 className="text-2xl font-extrabold text-blue-500 tracking-tight animate-fade-in">
+              {place.address}
+            </h3>
           </h1>
 
           <button

@@ -2,6 +2,7 @@ export const trendingPlaces = [
   {
     id: 1,
     name: "Grand Canyon National Park",
+    address: "Grand Canyon Village, Arizona",
     description: "Vast, scenic canyon carved by the Colorado River, offering hiking, rafting, and stunning views.",
     about: "The Grand Canyon National Park, located in Arizona, USA, is one of the world's most breathtaking natural wonders. Spanning over 277 miles in length and up to 18 miles in width, the canyon reveals nearly two billion years of Earth's geological history through its layered red rock formations. Visitors can experience awe-inspiring sunrises and sunsets, traverse numerous hiking trails like the Bright Angel and South Kaibab Trails, and immerse themselves in Native American cultural heritage. Beyond the scenery, the Grand Canyon offers thrilling rafting expeditions on the Colorado River, helicopter tours for aerial perspectives, and serene moments of reflection at its many lookout points.",
   
@@ -48,6 +49,7 @@ export const trendingPlaces = [
   {
     id: 2,
     name: "Yosemite National Park",
+    address: "Yosmite Valley, California",
     description: "Renowned for its waterfalls, granite cliffs, and ancient giant sequoias.",
     about: "Yosemite National Park, nestled in California’s Sierra Nevada Mountains, is famous for its towering granite cliffs, dramatic waterfalls, ancient giant sequoia trees, and diverse ecosystems. Iconic landmarks like El Capitan and Half Dome attract climbers from around the world, while Yosemite Valley offers breathtaking vistas. Visitors can explore more than 750 miles of hiking trails, witness the majesty of Yosemite Falls, and experience serene moments in groves of ancient sequoias. The park’s rich Native American heritage adds a cultural dimension to its natural splendor.",
     lat: 37.8651,
@@ -93,6 +95,7 @@ export const trendingPlaces = [
   {
     id: 3,
     name: "Lake Tahoe",
+    address: "South Lake Tahoe, California & Stateline, Nevada",
     description: "Massive alpine lake known for its clear waters, beaches, and ski resorts.",
     about: "Lake Tahoe, straddling the California-Nevada border, is North America's largest alpine lake renowned for its crystal-clear blue waters and surrounding snow-capped mountains. In the winter, Lake Tahoe transforms into a skiing and snowboarding paradise, while summers invite beachgoers, hikers, and water sports enthusiasts. Vibrant communities like South Lake Tahoe offer lively entertainment, fine dining, and upscale shopping, making it a year-round destination for adventure and relaxation.",
     lat: 39.0968,
@@ -138,6 +141,7 @@ export const trendingPlaces = [
   {
     id: 4,
     name: "Niagara Falls",
+    address: "Niagara Falls, New York",
     description: "Iconic waterfalls straddling the U.S.–Canada border, famous for boat tours and breathtaking views.",
     about: "Niagara Falls, located on the border between New York, USA and Ontario, Canada, is one of the most famous and powerful waterfalls in the world. Comprising three massive waterfalls — Horseshoe Falls, American Falls, and Bridal Veil Falls — Niagara dazzles visitors with its thunderous roar and misty grandeur. Beyond the falls themselves, the area offers rich history, lush parks, thrilling boat rides on the Maid of the Mist, and vibrant entertainment districts on both sides of the border.",
     lat: 43.0962,
@@ -183,6 +187,7 @@ export const trendingPlaces = [
   {
     id: 5,
     name: "Monument Valley",
+    address: "Oljato-Monument Valley, Arizona-Utah Border",
     description: "Striking sandstone buttes rising from the desert floor, featured in countless movies.",
     about: "Monument Valley, located on the Arizona-Utah state line within the Navajo Nation Reservation, is iconic for its towering sandstone buttes and sweeping desert landscapes. Immortalized in countless Western films, this sacred area embodies the spirit of the American West. Guided Jeep tours offer immersive experiences into Navajo culture, while sunrise and sunset provide spectacular photo opportunities of the vivid red rock formations.",
     lat: 36.9980,
@@ -228,6 +233,7 @@ export const trendingPlaces = [
   {
     id: 6,
     name: "Antelope Canyon",
+    address: "Page, Arizona",
     description: "Famous slot canyon with wave-like sandstone walls, a photographer’s dream.",
     about: "Antelope Canyon, located near Page, Arizona, is one of the most stunning slot canyons in the world. Shaped by millennia of water erosion, its smooth, wavy sandstone walls create a mesmerizing play of light and shadow, especially during midday sunbeams. Divided into Upper and Lower Antelope Canyon, it is accessible only through guided tours run by Navajo Nation members, preserving both the beauty and sacred significance of the canyon.",
     lat: 36.8619,
@@ -273,6 +279,7 @@ export const trendingPlaces = [
   {
     id: 7,
     name: "Zion National Park",
+    address: "Springdale, Utah",
     description: "Utah park known for steep red cliffs, canyons, and hikes like Angels Landing.",
     about: "Zion National Park, located in southwestern Utah, is celebrated for its dramatic red cliffs, narrow slot canyons, and diverse plant and animal life. Popular hikes like Angels Landing, The Narrows, and Observation Point challenge adventurers and reward them with breathtaking vistas. The park’s rich tapestry of geology and Native American history makes Zion a sanctuary of both spiritual and physical exploration.",
     lat: 37.2982,
@@ -318,6 +325,7 @@ export const trendingPlaces = [
   {
     id: 8,
     name: "Yellowstone National Park",
+    address: "Yellowstone National Park, Wyoming",
     description: "World’s first national park, famous for geysers like Old Faithful and abundant wildlife.",
     about: "Yellowstone National Park, spanning three U.S. states, is the world's first and one of its most celebrated national parks. Home to iconic geothermal wonders like Old Faithful and Grand Prismatic Spring, Yellowstone also boasts vast forests, pristine lakes, and abundant wildlife including bison, bears, and wolves. Whether hiking, camping, or marveling at bubbling geysers, visitors find themselves immersed in an untouched natural paradise.",
     lat: 44.4280,
@@ -363,6 +371,7 @@ export const trendingPlaces = [
   {
     id: 9,
     name: "Waikiki Beach",
+    address: "Honolulu, Hawaii",
     description: "World-famous beach in Honolulu known for surfing, nightlife, and shopping.",
     about: "Waikiki Beach, located on the south shore of Honolulu, Hawaii, is synonymous with sun, surf, and Hawaiian hospitality. Once a playground for Hawaiian royalty, today it welcomes millions of tourists seeking perfect waves, luxury shopping, vibrant nightlife, and stunning sunsets. Whether learning to surf, enjoying luaus, or relaxing on the golden sands, Waikiki offers the quintessential tropical experience.",
     lat: 21.2767,
@@ -408,6 +417,7 @@ export const trendingPlaces = [
   {
     id: 10,
     name: "Mount Rushmore",
+    address: "Keystone, South Dakota",
     description: "Monument featuring giant carved faces of U.S. presidents in South Dakota.",
     about: "Mount Rushmore National Memorial in South Dakota is an iconic symbol of American history and culture. Featuring the colossal carved faces of Presidents George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln, the monument honors the nation's birth, growth, development, and preservation. Visitors can explore the Avenue of Flags, visit the Lincoln Borglum Visitor Center, and enjoy ranger-led programs that reveal the intricate history behind this awe-inspiring project.",
     lat: 43.8791,
@@ -453,6 +463,7 @@ export const trendingPlaces = [
   {
     id: 11,
     name: "Arches National Park",
+    address: "Moab, Utah",
     description: "Features over 2,000 natural stone arch formations amid desert landscapes.",
     about: "Arches National Park in eastern Utah is home to the largest concentration of natural sandstone arches in the world. With over 2,000 documented arch formations, including the iconic Delicate Arch, the park offers endless opportunities for hiking, photography, and marveling at geological wonders. Towering spires, balanced rocks, and dramatic sunsets make Arches a dream destination for adventurers and artists alike.",
     lat: 38.7331,
@@ -498,6 +509,7 @@ export const trendingPlaces = [
   {
     id: 12,
     name: "Glacier National Park",
+    address: "West Glacier, Montana",
     description: "Stunning wilderness area in Montana featuring glacier-carved valleys and lakes.",
     about: "Glacier National Park, known as the 'Crown of the Continent,' offers some of the most pristine and breathtaking landscapes in North America. With over 700 miles of hiking trails, crystal-clear lakes, and rugged mountain peaks, the park provides opportunities for wildlife encounters, scenic drives along the Going-to-the-Sun Road, and deep explorations into ancient glaciers. It’s a haven for nature lovers seeking solitude and adventure.",
     lat: 48.6967,
@@ -543,6 +555,7 @@ export const trendingPlaces = [
   {
     id: 13,
     name: "Havasu Falls",
+    address: "Supai, Arizona",
     description: "Spectacular turquoise waterfalls located within the Havasupai tribal lands.",
     about: "Havasu Falls, located deep within the Havasupai Indian Reservation in Arizona, boasts stunning turquoise waterfalls plunging into serene travertine pools. Reaching this paradise requires a strenuous hike, but visitors are rewarded with an oasis of unbelievable beauty amidst the arid desert. Camping near the falls under starlit skies makes for an unforgettable adventure that connects travelers with nature and Native American culture.",
     lat: 36.2552,
@@ -588,6 +601,7 @@ export const trendingPlaces = [
   {
     id: 14,
     name: "Badlands National Park",
+    address: "Interior, South Dakota",
     description: "Eroded buttes and spires creating a rugged desert landscape in South Dakota.",
     about: "Badlands National Park in South Dakota features surreal landscapes of sharply eroded buttes, pinnacles, and spires. This rugged terrain, once submerged under an ancient sea, reveals layers of sedimentary rock that glow in the changing light. Home to bison, prairie dogs, and bighorn sheep, Badlands offers a striking mix of natural beauty, rich fossil beds, and the cultural legacy of the Lakota Sioux.",
     lat: 43.8554,
@@ -633,6 +647,7 @@ export const trendingPlaces = [
   {
     id: 15,
     name: "Sedona Red Rocks",
+    address: "Sedona, Arizona",
     description: "Famous red sandstone formations in Arizona, offering hikes, jeep tours, and spiritual retreats.",
     about: "Sedona, Arizona, is renowned for its striking red sandstone formations that glow brilliantly at sunrise and sunset. Often called a spiritual and healing destination, Sedona attracts visitors seeking outdoor adventure and inner peace. Whether exploring the rugged trails by Jeep, hiking to energy vortex sites, or indulging in spa retreats, Sedona's stunning landscapes and vibrant arts scene offer an unforgettable experience.",
     lat: 34.8697,
@@ -678,6 +693,7 @@ export const trendingPlaces = [
   {
     id: 16,
     name: "Bryce Canyon National Park",
+    address: "Bryce, Utah",
     description: "Known for its crimson-colored hoodoos, spire-shaped rock formations.",
     about: "Bryce Canyon National Park in southern Utah is celebrated for its unique geological structures called hoodoos—tall, thin spires of rock that create otherworldly landscapes. Visitors can hike through dramatic amphitheaters, gaze at breathtaking sunrise and sunset points, and stargaze under some of the darkest skies in North America. The park’s beauty is captivating year-round, from snowy winters to vibrant summers.",
     lat: 37.5930,
@@ -723,6 +739,7 @@ export const trendingPlaces = [
   {
     id: 17,
     name: "Big Sur Coastline",
+    address: "Big Sur, California",
     description: "Dramatic meeting of mountains and Pacific Ocean, along California’s Highway 1.",
     about: "Big Sur, a rugged stretch of California’s central coast, offers awe-inspiring views where the Santa Lucia Mountains dramatically meet the Pacific Ocean. Known for its breathtaking scenic drives along Highway 1, Big Sur also invites visitors to hike in redwood forests, relax on remote beaches, and find peace in nature’s embrace. The area’s bohemian spirit, artistic legacy, and luxurious lodges add to its legendary appeal.",
     lat: 36.3615,
@@ -768,6 +785,7 @@ export const trendingPlaces = [
   {
     id: 18,
     name: "Everglades National Park",
+    address: "Homestead, Florida",
     description: "Largest tropical wilderness of any kind in the U.S., home to alligators and exotic birds.",
     about: "Everglades National Park in Florida is the largest tropical wilderness of its kind in the United States, comprising vast wetlands teeming with diverse wildlife. It’s a haven for bird watchers, kayakers, and adventure seekers hoping to glimpse alligators, manatees, and rare panthers. From airboat tours to scenic walks on boardwalk trails, the Everglades offer unique adventures across a richly biodiverse ecosystem.",
     lat: 25.2866,
@@ -813,6 +831,7 @@ export const trendingPlaces = [
   {
     id: 19,
     name: "Crater Lake",
+    address: "Crater Lake National Park, Oregon",
     description: "Deepest lake in the U.S., formed inside a collapsed volcano in Oregon.",
     about: "Crater Lake National Park in Oregon is home to the deepest lake in the United States, formed over 7,700 years ago after the collapse of Mount Mazama. Famed for its vivid blue color and exceptional clarity, the lake offers awe-inspiring views year-round. Visitors can hike rim trails, explore Wizard Island, and enjoy snowshoeing in winter amidst an ancient volcanic landscape.",
     lat: 42.9446,
@@ -858,6 +877,7 @@ export const trendingPlaces = [
   {
     id: 20,
     name: "Death Valley National Park",
+    address: "Furnace Creek, California and Nevada",
     description: "The hottest and driest national park in the U.S., featuring salt flats and colorful hills.",
     about: "Death Valley National Park, spanning eastern California and Nevada, is the hottest, driest, and lowest national park in the United States. Despite its foreboding name, Death Valley bursts with natural wonders like the colorful Artist’s Palette hills, the vast Badwater Basin salt flats, and the towering sand dunes. Springtime brings a surprising bloom of wildflowers, transforming this desert into a rare spectacle of life and color.",
     lat: 36.5323,
@@ -903,6 +923,7 @@ export const trendingPlaces = [
   {
     id: 21,
     name: "Asheville",
+    address: "Asheville, North Carolina",
     description: "Vibrant mountain city known for its arts, historic architecture, and scenic Blue Ridge Parkway.",
     about: "Nestled in the Blue Ridge Mountains of North Carolina, Asheville is a vibrant hub for arts, culture, and outdoor adventure. Home to the historic Biltmore Estate and a thriving craft brewery scene, Asheville charms visitors with its bohemian spirit, stunning mountain views, and lively downtown packed with galleries and local eateries.",
     lat: 35.5951,
@@ -948,6 +969,7 @@ export const trendingPlaces = [
   {
     id: 22,
     name: "Napa Valley",
+    address: "Napa County, California",
     description: "World-renowned wine region offering vineyards, luxury resorts, and fine dining.",
     about: "Napa Valley in California is synonymous with wine, luxury, and rolling vineyard landscapes. Visitors can tour hundreds of wineries, indulge in Michelin-starred dining, or relax in upscale spas. Beyond wine, Napa offers hot air balloon rides, scenic drives, and charming towns like St. Helena and Yountville.",
     lat: 38.5025,
@@ -993,6 +1015,7 @@ export const trendingPlaces = [
   {
     id: 23,
     name: "Savannah",
+    address: "Savannah, Georgia",
     description: "Historic Southern city known for cobblestone streets, oak trees draped in Spanish moss, and antebellum architecture.",
     about: "Savannah, Georgia, enchants visitors with its cobblestone streets, historic squares, moss-draped oaks, and antebellum architecture. This charming southern city blends deep history, artistic creativity, and culinary excellence, making it a must-visit for history buffs, foodies, and romantics alike.",
     lat: 32.0809,
@@ -1038,6 +1061,7 @@ export const trendingPlaces = [
   {
     id: 24,
     name: "Sequoia National Park",
+    address: "Three Rivers, California",
     description: "Home to giant sequoia trees including the largest tree on Earth, General Sherman.",
     about: "Sequoia National Park in California is a majestic wilderness filled with towering ancient trees, deep canyons, rugged foothills, and high mountain peaks. Visitors come to marvel at the General Sherman Tree—the world's largest living tree by volume—hike beneath the massive giants, and explore underground in Crystal Cave.",
     lat: 36.4864,
@@ -1083,6 +1107,7 @@ export const trendingPlaces = [
   {
     id: 25,
     name: "Charleston",
+    address: "Charleston, South Carolina",
     description: "Charming coastal city with cobblestone streets, historic homes, and southern hospitality.",
     about: "Charleston, South Carolina, is a coastal city steeped in history, culture, and southern charm. Famous for its pastel antebellum houses, historic plantations, cobblestone streets, and culinary excellence, Charleston offers a perfect blend of old-world beauty and modern sophistication.",
     lat: 32.7765,
@@ -1128,6 +1153,7 @@ export const trendingPlaces = [
   {
     id: 26,
     name: "White Sands National Park",
+    address: "Alamogordo, New Mexico",
     description: "Expansive dunes of pure white gypsum sand in southern New Mexico.",
     about: "White Sands National Park features the world’s largest gypsum sand dune field, creating an almost alien-like, sparkling white landscape. Visitors can hike, sled, and photograph the ever-shifting dunes, which offer stunning vistas at sunrise and sunset.",
     lat: 32.7791,
@@ -1173,6 +1199,7 @@ export const trendingPlaces = [
   {
     id: 27,
     name: "Bar Harbor",
+    address: "Bar Harbor, Maine",
     description: "Charming coastal town and gateway to Acadia National Park in Maine.",
     about: "Bar Harbor, located on Mount Desert Island, serves as the gateway to Acadia National Park. Known for its charming streets, fresh lobster, and stunning coastal scenery, Bar Harbor offers both relaxation and outdoor adventure for visitors seeking to explore one of America's most beloved national parks.",
     lat: 44.3876,
@@ -1218,6 +1245,7 @@ export const trendingPlaces = [
   {
     id: 28,
     name: "Key West",
+    address: "Key West, Florida",
     description: "Tropical island city known for vibrant nightlife, coral reefs, and conch-style houses.",
     about: "Key West, the southernmost point in the continental U.S., offers a blend of Caribbean vibes, historical intrigue, and lively entertainment. Known for its pastel-hued houses, rich literary history, snorkeling reefs, and sunset celebrations at Mallory Square, Key West is a slice of tropical paradise.",
     lat: 24.5551,
@@ -1263,6 +1291,7 @@ export const trendingPlaces = [
   {
     id: 29,
     name: "Olympic National Park",
+    address: "Port Angeles, Washington",
     description: "A diverse wilderness with mountains, rainforests, and rugged coastline in Washington State.",
     about: "Olympic National Park is a unique jewel of the Pacific Northwest, encompassing everything from glacier-capped mountains and ancient temperate rainforests to dramatic Pacific coastline. The park’s varied ecosystems offer breathtaking landscapes, wildlife encounters, and endless opportunities for outdoor adventure, making it a UNESCO World Heritage Site.",
     lat: 47.8021,
@@ -1308,6 +1337,7 @@ export const trendingPlaces = [
   {
     id: 30,
     name: "Lake Powell",
+    address: "Page, Utah",
     description: "A massive reservoir on the Colorado River, famous for boating, canyons, and houseboat adventures.",
     about: "Lake Powell, straddling the border of Arizona and Utah, is an aquatic playground set against a dramatic desert backdrop. With its deep blue waters, towering red rock canyons, and endless hidden coves, Lake Powell offers world-class boating, kayaking, and scenic houseboat adventures.",
     lat: 36.9382,
@@ -1353,6 +1383,7 @@ export const trendingPlaces = [
   {
     id: 31,
     name: "Joshua Tree National Park",
+    address: "Twentynine Palms, California",
     description: "Iconic desert landscape with surreal rock formations and namesake Joshua trees.",
     about: "Joshua Tree National Park in Southern California offers a stunning convergence of the Mojave and Colorado deserts, filled with fantastically shaped Joshua trees and enormous boulder formations. It's a mecca for rock climbers, hikers, photographers, and stargazers drawn to the desert's stark, otherworldly beauty.",
     lat: 33.8734,
@@ -1398,6 +1429,7 @@ export const trendingPlaces = [
   {
     id: 32,
     name: "Mount Rainier National Park",
+    address: "Ashford, Washington",
     description: "Iconic glacier-capped volcano surrounded by wildflower meadows and old-growth forests.",
     about: "Mount Rainier National Park showcases the towering 14,410-foot Mount Rainier, a glacier-clad stratovolcano surrounded by lush meadows, ancient forests, and cascading waterfalls. Visitors flock year-round for hiking, photography, mountaineering, and admiring one of the most picturesque peaks in the United States.",
     lat: 46.8797,
@@ -1443,6 +1475,7 @@ export const trendingPlaces = [
   {
     id: 33,
     name: "Santa Fe",
+    address: "Santa Fe, New Mexico",
     description: "Historic city blending Native American, Spanish, and Mexican influences with world-class art and cuisine.",
     about: "Santa Fe, New Mexico’s capital, is renowned for its Pueblo-style architecture, thriving art scene, and rich cultural fusion. Wander historic adobe-lined streets, explore countless galleries, taste incredible Southwestern cuisine, and soak in the timeless spiritual energy of 'The City Different.'",
     lat: 35.6870,
@@ -1488,6 +1521,7 @@ export const trendingPlaces = [
   {
     id: 34,
     name: "Cape Cod",
+    address: "Barnstable County, Massachusetts",
     description: "Iconic summer getaway with quaint villages, seafood shacks, lighthouses, and beaches.",
     about: "Cape Cod, Massachusetts, is a classic seaside escape known for its sandy beaches, historic lighthouses, seafood feasts, and picturesque towns. From whale-watching in Provincetown to biking along the Cape Cod Rail Trail, the Cape offers a blend of old New England charm and laid-back summer vibes.",
     lat: 41.6688,
@@ -1533,6 +1567,7 @@ export const trendingPlaces = [
   {
     id: 35,
     name: "Mammoth Lakes",
+    address: "Mammoth Lakes, California",
     description: "California’s alpine playground offering skiing, hiking, and volcanic wonders.",
     about: "Mammoth Lakes, nestled in the Sierra Nevada mountains, is a year-round outdoor adventure paradise. From epic winter skiing at Mammoth Mountain to summer hiking, fishing, and hot springs soaking, Mammoth dazzles with towering peaks, crystal-clear lakes, and dramatic volcanic landscapes.",
     lat: 37.6485,
@@ -1578,6 +1613,7 @@ export const trendingPlaces = [
   {
     id: 36,
     name: "Portland",
+    address: "Portland, Oregon",
     description: "Hip city in Oregon known for coffee, food trucks, eco-friendly vibes, and vibrant arts.",
     about: "Portland, Oregon, affectionately called 'The City of Roses,' is a creative haven known for its lively arts scene, diverse cuisine, eco-conscious culture, and access to outdoor adventures. With quirky neighborhoods, forested parks, and abundant coffee shops, Portland offers a perfect urban-meets-nature experience.",
     lat: 45.5051,
@@ -1623,6 +1659,7 @@ export const trendingPlaces = [
   {
     id: 37,
     name: "Outer Banks",
+    address: "Outer Banks, North Carolina",
     description: "Chain of barrier islands off North Carolina known for wide beaches, history, and shipwreck diving.",
     about: "The Outer Banks of North Carolina offer windswept beaches, historic lighthouses, and a laid-back coastal vibe. Known for the Wright brothers’ first flight, wild horses roaming the dunes, and pristine shores, the OBX is a favorite for families, adventure seekers, and history enthusiasts alike.",
     lat: 35.5596,
@@ -1668,6 +1705,7 @@ export const trendingPlaces = [
   {
     id: 38,
     name: "Aspen",
+    address: "Aspen, Colorado",
     description: "Luxury mountain town in Colorado famous for world-class skiing and upscale lifestyle.",
     about: "Aspen, nestled in Colorado's Rocky Mountains, is renowned for its luxurious ski resorts, vibrant arts scene, and breathtaking alpine scenery. Whether you're hitting the slopes in winter, hiking wildflower meadows in summer, or browsing high-end boutiques, Aspen offers sophistication amidst stunning nature.",
     lat: 39.1911,
@@ -1713,6 +1751,7 @@ export const trendingPlaces = [
   {
     id: 39,
     name: "Sedona Vortex Sites",
+    address: "Sedona, Arizona",
     description: "Spiritual energy centers surrounded by stunning red rock formations in Arizona.",
     about: "Sedona’s famous vortex sites are believed to be centers of spiritual energy, drawing visitors seeking healing, meditation, and personal transformation. Surrounded by breathtaking red rocks, vortexes like Cathedral Rock and Bell Rock amplify Sedona's reputation as both an outdoor and metaphysical destination.",
     lat: 34.8697,
@@ -1758,6 +1797,7 @@ export const trendingPlaces = [
   {
     id: 40,
     name: "Big Bend National Park",
+    address: "Big Bend National Park, Texas",
     description: "Remote Texas park featuring deserts, mountains, and the Rio Grande River.",
     about: "Big Bend National Park in Texas offers vast desert landscapes, rugged mountains, and a wild stretch of the Rio Grande River. This remote park is perfect for solitude seekers, stargazers, hikers, and adventurers ready to experience the raw beauty of the Chihuahuan Desert.",
     lat: 29.1275,
@@ -1803,6 +1843,7 @@ export const trendingPlaces = [
   {
     id: 41,
     name: "Mackinac Island",
+    address: "Mackinac Island, Michigan",
     description: "Historic island in Michigan famous for Victorian charm, horse-drawn carriages, and fudge.",
     about: "Mackinac Island, located in Lake Huron, Michigan, is a step back in time with its ban on motor vehicles, preserved Victorian architecture, and old-world charm. Explore historic forts, bike around the island, and indulge in the island’s legendary handmade fudge.",
     lat: 45.8483,
@@ -1848,6 +1889,7 @@ export const trendingPlaces = [
   {
     id: 42,
     name: "Jackson Hole",
+    address: "Jackson, Wyoming",
     description: "Rustic valley in Wyoming, gateway to Grand Teton and Yellowstone National Parks.",
     about: "Jackson Hole, Wyoming, is a year-round outdoor adventure hub offering world-class skiing, wildlife safaris, and access to Grand Teton and Yellowstone National Parks. Its cowboy culture, rugged scenery, and upscale amenities attract thrill-seekers and nature lovers alike.",
     lat: 43.4799,
@@ -1893,6 +1935,7 @@ export const trendingPlaces = [
   {
     id: 43,
     name: "Door County",
+    address: "Door County, Wisconsin",
     description: "Peninsula in Wisconsin known for charming villages, cherry orchards, and coastal parks.",
     about: "Door County, often called the 'Cape Cod of the Midwest,' offers a blend of lakeside charm, scenic coastal parks, cherry orchards, and quaint small towns. Visitors love its beautiful sunsets, historic lighthouses, and relaxing water activities.",
     lat: 45.0997,
@@ -1938,6 +1981,7 @@ export const trendingPlaces = [
   {
     id: 44,
     name: "Moab",
+    address: "Moab, Utah",
     description: "Adventure town in Utah known for red rock landscapes, national parks, and outdoor thrills.",
     about: "Moab is a desert wonderland in Utah, serving as the gateway to Arches and Canyonlands National Parks. Adventure lovers flock here for world-class mountain biking, off-roading, river rafting, and exploring surreal red rock landscapes.",
     lat: 38.5733,
@@ -1983,6 +2027,7 @@ export const trendingPlaces = [
   {
     id: 45,
     name: "Newport",
+    address: "Newport, Rhode Island",
     description: "Historic coastal town known for opulent Gilded Age mansions and sailing heritage.",
     about: "Newport, Rhode Island, offers a charming seaside escape filled with Gilded Age mansions, historic forts, and a rich sailing tradition. Visitors enjoy exploring cliff walks, cozy harbors, elegant architecture, and vibrant waterfront restaurants.",
     lat: 41.4901,
@@ -2028,6 +2073,7 @@ export const trendingPlaces = [
   {
     id: 46,
     name: "San Juan Islands",
+    address: "San Juan County, Washington",
     description: "Scenic archipelago in Washington known for whale watching, kayaking, and charming villages.",
     about: "The San Juan Islands, off the coast of Washington State, offer peaceful coastal escapes filled with pristine nature, charming small towns, and abundant marine life. Whether you’re whale-watching, kayaking, or simply relaxing at a seaside café, the islands blend natural beauty with serene sophistication.",
     lat: 48.5364,
@@ -2073,6 +2119,7 @@ export const trendingPlaces = [
   {
     id: 47,
     name: "Telluride",
+    address: "Telluride, Colorado",
     description: "Historic mining town turned world-class ski and festival destination in Colorado.",
     about: "Telluride, Colorado, tucked into a stunning box canyon, offers year-round mountain adventure and culture. From epic skiing in winter to film and bluegrass festivals in summer, Telluride combines rugged beauty, luxury, and small-town charm.",
     lat: 37.9375,
@@ -2118,6 +2165,7 @@ export const trendingPlaces = [
   {
     id: 48,
     name: "Hilton Head Island",
+    address: "Hilton Head Island, South Carolina",
     description: "Popular South Carolina island retreat known for beaches, golf courses, and luxury resorts.",
     about: "Hilton Head Island blends stunning natural beauty with luxury leisure. Known for its world-class golf courses, scenic beaches, and family-friendly resorts, it offers visitors a refined yet relaxed coastal experience rooted in Lowcountry culture.",
     lat: 32.2163,
@@ -2163,6 +2211,7 @@ export const trendingPlaces = [
   {
     id: 49,
     name: "Great Smoky Mountains National Park",
+    address: "Gatlinburg, North Carolina",
     description: "America’s most visited national park known for misty mountains, diverse wildlife, and historic cabins.",
     about: "Straddling Tennessee and North Carolina, Great Smoky Mountains National Park offers lush forests, ancient mountains, and abundant wildlife. Famous for its mist-covered peaks, scenic drives, waterfalls, and wildflower blooms, it's a natural wonderland in every season.",
     lat: 35.6532,
@@ -2208,6 +2257,7 @@ export const trendingPlaces = [
   {
     id: 50,
     name: "Finger Lakes",
+    address: "Finger Lakes Region, New York",
     description: "Glacial lakes region in New York known for wineries, waterfalls, and charming small towns.",
     about: "The Finger Lakes region in upstate New York offers scenic lakeside beauty, dozens of award-winning wineries, spectacular waterfalls, and historic villages. Visitors enjoy vineyard tours, kayaking crystal-clear lakes, and hiking to breathtaking gorges and falls.",
     lat: 42.7684,
@@ -2253,6 +2303,7 @@ export const trendingPlaces = [
   {
     id: 51,
     name: "Mount Shasta",
+    address: "Mount Shasta, California",
     description: "Majestic volcanic peak in Northern California known for hiking, spiritual retreats, and alpine beauty.",
     about: "Mount Shasta, a prominent volcanic peak in the Cascade Range of Northern California, is both a geological marvel and a spiritual magnet. Towering over 14,000 feet, it offers alpine adventures, scenic drives, and a mystical aura tied to legends of Lemurians and energy vortices. Outdoor enthusiasts can hike the lower slopes, while spiritual seekers often engage in meditation and wellness retreats in the surrounding serene forests.",
     lat: 41.4092,
@@ -2294,6 +2345,7 @@ export const trendingPlaces = [
   {
     id: 52,
     name: "Great Sand Dunes National Park",
+    address: "Mosca, Colorado",
     description: "Towering sand dunes nestled against the Colorado Rockies, ideal for sandboarding and stargazing.",
     about: "Located in southern Colorado, Great Sand Dunes National Park boasts the tallest sand dunes in North America, reaching up to 750 feet. These dunes rise dramatically before the Sangre de Cristo Mountains, offering a surreal desert-meets-alpine landscape. Visitors can try sandboarding, splash in Medano Creek, hike forested trails, and witness some of the darkest skies in the U.S. for incredible stargazing.",
     lat: 37.7929,
@@ -2335,6 +2387,7 @@ export const trendingPlaces = [
   {
     id: 53,
     name: "Taos Pueblo",
+    address: "Taos, New Mexico",
     description: "A UNESCO World Heritage Site featuring a living Native American village of adobe structures.",
     about: "Taos Pueblo, located in northern New Mexico, is one of the oldest continuously inhabited communities in North America. This UNESCO World Heritage Site features striking multi-story adobe dwellings built over 1,000 years ago by the Tiwa-speaking Native American tribe. Visitors can tour the historic pueblo, learn about indigenous traditions, and admire the dramatic backdrop of the Sangre de Cristo Mountains.",
     lat: 36.4386,
@@ -2376,6 +2429,7 @@ export const trendingPlaces = [
   {
     id: 54,
     name: "Channel Islands National Park",
+    address: "Ventura, California",
     description: "Isolated marine sanctuary off the California coast, rich in wildlife and rugged coastal beauty.",
     about: "Channel Islands National Park, located off the coast of Southern California, consists of five ecologically rich islands that offer pristine natural beauty, rare wildlife, and a quiet escape from the mainland. Often called 'America’s Galápagos,' it’s a haven for kayaking, hiking, snorkeling, and observing species found nowhere else on Earth. Limited access keeps the islands relatively untouched and ideal for day trips or overnight camping.",
     lat: 34.0069,
@@ -2417,6 +2471,7 @@ export const trendingPlaces = [
   {
     id: 55,
     name: "Lake Chelan",
+    address: "Chelan, Washington",
     description: "A glacier-fed lake in Washington State known for its wineries, water sports, and alpine setting.",
     about: "Lake Chelan, nestled in north-central Washington, stretches 50 miles through glacier-carved valleys. This crystal-clear lake is a hotspot for boating, fishing, and lakeside relaxation. With a charming town on its southern end and wilderness access on the north, Lake Chelan also boasts scenic vineyards, making it a blend of adventure and leisure.",
     lat: 47.8400,
@@ -2458,6 +2513,7 @@ export const trendingPlaces = [
   {
     id: 56,
     name: "Apostle Islands National Lakeshore",
+    address: "Bayfield, Wisconsin",
     description: "A string of pristine islands on Lake Superior with sea caves, historic lighthouses, and kayaking adventures.",
     about: "Located on the northern tip of Wisconsin, Apostle Islands National Lakeshore encompasses 21 islands scattered across Lake Superior. Renowned for sea caves, dense forests, and sandy beaches, it offers kayaking, sailing, and hiking. In winter, the sea caves become icy cathedrals, attracting adventurers from all over the Midwest.",
     lat: 46.9783,
@@ -2499,6 +2555,7 @@ export const trendingPlaces = [
   {
     id: 58,
     name: "Cape May",
+    address: "Cape May, New Jersey",
     description: "Charming Victorian seaside town in New Jersey known for beaches, birdwatching, and architecture.",
     about: "Cape May, located at the southern tip of New Jersey, is one of America’s oldest seaside resorts. With colorful Victorian houses, pristine beaches, and a relaxed atmosphere, it's a haven for families and architecture enthusiasts. Birdwatchers flock here during migration seasons, while others enjoy the historic lighthouse, cozy inns, and boutique shopping.",
     lat: 38.9351,
@@ -2540,6 +2597,7 @@ export const trendingPlaces = [
   {
     id: 59,
     name: "White Mountains",
+    address: "White Mountains, New Hampshire",
     description: "Northeastern alpine region known for scenic drives, fall foliage, and mountaineering.",
     about: "The White Mountains, spanning across New Hampshire, are a haven for outdoor lovers year-round. Famous for Mount Washington (the highest peak in the Northeast), scenic railways, and the Kancamagus Highway, the region is particularly magical during fall foliage season. Visitors come for hiking, skiing, waterfall hunting, and exploring quaint mountain towns.",
     lat: 44.2706,
@@ -2581,6 +2639,7 @@ export const trendingPlaces = [
   {
     id: 60,
     name: "Hana, Maui",
+    address: "Hana, Maui, Hawaii",
     description: "Remote Hawaiian town along a scenic coastal highway with waterfalls, beaches, and lush rainforests.",
     about: "Hana is a peaceful, tropical paradise located at the end of the famous Hana Highway on Maui. This secluded town is surrounded by waterfalls, black sand beaches, and untouched rainforests. The journey is as magical as the destination, featuring 600+ curves and 50+ bridges. Ideal for a slow-paced, nature-immersive Hawaiian escape.",
     lat: 20.7553,
@@ -2622,6 +2681,7 @@ export const trendingPlaces = [
   {
     id: 61,
     name: "Crater Lake National Park",
+    address: "Crater Lake National Park, Oregon",
     description: "A mesmerizing deep blue lake formed within the caldera of a collapsed volcano in Oregon.",
     about: "Crater Lake National Park in southern Oregon features the deepest lake in the U.S., formed by a volcanic eruption over 7,000 years ago. Surrounded by cliffs and forested ridges, the lake is known for its intense blue color and water purity. The rim drive offers panoramic views, and Wizard Island invites exploration.",
     lat: 42.9446,
@@ -2663,6 +2723,7 @@ export const trendingPlaces = [
   {
     id: 62,
     name: "Sedona",
+    address: "Sedona, Arizona",
     description: "A red-rock desert town known for its vortexes, art scene, and stunning canyon trails.",
     about: "Sedona, nestled among Arizona’s striking red sandstone formations, is both a geological wonder and a spiritual destination. Known for its vortex energy sites, scenic hiking trails, and vibrant arts culture, it's a favorite spot for wellness seekers, nature lovers, and photographers alike.",
     lat: 34.8697,
@@ -2704,6 +2765,7 @@ export const trendingPlaces = [
   {
     id: 63,
     name: "Galena",
+    address: "Galena, Illinois",
     description: "A 19th-century mining town in Illinois, preserved with historic charm and scenic river views.",
     about: "Galena is a quaint Midwestern town that looks frozen in time with its well-preserved 19th-century buildings, cobblestone streets, and rolling hills. Nestled along the Galena River, this destination is ideal for romantic getaways, historic tours, and wine tasting weekends.",
     lat: 42.4167,
@@ -2745,6 +2807,7 @@ export const trendingPlaces = [
   {
     id: 64,
     name: "Block Island",
+    address: "Block Island, Rhode Island",
     description: "A quaint island off the coast of Rhode Island, famous for its beaches, bluffs, and lighthouses.",
     about: "Block Island offers a serene escape just 13 miles south of the Rhode Island coast. With sandy beaches, rolling green hills, and iconic lighthouses, it’s ideal for biking, beachcombing, and birdwatching. The island's relaxed vibe attracts travelers looking for a low-key coastal retreat.",
     lat: 41.1714,
@@ -2786,6 +2849,7 @@ export const trendingPlaces = [
   {
     id: 65,
     name: "Mount Desert Island",
+    address: "Mount Desert Island, Maine",
     description: "Home to Bar Harbor and Acadia National Park, this island offers rugged coastlines, mountains, and lobster feasts.",
     about: "Mount Desert Island is the largest island off the coast of Maine and is best known for hosting Acadia National Park and the bustling town of Bar Harbor. Visitors enjoy ocean vistas, mountain hikes, carriage roads, and New England seafood with scenic charm in every direction.",
     lat: 44.3386,
@@ -2827,6 +2891,7 @@ export const trendingPlaces = [
   {
     id: 66,
     name: "Mackinac Island",
+    address: "Mackinac Island, Michigan",
     description: "A car-free island in Lake Huron known for horse-drawn carriages, Victorian architecture, and famous fudge.",
     about: "Mackinac Island transports visitors to a bygone era with no cars, charming horse-drawn carriages, and Victorian-style buildings. Nestled in Lake Huron between Michigan's Upper and Lower Peninsulas, the island offers scenic coastal trails, historic forts, and a famously sweet fudge scene.",
     lat: 45.8492,
@@ -2868,6 +2933,7 @@ export const trendingPlaces = [
   {
     id: 67,
     name: "Olympic National Park",
+    address: "Port Angeles, Washington",
     description: "A wildly diverse park featuring mountains, rainforests, alpine lakes, and rugged Pacific coastline.",
     about: "Olympic National Park, located on Washington’s Olympic Peninsula, is a UNESCO World Heritage Site known for its ecological diversity. With snow-capped peaks, lush rainforests, and pristine beaches, visitors can explore a world of contrasting ecosystems within a single trip.",
     lat: 47.8021,
@@ -2909,6 +2975,7 @@ export const trendingPlaces = [
   {
     id: 68,
     name: "Charleston",
+    address: "Charleston, South Carolina",
     description: "A charming Southern city with cobblestone streets, antebellum houses, and coastal cuisine.",
     about: "Charleston combines historic charm with Southern hospitality and coastal beauty. Known for its pastel-colored houses, Civil War-era landmarks, and a vibrant food scene, it's perfect for walking tours, romantic getaways, and cultural exploration.",
     lat: 32.7765,
@@ -2950,6 +3017,7 @@ export const trendingPlaces = [
   {
     id: 69,
     name: "Sandpoint",
+    address: "Sandpoint, Idaho",
     description: "A hidden gem in northern Idaho with a massive lake, ski slopes, and forested tranquility.",
     about: "Sandpoint is located on the shores of Lake Pend Oreille, Idaho’s largest lake, and surrounded by the Selkirk Mountains. It offers year-round outdoor activities, from skiing at Schweitzer Mountain to summer lake adventures, making it a nature lover’s paradise.",
     lat: 48.2766,
@@ -2991,6 +3059,7 @@ export const trendingPlaces = [
   {
     id: 70,
     name: "Savannah",
+    address: "Savannah, Georgia",
     description: "A beautifully preserved city known for its oak-lined streets, haunted mansions, and Southern hospitality.",
     about: "Savannah enchants visitors with moss-draped oaks, cobblestone squares, and antebellum architecture. This walkable city blends history with a touch of the supernatural, and is perfect for romantic escapes, history buffs, and food lovers alike.",
     lat: 32.0809,
@@ -3032,6 +3101,7 @@ export const trendingPlaces = [
   {
     id: 71,
     name: "Sedona",
+    address: "Sedona, Arizona",
     description: "A red rock paradise known for spiritual vortexes, desert hikes, and breathtaking sunsets.",
     about: "Sedona is nestled among striking red sandstone formations and is a hub for wellness, spirituality, and outdoor adventure. Visitors are drawn to its vortex energy centers, stunning hiking trails, and scenic views that glow brilliantly during sunrise and sunset.",
     lat: 34.8697,
@@ -3073,6 +3143,7 @@ export const trendingPlaces = [
   {
     id: 72,
     name: "Bar Harbor",
+    address: "Bar Harbor, Maine",
     description: "A coastal town on Mount Desert Island and the gateway to Acadia National Park.",
     about: "Bar Harbor offers charming New England vibes, fresh lobster, and easy access to Acadia National Park. With breathtaking coastal cliffs, forested trails, and whale-watching tours, it’s a serene destination for nature lovers and seafood fans alike.",
     lat: 44.3876,
@@ -3114,6 +3185,7 @@ export const trendingPlaces = [
   {
     id: 73,
     name: "Park City",
+    address: "Park City, Utah",
     description: "A mountain resort town famed for skiing, film festivals, and alpine adventure.",
     about: "Park City blends outdoor thrills with arts and culture. Home to the Sundance Film Festival and two world-class ski resorts, it's also rich in mining history, upscale dining, and year-round mountain sports.",
     lat: 40.6461,
@@ -3155,6 +3227,7 @@ export const trendingPlaces = [
   {
     id: 74,
     name: "Cape Cod",
+    address: "Barnstable County, Massachusetts",
     description: "A classic summer getaway featuring lighthouses, sandy shores, seafood shacks, and quaint towns.",
     about: "Cape Cod is a sandy peninsula with historic villages, scenic bike trails, and stunning beaches. Loved for its laid-back charm, it’s ideal for family vacations, romantic retreats, or seafood lovers looking for fresh-off-the-boat meals.",
     lat: 41.6688,
@@ -3196,6 +3269,7 @@ export const trendingPlaces = [
   {
     id: 76,
     name: "Taos",
+    address: "Taos, New Mexico",
     description: "An artsy mountain town steeped in Native American heritage, adobe architecture, and high desert mystique.",
     about: "Taos offers a rare blend of natural beauty and rich culture. With its historic pueblos, renowned art colonies, and ski resorts nestled in the Sangre de Cristo Mountains, it's a soulful destination perfect for artists, adventurers, and culture seekers.",
     lat: 36.4072,
@@ -3237,6 +3311,7 @@ export const trendingPlaces = [
   {
     id: 77,
     name: "Key West",
+    address: "Key West, Florida",
     description: "The southernmost point in the U.S., known for its quirky charm, pastel streets, and stunning sunsets.",
     about: "Key West is a laid-back island paradise in the Florida Keys offering everything from lively nightlife to serene beaches and coral reefs. It's a haven for sunseekers, snorkelers, and lovers of vibrant island culture.",
     lat: 24.5551,
@@ -3278,6 +3353,7 @@ export const trendingPlaces = [
   {
     id: 78,
     name: "Glacier National Park",
+    address: "West Glacier, Montana",
     description: "A pristine wilderness of alpine meadows, turquoise lakes, and active glaciers along the Canadian border.",
     about: "Known as the 'Crown of the Continent,' Glacier National Park offers over 700 miles of hiking trails, stunning mountain scenery, and an untouched ecosystem. It's a dream for nature lovers and backcountry explorers.",
     lat: 48.6966,
@@ -3319,6 +3395,7 @@ export const trendingPlaces = [
   {
     id: 80,
     name: "Mount Rainier",
+    address: "Ashford, Washington",
     description: "A towering volcano surrounded by wildflower meadows, alpine trails, and glacial rivers.",
     about: "Mount Rainier National Park showcases one of the most iconic peaks in the U.S., rising over 14,000 feet above sea level. With cascading waterfalls, rugged trails, and year-round snow, it draws climbers, photographers, and hikers alike.",
     lat: 46.8523,
@@ -3360,6 +3437,7 @@ export const trendingPlaces = [
   {
     id: 81,
     name: "Lake Placid",
+    address: "Lake Placid, New York",
     description: "An Olympic village nestled in the Adirondacks, combining alpine adventure with serene lakeside charm.",
     about: "Lake Placid is famous for hosting the Winter Olympics twice, but its natural beauty and year-round outdoor activities make it a magnet for adventurers and families alike. From skiing to canoeing to leaf-peeping, it's a classic Northeast escape.",
     lat: 44.2795,
@@ -3401,6 +3479,7 @@ export const trendingPlaces = [
   {
     id: 82,
     name: "Joshua Tree",
+    address: "Joshua Tree, California",
     description: "An otherworldly desert landscape filled with surreal rock formations, starlit skies, and twisted yucca trees.",
     about: "Joshua Tree National Park is a spiritual and visual retreat known for its stark desert beauty, climbing spots, and stargazing. With its unique flora, boulder-strewn trails, and creative desert community, it's a haven for dreamers and adventurers.",
     lat: 33.8734,
@@ -3442,6 +3521,7 @@ export const trendingPlaces = [
   {
     id: 83,
     name: "Savannah",
+    address: "Savannah, Georgia",
     description: "A romantic Southern city draped in Spanish moss and haunted by history.",
     about: "Savannah is one of the oldest cities in the U.S., known for its cobblestone streets, oak-lined squares, antebellum architecture, and spooky charm. A mix of elegance and eccentricity, it's perfect for slow strolls and deep dives into history.",
     lat: 32.0809,
@@ -3483,6 +3563,7 @@ export const trendingPlaces = [
   {
     id: 84,
     name: "Badlands",
+    address: "Interior, South Dakota",
     description: "A dramatic wilderness of eroded buttes, fossil beds, and rich prairie ecosystems.",
     about: "Badlands National Park surprises with its alien rock formations and fossil-rich history. A geologist's dream and a road-tripper's delight, it offers stunning sunsets, wildlife encounters, and wide-open silence under big skies.",
     lat: 43.8554,
@@ -3524,6 +3605,7 @@ export const trendingPlaces = [
   {
     id: 85,
     name: "Catalina Island",
+    address: "Avalon, California",
     description: "A Mediterranean-style getaway just an hour from Los Angeles, famous for turquoise waters and ocean adventures.",
     about: "Catalina Island offers a surprising escape from the California coast, with snorkeling coves, wildlife-rich hills, and charming seaside villages. Whether you're ziplining over canyons or kayaking with dolphins, it’s a sun-soaked adventure close to the city.",
     lat: 33.3879,
@@ -3565,6 +3647,7 @@ export const trendingPlaces = [
   {
     id: 86,
     name: "Columbia River Gorge",
+    address: "Columbia River Gorge, Oregon and Washington",
     description: "A lush canyon carved by the mighty Columbia River, brimming with waterfalls, cliffs, and scenic drives.",
     about: "Straddling the Oregon-Washington border, this gorge is a haven for waterfall chasers, windsurfers, and hikers. With over 90 waterfalls and dramatic basalt cliffs, it’s a Pacific Northwest paradise for nature lovers.",
     lat: 45.7250,
@@ -3606,6 +3689,7 @@ export const trendingPlaces = [
   {
     id: 88,
     name: "Kenai Fjords",
+    address: "Seward, Alaska",
     description: "A rugged Alaskan park where glaciers meet the sea, alive with whales, icebergs, and dramatic coastline.",
     about: "Kenai Fjords National Park offers a surreal encounter with Alaskan wilderness, where ice fields, orcas, and towering fjords form a raw and captivating landscape. Accessible by boat or air, it’s a once-in-a-lifetime adventure.",
     lat: 59.9170,
@@ -3647,6 +3731,7 @@ export const trendingPlaces = [
   {
     id: 89,
     name: "Great Basin",
+    address: "Baker, Nevada",
     description: "A remote and diverse Nevada park boasting alpine peaks, ancient bristlecone pines, and starlit skies.",
     about: "Great Basin National Park is an underrated gem where you can climb to alpine lakes, explore marble caves, and stargaze in some of the darkest skies in the U.S. It’s quiet, diverse, and deeply connected to the land.",
     lat: 38.9833,
@@ -3688,6 +3773,7 @@ export const trendingPlaces = [
   {
     id: 90,
     name: "Oak Alley Plantation",
+    address: "Vacherie, Louisiana",
     description: "A grand antebellum estate framed by a tunnel of 300-year-old oak trees, echoing the deep history of the South.",
     about: "Located along the Mississippi River, Oak Alley is as much a symbol of beauty as it is of the complex Southern past. Tour its iconic alley, restored mansion, and powerful exhibits on slavery and plantation life.",
     lat: 30.0060,
@@ -3729,6 +3815,7 @@ export const trendingPlaces = [
   {
     id: 91,
     name: "Apostle Islands",
+    address: "Bayfield, Wisconsin",
     description: "A stunning cluster of Lake Superior islands known for sea caves, pristine waters, and wilderness escapes.",
     about: "Located off the northern tip of Wisconsin, Apostle Islands National Lakeshore includes 21 islands featuring dramatic sea caves, historic lighthouses, sandy beaches, and some of the clearest waters in the Midwest. Ideal for kayaking and backcountry camping.",
     lat: 46.9906,
@@ -3770,6 +3857,7 @@ export const trendingPlaces = [
   {
     id: 92,
     name: "Tallgrass Prairie National Preserve",
+    address: "Strong City, Kansas",
     description: "A rare and breathtaking stretch of America’s historic tallgrass prairie, filled with wildflowers and bison.",
     about: "Located in the Flint Hills of Kansas, this preserve protects one of the last remaining expanses of tallgrass prairie in the world. Visitors can witness herds of bison, explore historic ranch buildings, and hike through endless golden grasses.",
     lat: 38.4335,
@@ -3811,6 +3899,7 @@ export const trendingPlaces = [
   {
     id: 93,
     name: "North Cascades",
+    address: "Sedro-Woolley, Washington",
     description: "A wilderness of jagged peaks, icy glaciers, and dense forests often called the 'American Alps'.",
     about: "North Cascades National Park is one of the most rugged and remote national parks in the U.S., offering alpine lakes, over 300 glaciers, and stunning backcountry solitude. It's ideal for hikers, mountaineers, and those looking to get off the grid.",
     lat: 48.7718,
@@ -3852,6 +3941,7 @@ export const trendingPlaces = [
   {
     id: 94,
     name: "Beaufort",
+    address: "Beaufort, South Carolina",
     description: "A sleepy Southern coastal town known for antebellum mansions, Spanish moss, and Lowcountry charm.",
     about: "Nestled on the coast of South Carolina, Beaufort boasts historic homes, Gullah heritage, and access to stunning Sea Islands. It’s a peaceful destination for history lovers, seafood fans, and sunset seekers.",
     lat: 32.4316,
@@ -3893,6 +3983,7 @@ export const trendingPlaces = [
   {
     id: 95,
     name: "Blackwater Falls State Park",
+    address: "Davis, West Virginia",
     description: "A scenic Appalachian park named for its amber-colored waterfall surrounded by forested canyons.",
     about: "This West Virginia gem features the iconic Blackwater Falls, deep gorges, and misty forests that burst into color each autumn. A haven for hikers, photographers, and anyone drawn to tranquil natural beauty.",
     lat: 39.1301,
@@ -3934,6 +4025,7 @@ export const trendingPlaces = [
   {
     id: 96,
     name: "Lassen Volcanic National Park",
+    address: "Mineral, California",
     description: "A unique geothermal landscape with steaming fumaroles, boiling springs, and an active volcano.",
     about: "Located in Northern California, Lassen is one of the few places on Earth where all four types of volcanoes can be found. This lesser-known gem offers geothermal wonders, alpine lakes, and stunning volcanic hikes without the crowds.",
     lat: 40.4977,
