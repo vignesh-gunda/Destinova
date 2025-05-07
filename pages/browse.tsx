@@ -4,6 +4,7 @@ import { trendingPlaces } from "../data/places";
 import { useSession } from "next-auth/react";
 import { useMemo, useState, useEffect } from "react";
 import Image from "next/image";
+import travelImg from "./travel.jpg"
 
 export default function Browse() {
   const { data: session } = useSession();
@@ -147,7 +148,7 @@ export default function Browse() {
               {/* Background Image with blur */}
               <div className="relative w-full h-full text-black">
               <Image
-                src="/travel.jpg"
+                src={travelImg}
                 alt="Background"
                 fill
                 priority
