@@ -118,10 +118,10 @@ export default function DestinationPage() {
             playsInline
             className="w-full h-full object-cover blur-[3px] scale-105"
           >
-            <source src="videos/background.mp4" type="video/mp4" />
+            <source src="/videos/background.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="absolute inset-0 bg-white opacity-40" />
+          <div className="absolute inset-0 bg-white opacity-20" />
         </div>
       )}
 
