@@ -30,7 +30,6 @@ export default function Home() {
     <>
       <Navbar />
 
-      {/* ⛑ Render video only on client to prevent hydration error */}
       {isClient && (
         <div className="fixed inset-0 z-[-1] overflow-hidden">
           <video
@@ -38,12 +37,12 @@ export default function Home() {
             loop
             muted
             playsInline
-            className="w-full h-full object-cover scale-105"
+            className="w-full h-full object-cover blur-[3px] scale-105"
           >
-            <source src="/background.mp4" type="video/mp4" />
+            <source src="videos/background.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="absolute inset-0 bg-white opacity-0" />
+          <div className="absolute inset-0 bg-white opacity-20" />
         </div>
       )}
 
