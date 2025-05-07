@@ -4,7 +4,7 @@ import { trendingPlaces } from "../data/places";
 import { useSession } from "next-auth/react";
 import { useMemo, useState, useEffect } from "react";
 import Image from "next/image";
-import travelImg from "./travel.jpg"
+import travelImg from "../data/travel.jpg"
 
 export default function Browse() {
   const { data: session } = useSession();
