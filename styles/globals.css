@@ -58,3 +58,18 @@ body {
     animation: background-blur 15s ease infinite;
   }
   
+  @keyframes rise-letter {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-rise-letter {
+    animation: rise-letter 0.5s ease-out forwards;
+  }
+  
