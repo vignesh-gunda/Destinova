@@ -646,48 +646,48 @@ export const trendingPlaces = [
   },
   {
     id: 15,
-    name: "Sedona Red Rocks",
-    address: "Sedona, Arizona",
-    description: "Famous red sandstone formations in Arizona, offering hikes, jeep tours, and spiritual retreats.",
-    about: "Sedona, Arizona, is renowned for its striking red sandstone formations that glow brilliantly at sunrise and sunset. Often called a spiritual and healing destination, Sedona attracts visitors seeking outdoor adventure and inner peace. Whether exploring the rugged trails by Jeep, hiking to energy vortex sites, or indulging in spa retreats, Sedona's stunning landscapes and vibrant arts scene offer an unforgettable experience.",
-    lat: 34.8697,
-    lon: -111.7609,
-    climate: "Desert",
-    landscape: "Rock Formations",
-    activities: ["Hiking", "Jeep Tours", "Spiritual Retreats"],
-    culture: "Native American",
-    budget: "Medium",
-    
+    name: "Statue of Liberty",
+    address: "New York, NY",
+    description: "An enduring symbol of freedom and democracy, standing tall on Liberty Island in New York Harbor.",
+    about: "The Statue of Liberty, a gift from France to the United States in 1886, stands as a beacon of hope and freedom. Designed by Frédéric Auguste Bartholdi and built by Gustave Eiffel, this colossal neoclassical sculpture has welcomed millions of immigrants arriving by sea. The statue represents Libertas, the Roman goddess of liberty, and has become an iconic symbol of the American ideals of freedom and democracy.",
+    lat: 40.6892,
+    lon: -74.0445,
+    climate: "Humid Subtropical",
+    landscape: "Urban Waterfront",
+    activities: ["Ferry Tours", "Museum Visits", "Photography"],
+    culture: "American",
+    budget: "Moderate",
+  
     localAttractions: [
-      "Cathedral Rock",
-      "Bell Rock",
-      "Chapel of the Holy Cross",
-      "Red Rock State Park",
-      "Slide Rock State Park"
+      "Ellis Island Immigration Museum",
+      "Battery Park",
+      "One World Observatory",
+      "Brooklyn Bridge",
+      "Wall Street"
     ],
-    
+  
     adventures: [
-      "Jeep Tours through Red Rock Canyons",
-      "Vortex Hiking Experiences",
-      "Hot Air Balloon Rides",
-      "Mountain Biking Trails",
-      "Spiritual Healing Retreats"
+      "Climbing to the Crown",
+      "Sunset Cruises",
+      "Helicopter Tours",
+      "Harbor Kayaking",
+      "Guided Historical Walks"
     ],
   
     localCuisines: [
-      "Southwestern Cuisine",
-      "Organic Farm-to-Table Meals",
-      "Navajo-Inspired Dishes",
-      "Prickly Pear Margaritas",
-      "Healthy Vegan Cafes"
+      "New York-Style Pizza",
+      "Bagels with Lox",
+      "Street Pretzels",
+      "Cheesecake",
+      "Hot Dogs"
     ],
   
     shopping: [
-      "Sedona Crystal Shops",
-      "Local Art Galleries",
-      "Native American Jewelry",
-      "Spiritual Bookstores",
-      "Handcrafted Leather Goods"
+      "Statue of Liberty Souvenirs",
+      "Local Art Prints",
+      "Historical Books",
+      "NYC Themed Apparel",
+      "Handcrafted Jewelry"
     ]
   },
   {
@@ -830,49 +830,21 @@ export const trendingPlaces = [
   },
   {
     id: 19,
-    name: "Crater Lake",
-    address: "Crater Lake National Park, Oregon",
-    description: "Deepest lake in the U.S., formed inside a collapsed volcano in Oregon.",
-    about: "Crater Lake National Park in Oregon is home to the deepest lake in the United States, formed over 7,700 years ago after the collapse of Mount Mazama. Famed for its vivid blue color and exceptional clarity, the lake offers awe-inspiring views year-round. Visitors can hike rim trails, explore Wizard Island, and enjoy snowshoeing in winter amidst an ancient volcanic landscape.",
-    lat: 42.9446,
-    lon: -122.1090,
-    climate: "Alpine",
-    landscape: "Lake, Mountains",
-    activities: ["Boat Tours", "Hiking"],
-    culture: "Klamath Tribes",
-    budget: "Medium",
-    
-    localAttractions: [
-      "Rim Drive Scenic Route",
-      "Wizard Island",
-      "Cleetwood Cove Trail",
-      "Watchman Peak",
-      "Crater Lake Lodge"
-    ],
-    
-    adventures: [
-      "Boat Tours to Wizard Island",
-      "Hiking the Garfield Peak Trail",
-      "Snowshoeing Tours",
-      "Scenic Drives Around the Rim",
-      "Photography Expeditions"
-    ],
-  
-    localCuisines: [
-      "Pacific Salmon Dishes",
-      "Oregon Berry Pies",
-      "Hearty Trail Meals",
-      "Craft Beers from Local Breweries",
-      "Forest-Sourced Mushroom Dishes"
-    ],
-  
-    shopping: [
-      "Crater Lake Souvenirs",
-      "Native American Crafts",
-      "Outdoor Gear Shops",
-      "Photography Books",
-      "Handmade Pottery and Textiles"
-    ]
+    name: "Disneyland Park",
+    address: "Anaheim, CA",
+    description: "The original Disney theme park, a magical world of rides and characters.",
+    about: "Opened in 1955 by Walt Disney, Disneyland features themed lands—from Main Street U.S.A. to Tomorrowland—bringing beloved stories and characters to life.",
+    lat: 33.8121,
+    lon: -117.9190,
+    climate: "Mediterranean",
+    landscape: "Theme Park",
+    activities: ["Rides", "Parades", "Character Meet & Greets"],
+    culture: "Entertainment Innovation",
+    budget: "High",
+    localAttractions: ["Sleeping Beauty Castle", "Space Mountain", "Pirates of the Caribbean"],
+    adventures: ["Fireworks Shows", "Behind-the-Scenes Tours", "Nighttime Light Parades"],
+    localCuisines: ["Mickey-Shaped Treats", "Churros", "Dole Whip"],
+    shopping: ["Disney Apparel", "Collectible Pins", "Theme Park Memorabilia"]
   },
   {
     id: 20,
@@ -1750,50 +1722,46 @@ export const trendingPlaces = [
   },
   {
     id: 39,
-    name: "Sedona Vortex Sites",
-    address: "Sedona, Arizona",
-    description: "Spiritual energy centers surrounded by stunning red rock formations in Arizona.",
-    about: "Sedona’s famous vortex sites are believed to be centers of spiritual energy, drawing visitors seeking healing, meditation, and personal transformation. Surrounded by breathtaking red rocks, vortexes like Cathedral Rock and Bell Rock amplify Sedona's reputation as both an outdoor and metaphysical destination.",
-    lat: 34.8697,
-    lon: -111.7609,
-    climate: "Desert",
-    landscape: "Red Rocks, Canyons",
-    activities: ["Hiking", "Meditation", "Photography"],
-    culture: "Spiritual and Native American Influences",
-    budget: "Medium",
-  
+    name: "Siesta Beach",
+    address: "Siesta Key, Florida",
+    description: "Famous for its powdery white quartz sand that stays cool underfoot, even on the hottest days.",
+    about: "Located on an eight-mile barrier island near Sarasota, Siesta Beach offers clear waters, pristine natural surroundings, and a small-town ambiance. It's consistently ranked among the top beaches in the U.S. and was recently named the only U.S. beach on the 2025 list of The World's 50 Best Beaches.",
+    lat: 27.2670,
+    lon: -82.5460,
+    climate: "Subtropical",
+    landscape: "White Sand Beaches, Clear Gulf Waters",
+    activities: ["Swimming", "Sunbathing", "Beach Volleyball", "Snorkeling"],
+    culture: "Coastal Floridian",
+    budget: "Moderate",
     localAttractions: [
-      "Cathedral Rock Vortex",
-      "Bell Rock Vortex",
-      "Airport Mesa Vortex",
-      "Boynton Canyon Vortex",
-      "Chapel of the Holy Cross"
+      "Siesta Key Village",
+      "Point of Rocks",
+      "Turtle Beach",
+      "Crescent Beach",
+      "Siesta Key Drum Circle"
     ],
-  
     adventures: [
-      "Guided Vortex Meditation Tours",
-      "Spiritual Hiking Retreats",
-      "Photography Sessions at Sunset",
-      "Energy Healing Workshops",
-      "Hot Air Balloon Rides"
+      "Kayaking in Jim Neville Marine Preserve",
+      "Sunset Cruises",
+      "Parasailing",
+      "Fishing Charters",
+      "Dolphin Watching Tours"
     ],
-  
     localCuisines: [
-      "Organic Vegan Cuisine",
-      "Southwest-Inspired Dishes",
-      "Herbal Teas",
-      "Raw Food Cafes",
-      "Spiritual Retreat Meals"
+      "Fresh Grouper Sandwiches",
+      "Key Lime Pie",
+      "Stone Crab Claws",
+      "Cuban Sandwiches",
+      "Conch Fritters"
     ],
-  
     shopping: [
-      "Crystal and Gem Shops",
-      "Spiritual Bookstores",
-      "Artisan Jewelry with Healing Stones",
-      "Native Art Markets",
-      "Metaphysical Supply Stores"
+      "Beach Boutiques",
+      "Artisan Jewelry Shops",
+      "Surf Shops",
+      "Local Art Galleries",
+      "Souvenir Stores"
     ]
-  },
+  },  
   {
     id: 40,
     name: "Big Bend National Park",
@@ -2553,6 +2521,48 @@ export const trendingPlaces = [
     ]
   },
   {
+    id: 57,
+    name: "Multnomah Falls",
+    address: "Bridal Veil, Oregon",
+    description: "A stunning 620-foot waterfall cascading in two tiers, nestled in the Columbia River Gorge.",
+    about: "Multnomah Falls is Oregon's tallest waterfall and one of the most visited natural attractions in the Pacific Northwest. The iconic Benson Bridge offers a picturesque view of the falls and the surrounding lush greenery.",
+    lat: 45.5762,
+    lon: -122.1158,
+    climate: "Temperate Rainforest",
+    landscape: "Waterfalls, Forested Cliffs, River Gorge",
+    activities: ["Hiking", "Photography", "Bird Watching", "Nature Walks"],
+    culture: "Pacific Northwest",
+    budget: "Low",
+    localAttractions: [
+      "Benson Bridge",
+      "Multnomah Falls Lodge",
+      "Columbia River Gorge Scenic Highway",
+      "Wahkeena Falls",
+      "Horsetail Falls"
+    ],
+    adventures: [
+      "Hiking to the Top of the Falls",
+      "Exploring Nearby Waterfalls",
+      "Scenic Drives",
+      "Wildflower Viewing",
+      "Winter Ice Formations"
+    ],
+    localCuisines: [
+      "Wild Salmon Dishes",
+      "Marionberry Pie",
+      "Craft Beers",
+      "Hazelnut Treats",
+      "Farm-to-Table Fare"
+    ],
+    shopping: [
+      "Local Artisan Crafts",
+      "Handmade Soaps",
+      "Outdoor Gear Shops",
+      "Native American Art",
+      "Regional Wine Stores"
+    ]
+  },
+  {
     id: 58,
     name: "Cape May",
     address: "Cape May, New Jersey",
@@ -2932,88 +2942,88 @@ export const trendingPlaces = [
   },
   {
     id: 67,
-    name: "Olympic National Park",
-    address: "Port Angeles, Washington",
-    description: "A wildly diverse park featuring mountains, rainforests, alpine lakes, and rugged Pacific coastline.",
-    about: "Olympic National Park, located on Washington’s Olympic Peninsula, is a UNESCO World Heritage Site known for its ecological diversity. With snow-capped peaks, lush rainforests, and pristine beaches, visitors can explore a world of contrasting ecosystems within a single trip.",
-    lat: 47.8021,
-    lon: -123.6044,
-    climate: "Temperate Rainforest",
-    landscape: "Mountains, Rainforests, Beaches",
-    activities: ["Hiking", "Camping", "Wildlife Watching"],
-    culture: "Pacific Northwest Natural Heritage",
-    budget: "Medium",
+    name: "Trunk Bay",
+    address: "St. John, U.S. Virgin Islands",
+    description: "A pristine beach known for its crystal-clear waters and an underwater snorkeling trail.",
+    about: "Part of the Virgin Islands National Park, Trunk Bay offers visitors a chance to explore vibrant coral reefs and marine life. The beach is consistently ranked among the world's most beautiful beaches.",
+    lat: 18.3520,
+    lon: -64.7860,
+    climate: "Tropical",
+    landscape: "White Sand Beaches, Coral Reefs, Turquoise Waters",
+    activities: ["Snorkeling", "Swimming", "Sunbathing", "Hiking"],
+    culture: "Caribbean Island",
+    budget: "Moderate",
     localAttractions: [
-      "Hoh Rainforest",
-      "Hurricane Ridge",
-      "Ruby Beach",
-      "Lake Crescent",
-      "Sol Duc Hot Springs"
+      "Underwater Snorkeling Trail",
+      "Virgin Islands National Park",
+      "Cinnamon Bay",
+      "Annaberg Plantation",
+      "Hawksnest Beach"
     ],
     adventures: [
-      "Rainforest Trekking",
-      "Backpacking the Enchanted Valley",
-      "Whale Watching from Rialto Beach",
-      "Snowshoeing Hurricane Ridge",
-      "Hot Spring Soaks"
+      "Snorkeling with Sea Turtles",
+      "Kayaking Tours",
+      "Hiking Reef Bay Trail",
+      "Sailing Excursions",
+      "Bird Watching"
     ],
     localCuisines: [
-      "Dungeness Crab",
-      "Salmon Chowder",
-      "Wild Berry Pies",
-      "Cedar-Planked Fish",
-      "Mushroom Risotto with Foraged Fungi"
+      "Conch Fritters",
+      "Johnny Cakes",
+      "Callaloo Soup",
+      "Fresh Seafood",
+      "Rum Cocktails"
     ],
     shopping: [
-      "Locally-Made Hiking Gear",
-      "Nature Photography",
-      "Pacific Northwest Wood Art",
-      "Sustainable Clothing",
-      "Handmade Pottery"
+      "Local Handicrafts",
+      "Caribbean Jewelry",
+      "Art Galleries",
+      "Beachwear Boutiques",
+      "Souvenir Shops"
     ]
-  },
+  },  
   {
     id: 68,
-    name: "Charleston",
-    address: "Charleston, South Carolina",
-    description: "A charming Southern city with cobblestone streets, antebellum houses, and coastal cuisine.",
-    about: "Charleston combines historic charm with Southern hospitality and coastal beauty. Known for its pastel-colored houses, Civil War-era landmarks, and a vibrant food scene, it's perfect for walking tours, romantic getaways, and cultural exploration.",
-    lat: 32.7765,
-    lon: -79.9311,
-    climate: "Coastal",
-    landscape: "Historic City, Waterfronts, Plantations",
-    activities: ["Sightseeing", "Historical Tours", "Dining"],
-    culture: "Southern & Colonial American",
-    budget: "Medium",
+    name: "Havasu Falls",
+    address: "Supai, Arizona",
+    description: "A breathtaking waterfall with turquoise waters set against red rock canyons.",
+    about: "Located within the Havasupai Indian Reservation, Havasu Falls is renowned for its striking blue-green waters and dramatic desert surroundings. Access requires a challenging hike or horseback ride.",
+    lat: 36.2554,
+    lon: -112.6980,
+    climate: "Desert",
+    landscape: "Waterfalls, Red Rock Canyons, Desert Oasis",
+    activities: ["Hiking", "Swimming", "Camping", "Photography"],
+    culture: "Native American",
+    budget: "Moderate",
     localAttractions: [
-      "The Battery",
-      "Rainbow Row",
-      "Charleston City Market",
-      "Fort Sumter",
-      "Magnolia Plantation and Gardens"
+      "Havasu Falls",
+      "Mooney Falls",
+      "Beaver Falls",
+      "Havasupai Village",
+      "Supai Trading Post"
     ],
     adventures: [
-      "Ghost Tours of Old Charleston",
-      "Boat Tour in Charleston Harbor",
-      "Horse-Drawn Carriage Rides",
-      "Kayaking in Shem Creek",
-      "Sunset Sailboat Cruises"
+      "Backpacking to the Falls",
+      "Camping Under the Stars",
+      "Exploring Hidden Canyons",
+      "Swimming in Natural Pools",
+      "Photography Expeditions"
     ],
     localCuisines: [
-      "Shrimp and Grits",
-      "She-Crab Soup",
-      "Fried Green Tomatoes",
-      "Lowcountry Boil",
-      "Sweet Tea Glazed Chicken"
+      "Frybread Tacos",
+      "Chili Beans",
+      "Blue Corn Mush",
+      "Traditional Stews",
+      "Herbal Teas"
     ],
     shopping: [
-      "Sweetgrass Baskets",
-      "Southern Spices & Sauces",
-      "Local Art Galleries",
-      "Vintage Boutiques",
-      "Historic Books & Prints"
+      "Handmade Jewelry",
+      "Native Crafts",
+      "Local Artwork",
+      "Souvenir T-Shirts",
+      "Postcards"
     ]
-  },
+  },  
   {
     id: 69,
     name: "Sandpoint",
@@ -3058,130 +3068,130 @@ export const trendingPlaces = [
   },
   {
     id: 70,
-    name: "Savannah",
-    address: "Savannah, Georgia",
-    description: "A beautifully preserved city known for its oak-lined streets, haunted mansions, and Southern hospitality.",
-    about: "Savannah enchants visitors with moss-draped oaks, cobblestone squares, and antebellum architecture. This walkable city blends history with a touch of the supernatural, and is perfect for romantic escapes, history buffs, and food lovers alike.",
-    lat: 32.0809,
-    lon: -81.0912,
-    climate: "Coastal",
-    landscape: "Historic City, Gardens, Riverfront",
-    activities: ["Walking Tours", "Ghost Tours", "Dining"],
-    culture: "Southern Gothic & Colonial",
-    budget: "Medium",
+    name: "Lanikai Beach",
+    address: "Kailua, Oahu, Hawaii",
+    description: "A serene beach with soft white sand and views of the twin Mokulua Islands.",
+    about: "Lanikai Beach is a half-mile stretch of paradise known for its calm waters, making it ideal for kayaking and paddleboarding. It's a favorite spot for sunrise watchers and photographers.",
+    lat: 21.3936,
+    lon: -157.7156,
+    climate: "Tropical",
+    landscape: "White Sand Beaches, Coral Reefs, Island Views",
+    activities: ["Kayaking", "Paddleboarding", "Swimming", "Sunbathing"],
+    culture: "Hawaiian",
+    budget: "Moderate",
     localAttractions: [
-      "Forsyth Park",
-      "River Street",
-      "Bonaventure Cemetery",
-      "Wormsloe Historic Site",
-      "Savannah Historic District"
+      "Mokulua Islands",
+      "Lanikai Pillbox Hike",
+      "Kailua Beach Park",
+      "Maunawili Falls",
+      "Kailua Town"
     ],
     adventures: [
-      "Haunted Pub Crawls",
-      "Savannah Riverboat Cruises",
-      "Horse Carriage Tours",
-      "Gothic Walking Tours",
-      "Picnicking in Forsyth Park"
+      "Kayaking to the Mokulua Islands",
+      "Hiking the Pillbox Trail",
+      "Snorkeling in Coral Reefs",
+      "Sunrise Photography",
+      "Stand-Up Paddleboarding"
     ],
     localCuisines: [
-      "Fried Chicken & Biscuits",
-      "Savannah Red Rice",
-      "Pecan Pralines",
-      "Shrimp Gumbo",
-      "Southern Peach Cobbler"
+      "Poke Bowls",
+      "Shave Ice",
+      "Kalua Pig",
+      "Loco Moco",
+      "Spam Musubi"
     ],
     shopping: [
-      "Antique Bookstores",
-      "Local Artisan Markets",
-      "Southern Spices & Sauces",
-      "Ghost-Themed Souvenirs",
-      "Handmade Soaps"
+      "Beachwear Boutiques",
+      "Local Art Galleries",
+      "Hawaiian Jewelry Stores",
+      "Surf Shops",
+      "Farmers Markets"
     ]
-  },
+  },  
   {
     id: 71,
-    name: "Sedona",
-    address: "Sedona, Arizona",
-    description: "A red rock paradise known for spiritual vortexes, desert hikes, and breathtaking sunsets.",
-    about: "Sedona is nestled among striking red sandstone formations and is a hub for wellness, spirituality, and outdoor adventure. Visitors are drawn to its vortex energy centers, stunning hiking trails, and scenic views that glow brilliantly during sunrise and sunset.",
-    lat: 34.8697,
-    lon: -111.7609,
-    climate: "Desert",
-    landscape: "Red Rocks, Canyons, Desert Valleys",
-    activities: ["Hiking", "Spiritual Retreats", "Stargazing"],
-    culture: "New Age & Southwestern",
-    budget: "Medium",
+    name: "Waimea Canyon",
+    address: "Waimea, Kauai, Hawaii",
+    description: "Known as the 'Grand Canyon of the Pacific', Waimea Canyon showcases colorful cliffs and deep valleys carved by erosion.",
+    about: "This 10-mile-long, 3,000-feet-deep canyon on Kauai’s west side offers dramatic vistas, hiking trails, and lush vegetation.",
+    lat: 22.0840,
+    lon: -159.6640,
+    climate: "Tropical",
+    landscape: "Canyons, Tropical Forests, Lava Rock",
+    activities: ["Hiking", "Sightseeing", "Photography"],
+    culture: "Native Hawaiian Heritage",
+    budget: "Moderate",
     localAttractions: [
-      "Cathedral Rock",
-      "Chapel of the Holy Cross",
-      "Bell Rock Trail",
-      "Tlaquepaque Arts & Shopping Village",
-      "Oak Creek Canyon"
+      "Puu Hinai Lookout",
+      "Waipoo Falls",
+      "Koke’e State Park",
+      "Cliff Trails",
+      "Kalalau Valley View"
     ],
     adventures: [
-      "Red Rock Jeep Tours",
-      "Hot Air Balloon Rides",
-      "Energy Vortex Hikes",
-      "Mountain Biking in Red Rock State Park",
-      "Meditation in Boynton Canyon"
+      "Helicopter Tours",
+      "Backcountry Hiking",
+      "Sunset Views",
+      "Flora Spotting",
+      "Bird Watching"
     ],
     localCuisines: [
-      "Southwest Tacos",
-      "Mesquite-Grilled Steaks",
-      "Cactus Fries",
-      "Prickly Pear Margaritas",
-      "Organic Vegan Bowls"
+      "Kalua Pork",
+      "Poi",
+      "Loco Moco",
+      "Shave Ice",
+      "Huli Huli Chicken"
     ],
     shopping: [
-      "Crystal Shops",
-      "Handmade Jewelry",
-      "Native American Pottery",
-      "Spiritual Souvenirs",
-      "Desert Art Prints"
+      "Hawaiian Quilts",
+      "Handmade Ukuleles",
+      "Kukui Nut Leis",
+      "Tiki Figurines",
+      "Local Coffee"
     ]
-  },
+  },  
   {
     id: 72,
-    name: "Bar Harbor",
-    address: "Bar Harbor, Maine",
-    description: "A coastal town on Mount Desert Island and the gateway to Acadia National Park.",
-    about: "Bar Harbor offers charming New England vibes, fresh lobster, and easy access to Acadia National Park. With breathtaking coastal cliffs, forested trails, and whale-watching tours, it’s a serene destination for nature lovers and seafood fans alike.",
-    lat: 44.3876,
-    lon: -68.2039,
-    climate: "Coastal",
-    landscape: "Islands, Cliffs, Forests",
-    activities: ["Hiking", "Boating", "Seafood Tasting"],
-    culture: "Maritime New England",
-    budget: "Medium",
+    name: "Haleakalā National Park",
+    address: "Kula, Maui, Hawaii",
+    description: "A dormant volcano summit rising above the clouds, famous for surreal sunrises and moonlike landscapes.",
+    about: "Covering 33,000 acres in Maui, Haleakalā is a sacred Hawaiian site offering crater hikes, lush rainforests, and astronomical stargazing.",
+    lat: 20.7204,
+    lon: -156.1552,
+    climate: "Tropical Highland",
+    landscape: "Volcanic Crater, Rainforest, Cloud Forest",
+    activities: ["Hiking", "Sunrise Viewing", "Camping"],
+    culture: "Polynesian Heritage",
+    budget: "Moderate",
     localAttractions: [
-      "Acadia National Park",
-      "Cadillac Mountain",
-      "Bar Island Trail",
-      "Thunder Hole",
-      "Bar Harbor Whale Museum"
+      "Haleakalā Crater",
+      "Sliding Sands Trail",
+      "Hosmer Grove",
+      "Kipahulu District",
+      "Waimoku Falls"
     ],
     adventures: [
-      "Whale Watching",
-      "Kayaking Frenchman Bay",
-      "Biking the Carriage Roads",
-      "Sunrise from Cadillac Mountain",
-      "Tidepooling at Sand Beach"
+      "Crater Sunrise Hike",
+      "Starwatching Tours",
+      "Tropical Waterfall Treks",
+      "Birdwatching Nēnē",
+      "Cycling Down the Volcano"
     ],
     localCuisines: [
-      "Lobster Rolls",
-      "Clam Chowder",
-      "Blueberry Pie",
-      "Scallops & Shellfish",
-      "Buttery Popovers"
+      "Poke Bowls",
+      "Coconut Pancakes",
+      "Spam Musubi",
+      "Kona Coffee",
+      "Lomi-Lomi Salmon"
     ],
     shopping: [
-      "Lobster-Themed Gifts",
-      "Blueberry Jams",
-      "Nautical Home Decor",
-      "Local Art Galleries",
-      "Handmade Soaps"
+      "Hawaiian Sarongs",
+      "Volcano Rock Jewelry",
+      "Local Coffee Beans",
+      "Handcrafted Leis",
+      "Island Scented Candles"
     ]
-  },
+  },  
   {
     id: 73,
     name: "Park City",
@@ -3226,46 +3236,88 @@ export const trendingPlaces = [
   },
   {
     id: 74,
-    name: "Cape Cod",
-    address: "Barnstable County, Massachusetts",
-    description: "A classic summer getaway featuring lighthouses, sandy shores, seafood shacks, and quaint towns.",
-    about: "Cape Cod is a sandy peninsula with historic villages, scenic bike trails, and stunning beaches. Loved for its laid-back charm, it’s ideal for family vacations, romantic retreats, or seafood lovers looking for fresh-off-the-boat meals.",
-    lat: 41.6688,
-    lon: -70.2962,
-    climate: "Coastal",
-    landscape: "Beaches, Dunes, Harbors",
-    activities: ["Beachcombing", "Boating", "Cycling"],
-    culture: "New England Maritime",
-    budget: "Medium",
+    name: "Assateague Island National Seashore",
+    address: "Berlin, Maryland & Chincoteague, Virginia",
+    description: "A windswept barrier island famous for its wild horses, pristine beaches, and coastal dunes.",
+    about: "Stretching 37 miles along the Atlantic, Assateague Island is a protected area where you can watch wild ponies roam free and enjoy serene beach camping.",
+    lat: 38.0938,
+    lon: -75.2061,
+    climate: "Humid Subtropical",
+    landscape: "Barrier Island, Salt Marshes, Dunes",
+    activities: ["Beachcombing", "Wildlife Viewing", "Camping"],
+    culture: "Mid-Atlantic Coastal",
+    budget: "Low",
     localAttractions: [
-      "Cape Cod National Seashore",
-      "Provincetown",
-      "Martha's Vineyard",
-      "Nauset Light",
-      "Shining Sea Bikeway"
+      "Wild Horse Overlook",
+      "Assateague Lighthouse",
+      "Toms Cove",
+      "Life of the Marsh Trail",
+      "Kayak Rentals"
     ],
     adventures: [
-      "Whale Watching Cruises",
-      "Kayaking Salt Marshes",
-      "Seaside Biking",
-      "Exploring Cranberry Bogs",
-      "Beach Bonfires"
+      "Beach Horse Spotting",
+      "Overnight Beach Camping",
+      "Salt Marsh Exploration",
+      "Surf Fishing",
+      "Kayaking with Dolphins"
     ],
     localCuisines: [
-      "Lobster Mac & Cheese",
-      "Fried Clams",
-      "Chowder Bread Bowls",
-      "Saltwater Taffy",
-      "Cranberry Baked Goods"
+      "Blue Crab Cakes",
+      "Soft Shell Crabs",
+      "Old Bay Fries",
+      "Boardwalk Fudge",
+      "Funnel Cakes"
     ],
     shopping: [
-      "Seaside Gift Shops",
-      "Cottage Decor",
-      "Handcrafted Candles",
-      "Cape Cod Apparel",
-      "Local Art Markets"
+      "Pony Plushies",
+      "Nature Guides",
+      "Wildlife Art Prints",
+      "Nautical Souvenirs",
+      "Beach Towels"
     ]
-  },
+  },  
+  {
+    id: 75,
+    name: "Cumberland Island National Seashore",
+    address: "St. Marys, Georgia",
+    description: "Georgia's largest barrier island featuring untouched beaches, wild horses, and historic ruins.",
+    about: "Accessible only by ferry, Cumberland Island offers a peaceful retreat with maritime forests, marshes, and glimpses of Gilded Age mansions.",
+    lat: 30.8457,
+    lon: -81.4652,
+    climate: "Humid Subtropical",
+    landscape: "Beaches, Marshlands, Live Oak Forest",
+    activities: ["Hiking", "Camping", "Historic Tours"],
+    culture: "Southern Coastal Heritage",
+    budget: "Low",
+    localAttractions: [
+      "Dungeness Ruins",
+      "Sea Camp Beach",
+      "Plum Orchard Mansion",
+      "Greyfield Inn",
+      "Wild Horse Trails"
+    ],
+    adventures: [
+      "Bike Island Trails",
+      "Beachfront Camping",
+      "Birdwatching Tours",
+      "Shell Collecting",
+      "Historic Mansion Walks"
+    ],
+    localCuisines: [
+      "Shrimp and Grits",
+      "Peach Cobbler",
+      "Southern Fried Chicken",
+      "Boiled Peanuts",
+      "Crab Stew"
+    ],
+    shopping: [
+      "Handmade Soap",
+      "Island Maps",
+      "Nature Photography",
+      "Books on Island History",
+      "Local Jams & Preserves"
+    ]
+  },  
   {
     id: 76,
     name: "Taos",
@@ -3310,46 +3362,46 @@ export const trendingPlaces = [
   },
   {
     id: 77,
-    name: "Key West",
-    address: "Key West, Florida",
-    description: "The southernmost point in the U.S., known for its quirky charm, pastel streets, and stunning sunsets.",
-    about: "Key West is a laid-back island paradise in the Florida Keys offering everything from lively nightlife to serene beaches and coral reefs. It's a haven for sunseekers, snorkelers, and lovers of vibrant island culture.",
-    lat: 24.5551,
-    lon: -81.7800,
-    climate: "Tropical",
-    landscape: "Islands, Coral Reefs, Palm-Lined Streets",
-    activities: ["Snorkeling", "Sunset Watching", "Bar Crawls"],
-    culture: "Island Caribbean-Inspired",
-    budget: "Medium to High",
+    name: "Solvang",
+    address: "California, USA",
+    description: "A slice of Denmark in the Santa Ynez Valley, famous for windmills and pastries.",
+    about: "Solvang is a Danish-themed town complete with European architecture, old-world bakeries, and fairy tale shops. It’s a storybook village with wine tasting and Christmas year-round.",
+    lat: 34.5958,
+    lon: -120.1377,
+    climate: "Mediterranean",
+    landscape: "Vineyards, Rolling Hills, Danish Village Streets",
+    activities: ["Wine Tasting", "Biking", "European Pastry Sampling"],
+    culture: "Danish Heritage & California Charm",
+    budget: "Moderate",
     localAttractions: [
-      "Southernmost Point Buoy",
-      "Duval Street",
-      "Ernest Hemingway Home",
-      "Mallory Square",
-      "Dry Tortugas National Park"
+      "Old Mission Santa Inés",
+      "Solvang Windmill",
+      "Hans Christian Andersen Park",
+      "Solvang Vintage Motorcycle Museum",
+      "Julefest (Christmas Festival)"
     ],
     adventures: [
-      "Scuba Diving Coral Reefs",
-      "Jet Ski Tours",
-      "Kayaking the Mangroves",
-      "Parasailing Over the Ocean",
-      "Sunset Catamaran Cruises"
+      "Tandem Bike Rentals",
+      "Bakery Hop",
+      "Horse-Drawn Carriage Rides",
+      "Selfie with the Giant Red Clog",
+      "Wine & Cheese Trails"
     ],
     localCuisines: [
-      "Key Lime Pie",
-      "Cuban Sandwiches",
-      "Conch Fritters",
-      "Seafood Paella",
-      "Rum Punch"
+      "Aebleskiver (Danish Pancake Balls)",
+      "Frikadeller (Meatballs)",
+      "Butter Cookies",
+      "Local Pinot Noir",
+      "Apple Strudel"
     ],
     shopping: [
-      "Beachwear Boutiques",
-      "Island Souvenirs",
-      "Hand-Rolled Cigars",
-      "Art from Local Galleries",
-      "Key Lime Products"
+      "Scandinavian Ornaments",
+      "Danish Cookbooks",
+      "Wooden Clogs",
+      "Viking Hats",
+      "Solvang Chocolates"
     ]
-  },
+  },  
   {
     id: 78,
     name: "Glacier National Park",
@@ -3392,6 +3444,48 @@ export const trendingPlaces = [
       "Nature-Themed Woodwork"
     ]
   },
+  {
+    id: 79,
+    name: "South Fork",
+    address: "South Fork, Colorado",
+    description: "A tranquil mountain town offering a gateway to outdoor adventures and scenic beauty.",
+    about: "Located at the confluence of the South Fork and Rio Grande rivers, this town is a haven for fishing, hiking, and skiing enthusiasts, with access to the Rio Grande National Forest and Wolf Creek Ski Area.",
+    lat: 37.6739,
+    lon: -106.6417,
+    climate: "Alpine",
+    landscape: "Mountains, Rivers, Forests",
+    activities: ["Fly Fishing", "Hiking", "Skiing"],
+    culture: "Mountain Town",
+    budget: "Moderate",
+    localAttractions: [
+      "Wolf Creek Ski Area",
+      "Silver Thread Scenic Byway",
+      "Beaver Creek Reservoir",
+      "South Fork Visitor Center",
+      "Rio Grande Club & Resort"
+    ],
+    adventures: [
+      "Skiing at Wolf Creek",
+      "Hiking in Rio Grande National Forest",
+      "Golfing with Mountain Views",
+      "Wildlife Watching",
+      "Snowmobiling Trails"
+    ],
+    localCuisines: [
+      "Rocky Mountain Trout",
+      "Bison Burgers",
+      "Green Chili Stew",
+      "Locally Brewed Beers",
+      "Homemade Pies"
+    ],
+    shopping: [
+      "Outdoor Gear Stores",
+      "Local Artisans",
+      "Souvenir Shops",
+      "Handcrafted Jewelry",
+      "Mountain Apparel"
+    ]
+  },  
   {
     id: 80,
     name: "Mount Rainier",
@@ -3478,130 +3572,130 @@ export const trendingPlaces = [
   },
   {
     id: 82,
-    name: "Joshua Tree",
-    address: "Joshua Tree, California",
-    description: "An otherworldly desert landscape filled with surreal rock formations, starlit skies, and twisted yucca trees.",
-    about: "Joshua Tree National Park is a spiritual and visual retreat known for its stark desert beauty, climbing spots, and stargazing. With its unique flora, boulder-strewn trails, and creative desert community, it's a haven for dreamers and adventurers.",
-    lat: 33.8734,
-    lon: -115.9010,
-    climate: "Desert",
-    landscape: "Rock Formations, Cactus Gardens, Desert Flats",
-    activities: ["Rock Climbing", "Stargazing", "Nature Photography"],
-    culture: "Bohemian Desert",
-    budget: "Low to Medium",
+    name: "Ouray",
+    address: "Ouray, Colorado",
+    description: "Known as the 'Switzerland of America', Ouray is a picturesque town surrounded by towering mountains and natural hot springs.",
+    about: "This charming town offers a mix of relaxation and adventure, with activities ranging from soaking in hot springs to exploring historic mining sites and scenic drives.",
+    lat: 38.0228,
+    lon: -107.6711,
+    climate: "Alpine",
+    landscape: "Mountains, Hot Springs, Waterfalls",
+    activities: ["Hot Springs", "Hiking", "Ice Climbing"],
+    culture: "Historic Mining Town",
+    budget: "Moderate",
     localAttractions: [
-      "Cholla Cactus Garden",
-      "Hidden Valley Trail",
-      "Keys View",
-      "Noah Purifoy Outdoor Art Museum",
-      "Skull Rock"
+      "Ouray Hot Springs Pool",
+      "Box Canyon Falls",
+      "Ouray Ice Park",
+      "Million Dollar Highway",
+      "Yankee Boy Basin"
     ],
     adventures: [
-      "Bouldering & Climbing Routes",
-      "Milky Way Photography",
-      "Desert Camping",
-      "Hiking Ryan Mountain",
-      "Exploring Abandoned Mines"
+      "Jeep Tours",
+      "Ice Climbing Festivals",
+      "Waterfall Hikes",
+      "Historic Mine Tours",
+      "Photography Expeditions"
     ],
     localCuisines: [
-      "Southwest Tacos",
-      "Cactus Smoothies",
-      "Vegan Burritos",
-      "Sun-Dried Tomato Flatbreads",
-      "Chili Verde"
+      "Southwestern Dishes",
+      "Craft Beers",
+      "Mountain Trout",
+      "Homemade Soups",
+      "Artisan Breads"
     ],
     shopping: [
-      "Crystals & Geodes",
-      "Handcrafted Dreamcatchers",
-      "Desert Photography Prints",
-      "Boho Clothing",
-      "Vintage Records & Decor"
+      "Outdoor Equipment Stores",
+      "Local Art Galleries",
+      "Handmade Crafts",
+      "Boutique Clothing Shops",
+      "Souvenir Stores"
     ]
-  },
+  },  
   {
     id: 83,
-    name: "Savannah",
-    address: "Savannah, Georgia",
-    description: "A romantic Southern city draped in Spanish moss and haunted by history.",
-    about: "Savannah is one of the oldest cities in the U.S., known for its cobblestone streets, oak-lined squares, antebellum architecture, and spooky charm. A mix of elegance and eccentricity, it's perfect for slow strolls and deep dives into history.",
-    lat: 32.0809,
-    lon: -81.0912,
-    climate: "Humid Subtropical",
-    landscape: "Riverside, Historic Cityscape, Park Squares",
-    activities: ["Ghost Tours", "Garden Walks", "Southern Cuisine"],
-    culture: "Gothic Southern Charm",
-    budget: "Medium",
+    name: "Mystic",
+    address: "Mystic, Connecticut",
+    description: "A charming coastal town known for its rich maritime history, historic seaport, and picturesque downtown.",
+    about: "Mystic offers visitors a blend of New England charm and nautical heritage, featuring attractions like the Mystic Seaport Museum and Mystic Aquarium.",
+    lat: 41.3540,
+    lon: -71.9665,
+    climate: "Humid Continental",
+    landscape: "Coastal Town, Riverfront",
+    activities: ["Museum Visits", "Aquarium Exploration", "Sailing"],
+    culture: "Maritime Heritage",
+    budget: "Moderate",
     localAttractions: [
-      "Forsyth Park",
-      "Bonaventure Cemetery",
-      "River Street",
-      "Wormsloe Historic Site",
-      "Telfair Museums"
+      "Mystic Seaport Museum",
+      "Mystic Aquarium",
+      "Olde Mistick Village",
+      "B.F. Clyde's Cider Mill",
+      "Historic Downtown Mystic"
     ],
     adventures: [
-      "Haunted History Walks",
-      "Riverboat Cruises",
-      "Kayaking the Lowcountry",
-      "Horse-Drawn Carriage Rides",
-      "Biking the Historic District"
+      "Schooner Cruises",
+      "Kayaking on Mystic River",
+      "Exploring Historic Ships",
+      "Walking Tours",
+      "Seasonal Festivals"
     ],
     localCuisines: [
-      "Shrimp and Grits",
-      "Fried Green Tomatoes",
-      "Lowcountry Boil",
-      "Sweet Tea & Biscuits",
-      "Pecan Pie"
+      "Fresh Lobster Rolls",
+      "Clam Chowder",
+      "Oysters on the Half Shell",
+      "Homemade Fudge",
+      "Local Craft Beers"
     ],
     shopping: [
+      "Nautical-Themed Gifts",
       "Antique Shops",
-      "Southern Boutiques",
-      "Handmade Candles",
-      "Ghost Tour Souvenirs",
-      "Local Art & Embroidery"
+      "Local Art Galleries",
+      "Bookstores",
+      "Boutique Clothing Stores"
     ]
-  },
+  },  
   {
     id: 84,
-    name: "Badlands",
-    address: "Interior, South Dakota",
-    description: "A dramatic wilderness of eroded buttes, fossil beds, and rich prairie ecosystems.",
-    about: "Badlands National Park surprises with its alien rock formations and fossil-rich history. A geologist's dream and a road-tripper's delight, it offers stunning sunsets, wildlife encounters, and wide-open silence under big skies.",
-    lat: 43.8554,
-    lon: -102.3397,
-    climate: "Semi-Arid",
-    landscape: "Canyons, Buttes, Grasslands",
-    activities: ["Fossil Hunting", "Scenic Drives", "Camping"],
-    culture: "Paleo-Western Wilderness",
-    budget: "Low",
+    name: "30A",
+    address: "Walton County, Florida",
+    description: "A scenic 24-mile stretch along Florida’s Emerald Coast, known for its white-sand beaches, charming communities, and relaxed atmosphere.",
+    about: "30A encompasses several beach towns, each with its unique vibe, offering upscale dining, boutique shopping, and outdoor activities.",
+    lat: 30.3478,
+    lon: -86.1616,
+    climate: "Subtropical",
+    landscape: "Coastal Beaches, Dune Lakes",
+    activities: ["Beach Relaxation", "Cycling", "Paddleboarding"],
+    culture: "Coastal Resort Lifestyle",
+    budget: "Moderate to High",
     localAttractions: [
-      "Loop Road",
-      "Fossil Exhibit Trail",
-      "Big Badlands Overlook",
-      "Saddle Pass Trail",
-      "Ben Reifel Visitor Center"
+      "Seaside Town Center",
+      "Grayton Beach State Park",
+      "Alys Beach Architecture",
+      "Eden Gardens State Park",
+      "Coastal Dune Lakes"
     ],
     adventures: [
-      "Sunset Photography",
-      "Backcountry Hiking",
-      "Wild Bison Viewing",
-      "Stargazing in Silence",
-      "Fossil Spotting with Rangers"
+      "Sunset Beach Picnics",
+      "Scenic Bike Rides",
+      "Paddleboarding on Dune Lakes",
+      "Live Music Events",
+      "Art and Wine Festivals"
     ],
     localCuisines: [
-      "Buffalo Burgers",
-      "Cornbread & Beans",
-      "Prairie Stew",
-      "Jerky Snacks",
-      "Campfire S'mores"
+      "Gulf Shrimp Tacos",
+      "Fresh Grouper Sandwiches",
+      "Key Lime Pie",
+      "Craft Cocktails",
+      "Farm-to-Table Dishes"
     ],
     shopping: [
-      "Geology Kits",
-      "Fossil Replicas",
-      "Western Wear",
-      "Native Beadwork",
-      "Park Posters"
+      "Beachwear Boutiques",
+      "Artisan Jewelry",
+      "Home Decor Stores",
+      "Local Art Galleries",
+      "Specialty Food Shops"
     ]
-  },
+  },  
   {
     id: 85,
     name: "Catalina Island",
@@ -3686,6 +3780,48 @@ export const trendingPlaces = [
       "Columbia River Wine & Cider"
     ]
   },
+  {
+    id: 87,
+    name: "Dunton Hot Springs",
+    address: "Dolores, Colorado",
+    description: "A restored 19th-century ghost town turned luxury resort, nestled in the San Juan Mountains, offering natural hot springs and rustic elegance.",
+    about: "Dunton Hot Springs provides an exclusive getaway with hand-hewn log cabins, gourmet dining, and access to outdoor adventures in a breathtaking alpine setting.",
+    lat: 37.8625,
+    lon: -108.1031,
+    climate: "Alpine",
+    landscape: "Mountainous Terrain, Hot Springs",
+    activities: ["Soaking in Hot Springs", "Hiking", "Horseback Riding"],
+    culture: "Historic Mining Town",
+    budget: "High",
+    localAttractions: [
+      "Natural Hot Springs",
+      "San Juan National Forest",
+      "Telluride Ski Resort",
+      "Anasazi Heritage Center",
+      "Mesa Verde National Park"
+    ],
+    adventures: [
+      "Guided Mountain Hikes",
+      "Fly Fishing Excursions",
+      "Horseback Trail Rides",
+      "Snowshoeing in Winter",
+      "Photography of Wildlife"
+    ],
+    localCuisines: [
+      "Rocky Mountain Trout",
+      "Elk Tenderloin",
+      "Wild Mushroom Risotto",
+      "Artisanal Cheeses",
+      "Locally Sourced Produce"
+    ],
+    shopping: [
+      "Handcrafted Leather Goods",
+      "Local Art and Crafts",
+      "Western Apparel",
+      "Organic Bath Products",
+      "Souvenirs from the Trading Post"
+    ]
+  },  
   {
     id: 88,
     name: "Kenai Fjords",
@@ -4067,6 +4203,7 @@ export const trendingPlaces = [
   {
     id: 97,
     name: "Amelia Island",
+    address: "Amelia Island, Florida",
     description: "A peaceful coastal retreat with rich history, pristine beaches, and charming Southern hospitality.",
     about: "Located in northeastern Florida, Amelia Island offers 13 miles of beaches, historic sites, and luxury resorts. Known for its Gilded Age mansions and pirate lore, it’s a blend of elegance and laid-back beach vibes.",
     lat: 30.6697,
@@ -4108,6 +4245,7 @@ export const trendingPlaces = [
   {
     id: 98,
     name: "Palo Duro Canyon",
+    address: "Canyon, Texas",
     description: "The second-largest canyon in the U.S., offering striking rock formations and rugged outdoor adventures.",
     about: "Often called the 'Grand Canyon of Texas', Palo Duro is a dramatic canyon system located in the Texas Panhandle. With colorful mesas, hoodoos, and outdoor drama performances, it’s a Southwestern gem.",
     lat: 34.9370,
@@ -4149,6 +4287,7 @@ export const trendingPlaces = [
   {
     id: 99,
     name: "Sleeping Bear Dunes",
+    address: "Empire, Michigan",
     description: "Towering sand dunes, turquoise lakes, and forested bluffs on the shores of Lake Michigan.",
     about: "Located along the northwest coast of Michigan’s Lower Peninsula, this national lakeshore features dramatic dunes, crystal-clear waters, and lush hiking trails. A family-friendly and visually stunning retreat.",
     lat: 44.8806,
@@ -4190,6 +4329,7 @@ export const trendingPlaces = [
   {
     id: 100,
     name: "Valley of Fire",
+    address: "Overton, Nevada",
     description: "A fiery red desert landscape of sandstone formations, petroglyphs, and surreal rock shapes.",
     about: "Located just northeast of Las Vegas, Valley of Fire is Nevada’s oldest and most stunning state park. Known for dramatic rock formations like Fire Wave and Elephant Rock, it’s a dream for hikers and photographers.",
     lat: 36.4854,
@@ -4228,4 +4368,4204 @@ export const trendingPlaces = [
       "Hiking Bandanas"
     ]
   },  
+  {
+    id: 101,
+    name: "Primland Resort",
+    address: "Meadows of Dan, Virginia",
+    description: "A luxury mountain resort set on 12,000 acres, offering treehouse accommodations, world-class golf, and stargazing observatory.",
+    about: "Primland combines outdoor adventure with refined comfort, featuring activities like ATV tours, spa treatments, and fine dining amidst the Blue Ridge Mountains.",
+    lat: 36.6332,
+    lon: -80.4181,
+    climate: "Mountain",
+    landscape: "Forested Mountains, Rolling Hills",
+    activities: ["Golfing", "Stargazing", "Spa Treatments"],
+    culture: "Appalachian Heritage",
+    budget: "High",
+    localAttractions: [
+      "Highland Course Golf",
+      "Observatory Dome",
+      "Blue Ridge Parkway",
+      "Local Wineries",
+      "Hiking Trails"
+    ],
+    adventures: [
+      "ATV Mountain Tours",
+      "Horseback Riding",
+      "Fly Fishing",
+      "Tree Climbing Adventures",
+      "Yoga Sessions with Mountain Views"
+    ],
+    localCuisines: [
+      "Southern Fried Chicken",
+      "Virginia Ham",
+      "Buttermilk Biscuits",
+      "Locally Sourced Vegetables",
+      "Craft Cocktails"
+    ],
+    shopping: [
+      "Artisan Woodwork",
+      "Handmade Pottery",
+      "Local Honey and Jams",
+      "Golf Apparel",
+      "Spa Products"
+    ]
+  },
+  {
+    id: 102,
+    name: "Walt Disney World Resort",
+    address: "Orlando, Florida",
+    description: "The most visited vacation resort in the world, featuring theme parks, resorts, and entertainment complexes.",
+    about: "Opened in 1971, Walt Disney World Resort is a massive entertainment complex with four theme parks, including Magic Kingdom and Epcot. Known for its immersive experiences, beloved characters, and family-friendly attractions, it’s a top global tourist destination.",
+    lat: 28.3852,
+    lon: -81.5639,
+    climate: "Humid Subtropical",
+    landscape: "Theme Parks, Resorts, Lakes",
+    activities: ["Theme Park Rides", "Parades", "Live Shows"],
+    culture: "American Pop Culture",
+    budget: "High",
+    localAttractions: [
+      "Magic Kingdom",
+      "Epcot",
+      "Hollywood Studios",
+      "Animal Kingdom",
+      "Disney Springs"
+    ],
+    adventures: [
+      "Roller Coaster Thrills",
+      "Fireworks Spectacles",
+      "Character Meet-and-Greets",
+      "Behind-the-Scenes Tours",
+      "Water Park Fun"
+    ],
+    localCuisines: [
+      "Mickey Waffles",
+      "Churros",
+      "Turkey Legs",
+      "Dole Whip",
+      "Themed Fine Dining"
+    ],
+    shopping: [
+      "Disney Apparel",
+      "Character Figurines",
+      "Custom Mickey Ears",
+      "Park-Themed Merchandise",
+      "Personalized Souvenirs"
+    ]
+  },  
+  {
+    id: 103,
+    name: "Las Vegas Strip",
+    address: "Las Vegas, Nevada",
+    description: "A vibrant stretch of casinos, hotels, and entertainment venues known for its nightlife and shows.",
+    about: "The Las Vegas Strip is a 4.2-mile-long boulevard famed for its extravagant casinos, luxury resorts, and nonstop entertainment. It's a dazzling hub for nightlife, live performances, world-class dining, and shopping.",
+    lat: 36.1147,
+    lon: -115.1728,
+    climate: "Desert",
+    landscape: "Urban Skyline, Neon Lights",
+    activities: ["Gaming", "Live Shows", "Fine Dining"],
+    culture: "Entertainment & Nightlife",
+    budget: "High",
+    localAttractions: [
+      "Bellagio Fountains",
+      "Caesars Palace",
+      "The Venetian",
+      "High Roller",
+      "The STRAT Observation Deck"
+    ],
+    adventures: [
+      "Indoor Skydiving",
+      "Helicopter Night Tours",
+      "Ziplining over Fremont Street",
+      "Roller Coaster at NY-NY",
+      "Off-road Desert Tours"
+    ],
+    localCuisines: [
+      "Gourmet Buffets",
+      "Celebrity Chef Menus",
+      "Shrimp Cocktails",
+      "Prime Rib",
+      "Craft Cocktails"
+    ],
+    shopping: [
+      "Luxury Fashion Brands",
+      "Casino Memorabilia",
+      "Vegas Souvenirs",
+      "Outlet Malls",
+      "Themed Gift Shops"
+    ]
+  },  
+  {
+    id: 104,
+    name: "Golden Gate Bridge",
+    address: "San Francisco, California",
+    description: "An iconic red suspension bridge connecting San Francisco to Marin County, known for its architectural beauty.",
+    about: "Completed in 1937, the Golden Gate Bridge is one of the most photographed structures in the world. Stretching 1.7 miles over the Golden Gate Strait, it offers stunning views of San Francisco Bay and is a marvel of modern engineering.",
+    lat: 37.8199,
+    lon: -122.4783,
+    climate: "Mediterranean",
+    landscape: "Bay, Hills, Coastline",
+    activities: ["Biking", "Photography", "Walking Tours"],
+    culture: "American Engineering Landmark",
+    budget: "Free to Visit",
+    localAttractions: [
+      "Golden Gate Park",
+      "Alcatraz Island",
+      "Fisherman’s Wharf",
+      "Palace of Fine Arts",
+      "Crissy Field"
+    ],
+    adventures: [
+      "Bike the Bridge",
+      "Sunset Sailing Tours",
+      "Seaplane Rides",
+      "Beach Walks at Baker Beach",
+      "Fort Point Exploration"
+    ],
+    localCuisines: [
+      "Clam Chowder in Sourdough Bowl",
+      "Dungeness Crab",
+      "Mission Burritos",
+      "Dim Sum",
+      "Ghirardelli Chocolate"
+    ],
+    shopping: [
+      "Bridge Miniatures",
+      "Bay Area Art",
+      "Handmade Jewelry",
+      "Books on SF History",
+      "Maritime Souvenirs"
+    ]
+  },  
+  {
+    id: 105,
+    name: "Times Square",
+    address: "New York, NY",
+    description: "The bustling heart of Manhattan, known for bright lights, Broadway, and New Year’s Eve celebrations.",
+    about: "Times Square is a world-famous commercial intersection and entertainment hub. It represents the energetic spirit of New York City, drawing millions of visitors for its Broadway theaters, shopping, and iconic billboards.",
+    lat: 40.7580,
+    lon: -73.9855,
+    climate: "Humid Subtropical",
+    landscape: "Urban Skyscrapers",
+    activities: ["Shopping", "Theater", "Street Entertainment"],
+    culture: "Pop Culture & Media",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Broadway Theaters",
+      "Madame Tussauds",
+      "TKTS Discount Booth",
+      "Hard Rock Cafe",
+      "M&M’s World"
+    ],
+    adventures: [
+      "Attend a Broadway Show",
+      "Virtual Reality Gaming",
+      "Times Square Ball Drop",
+      "Bus Tours Around NYC",
+      "Night Walking Tours"
+    ],
+    localCuisines: [
+      "NYC Street Hot Dogs",
+      "New York-Style Pizza",
+      "Halal Cart Platters",
+      "Corned Beef Sandwiches",
+      "Artisan Cupcakes"
+    ],
+    shopping: [
+      "Broadway Souvenirs",
+      "Electronics & Gadgets",
+      "Brand Flagship Stores",
+      "NY-Themed Apparel",
+      "Pop Culture Collectibles"
+    ]
+  },  
+  {
+    id: 106,
+    name: "Hollywood",
+    address: "Los Angeles, California",
+    description: "The global center of entertainment, filled with film studios, theaters, and celebrity landmarks.",
+    about: "Hollywood is a neighborhood in Los Angeles synonymous with the American film industry. It's home to iconic sites such as the Hollywood Walk of Fame, TCL Chinese Theatre, and the Dolby Theatre where the Oscars are held.",
+    lat: 34.0928,
+    lon: -118.3287,
+    climate: "Mediterranean",
+    landscape: "Urban Hills",
+    activities: ["Studio Tours", "Celebrity Spotting", "Museum Visits"],
+    culture: "Film & Entertainment",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Hollywood Walk of Fame",
+      "TCL Chinese Theatre",
+      "Hollywood Sign",
+      "Griffith Observatory",
+      "Dolby Theatre"
+    ],
+    adventures: [
+      "Hiking to the Hollywood Sign",
+      "Behind-the-Scenes Studio Tours",
+      "Star Tours",
+      "Street Performances",
+      "LA Rooftop Experiences"
+    ],
+    localCuisines: [
+      "Korean BBQ",
+      "Vegan Burgers",
+      "Avocado Toast",
+      "Taco Trucks",
+      "Hollywood Milkshakes"
+    ],
+    shopping: [
+      "Movie Memorabilia",
+      "Hollywood T-Shirts",
+      "Autographed Posters",
+      "Pop Culture Books",
+      "Celebrity Souvenirs"
+    ]
+  },
+  {
+    id: 107,
+    name: "Universal Studios Hollywood",
+    address: "Los Angeles, California",
+    description: "A legendary movie-themed amusement park offering thrilling rides and real film studio experiences.",
+    about: "Universal Studios Hollywood combines a working movie studio with a world-class theme park. Visitors enjoy behind-the-scenes studio tours, immersive attractions like The Wizarding World of Harry Potter, and thrilling rides based on blockbuster movies.",
+    lat: 34.1381,
+    lon: -118.3534,
+    climate: "Mediterranean",
+    landscape: "Urban Hills, Studio Backlots",
+    activities: ["Theme Park Rides", "Studio Tours", "Live Entertainment"],
+    culture: "Hollywood & Entertainment",
+    budget: "High",
+    localAttractions: [
+      "Studio Tour",
+      "The Wizarding World of Harry Potter",
+      "Jurassic World Ride",
+      "Springfield – The Simpsons",
+      "Super Nintendo World"
+    ],
+    adventures: [
+      "3D & 4D Motion Rides",
+      "Behind-the-Scenes Film Set Tours",
+      "Roller Coasters",
+      "Character Encounters",
+      "Nighttime Light Shows"
+    ],
+    localCuisines: [
+      "Butterbeer",
+      "Krusty Burgers",
+      "Mexican Street Tacos",
+      "L.A. Sushi Rolls",
+      "Doughnuts & Theme Desserts"
+    ],
+    shopping: [
+      "Movie Memorabilia",
+      "Wands & Hogwarts Gear",
+      "Super Nintendo Merchandise",
+      "Universal Apparel",
+      "Souvenir Mugs and Keychains"
+    ]
+  },
+  {
+    id: 108,
+    name: "Mall of America",
+    address: "Bloomington, Minnesota",
+    description: "The largest mall in the U.S., featuring over 500 stores, theme parks, and an aquarium.",
+    about: "Mall of America is more than just shopping — it’s a full-fledged entertainment hub. With attractions like Nickelodeon Universe, SEA LIFE Aquarium, and countless dining spots, it offers family-friendly fun year-round in a climate-controlled space.",
+    lat: 44.8547,
+    lon: -93.2422,
+    climate: "Continental",
+    landscape: "Urban Indoor Complex",
+    activities: ["Shopping", "Indoor Rides", "Dining"],
+    culture: "Midwestern & Commercial",
+    budget: "Flexible",
+    localAttractions: [
+      "Nickelodeon Universe",
+      "SEA LIFE Aquarium",
+      "FlyOver America",
+      "Crayola Experience",
+      "Mini Golf"
+    ],
+    adventures: [
+      "Indoor Roller Coasters",
+      "Shark Tunnel Walk",
+      "Virtual Flight Rides",
+      "Kids Art Workshops",
+      "Holiday Shopping Extravaganzas"
+    ],
+    localCuisines: [
+      "Cheese Curds",
+      "Fried Pickles",
+      "Minnesota Wild Rice Soup",
+      "Waffle Cones",
+      "Global Food Court Offerings"
+    ],
+    shopping: [
+      "Mall of America Gear",
+      "Nickelodeon Toys",
+      "Fashion Outlets",
+      "Electronics & Gadgets",
+      "Custom Art & Decor"
+    ]
+  },
+  {
+    id: 109,
+    name: "Lincoln Memorial",
+    address: "Washington, D.C.",
+    description: "A majestic monument honoring President Abraham Lincoln and symbolizing unity and freedom.",
+    about: "The Lincoln Memorial stands at the western end of the National Mall and features a seated sculpture of Abraham Lincoln. It’s a powerful site for reflection and historical significance, often the site of speeches and gatherings.",
+    lat: 38.8893,
+    lon: -77.0502,
+    climate: "Humid Subtropical",
+    landscape: "Marble Monument, Reflecting Pool",
+    activities: ["Historical Walks", "Reflection", "Photography"],
+    culture: "American History",
+    budget: "Free",
+    localAttractions: [
+      "Reflecting Pool",
+      "Vietnam Veterans Memorial",
+      "Washington Monument",
+      "Smithsonian Museums",
+      "National Mall"
+    ],
+    adventures: [
+      "Nighttime Monument Tour",
+      "Bike the National Mall",
+      "Scavenger Hunts",
+      "Outdoor Educational Programs",
+      "Guided History Tours"
+    ],
+    localCuisines: [
+      "Half-Smoke Sausages",
+      "Chesapeake Crab Cakes",
+      "Southern Fried Chicken",
+      "Street Tacos",
+      "Fresh Lemonade"
+    ],
+    shopping: [
+      "Patriotic Apparel",
+      "Historic Postcards",
+      "Lincoln Busts & Miniatures",
+      "DC-Themed Books",
+      "Local Artisan Gifts"
+    ]
+  },
+  {
+    id: 110,
+    name: "Seattle Center & Space Needle",
+    address: "Seattle, Washington",
+    description: "A futuristic tower and entertainment complex symbolizing Seattle’s innovation and skyline.",
+    about: "Built for the 1962 World’s Fair, the Space Needle offers panoramic views of Seattle’s skyline, Puget Sound, and Mt. Rainier. It's part of Seattle Center, which also houses museums, gardens, and music venues.",
+    lat: 47.6205,
+    lon: -122.3493,
+    climate: "Oceanic",
+    landscape: "Urban Tower, Cityscape, Mountains in View",
+    activities: ["Sightseeing", "Museum Visits", "Photography"],
+    culture: "Pacific Northwest Innovation",
+    budget: "Moderate",
+    localAttractions: [
+      "Space Needle Observation Deck",
+      "Chihuly Garden and Glass",
+      "Museum of Pop Culture",
+      "Pacific Science Center",
+      "International Fountain"
+    ],
+    adventures: [
+      "360° Glass Floor Experience",
+      "VR Space Travel Simulation",
+      "Zip Tours Nearby",
+      "Panoramic Dining",
+      "Art Walks Through Seattle Center"
+    ],
+    localCuisines: [
+      "Seattle-Style Hot Dogs",
+      "Fresh Oysters",
+      "Pike Place Chowder",
+      "Espresso and Coffee Blends",
+      "Smoked Salmon Bagels"
+    ],
+    shopping: [
+      "Space Needle Models",
+      "Chihuly Glass Replicas",
+      "Grunge Music Memorabilia",
+      "Seattle Art Prints",
+      "Handmade Northwest Crafts"
+    ]
+  },
+  {
+    id: 111,
+    name: "Alcatraz Island",
+    address: "San Francisco Bay, California",
+    description: "A historic island that once housed a notorious federal prison, now a top visitor destination.",
+    about: "Alcatraz Island, often called 'The Rock', once held infamous criminals like Al Capone. Today, it’s a hauntingly beautiful landmark with tours that explore prison cells, guard towers, and sweeping views of San Francisco Bay.",
+    lat: 37.8267,
+    lon: -122.4230,
+    climate: "Coastal Mediterranean",
+    landscape: "Island, Rocky Shores",
+    activities: ["Historical Tours", "Photography", "Bird Watching"],
+    culture: "American Penal & Military History",
+    budget: "Moderate",
+    localAttractions: [
+      "Cell House Audio Tour",
+      "Alcatraz Lighthouse",
+      "Agave Garden",
+      "Military Barracks Ruins",
+      "Ex-Prisoner Stories Exhibit"
+    ],
+    adventures: [
+      "Night Tours",
+      "Ferry Rides Across the Bay",
+      "Escape Attempt Exhibits",
+      "Scenic Bay Walks",
+      "Ghost Tours"
+    ],
+    localCuisines: [
+      "Fisherman’s Wharf Clam Chowder",
+      "Sourdough Bread",
+      "Seafood Platters",
+      "Crab Rolls",
+      "Saltwater Taffy"
+    ],
+    shopping: [
+      "Prison Souvenirs",
+      "Historical Books",
+      "Alcatraz Apparel",
+      "Bay Photography",
+      "Escape from Alcatraz Memorabilia"
+    ]
+  },
+  {
+    id: 112,
+    name: "Chicago Navy Pier",
+    address: "Chicago, Illinois",
+    description: "A lively lakefront destination featuring attractions, cruises, and scenic views of Lake Michigan.",
+    about: "Stretching over 3,000 feet into Lake Michigan, Navy Pier is a family-friendly spot with amusement rides, museums, shops, restaurants, and frequent cultural events. It's a symbol of Chicago's vibrant waterfront culture.",
+    lat: 41.8916,
+    lon: -87.6079,
+    climate: "Humid Continental",
+    landscape: "Urban Waterfront, Pier",
+    activities: ["Boat Cruises", "Amusement Rides", "Firework Shows"],
+    culture: "Urban Arts & Architecture",
+    budget: "Flexible",
+    localAttractions: [
+      "Centennial Wheel",
+      "Children’s Museum",
+      "Crystal Gardens",
+      "Shakespeare Theater",
+      "Chicago Architecture Cruises"
+    ],
+    adventures: [
+      "Lake Michigan Cruises",
+      "Seasonal Fireworks",
+      "Bike Rentals Along the Pier",
+      "Speedboat Thrill Rides",
+      "Ferris Wheel Views"
+    ],
+    localCuisines: [
+      "Deep Dish Pizza",
+      "Chicago-Style Hot Dogs",
+      "Garrett’s Popcorn",
+      "Italian Beef Sandwiches",
+      "Ice Cream Waffles"
+    ],
+    shopping: [
+      "Chicago-Themed Gifts",
+      "Artisan Kiosks",
+      "Custom Apparel",
+      "Candy Shops",
+      "Navy Pier Memorabilia"
+    ]
+  },
+  {
+    id: 113,
+    name: "Liberty Bell & Independence Hall",
+    address: "Philadelphia, Pennsylvania",
+    description: "Historic sites representing American independence and the birth of democracy.",
+    about: "The Liberty Bell and Independence Hall are central symbols of American freedom. Here, the Declaration of Independence and Constitution were debated and signed, making it a vital destination for history lovers.",
+    lat: 39.9496,
+    lon: -75.1503,
+    climate: "Humid Subtropical",
+    landscape: "Historic Urban Core",
+    activities: ["Historical Education", "Guided Tours", "Photography"],
+    culture: "Colonial American History",
+    budget: "Free",
+    localAttractions: [
+      "Independence Hall",
+      "Liberty Bell Center",
+      "Congress Hall",
+      "Benjamin Franklin Museum",
+      "National Constitution Center"
+    ],
+    adventures: [
+      "Colonial Walking Tours",
+      "Historic Reenactments",
+      "Interactive Exhibits",
+      "Ghost Tours in Old City",
+      "Museum Passport Hunts"
+    ],
+    localCuisines: [
+      "Philly Cheesesteak",
+      "Soft Pretzels",
+      "Scrapple",
+      "Hoagies",
+      "Water Ice"
+    ],
+    shopping: [
+      "Patriotic Memorabilia",
+      "Replica Liberty Bells",
+      "Colonial Souvenirs",
+      "Philly Gear",
+      "Founding Father Prints"
+    ]
+  },
+  {
+    id: 114,
+    name: "French Quarter",
+    address: "New Orleans, Louisiana",
+    description: "A vibrant neighborhood filled with live jazz, historic architecture, and Creole culture.",
+    about: "The French Quarter, also known as Vieux Carré, is the oldest neighborhood in New Orleans. Known for its colorful buildings, iron balconies, and Bourbon Street energy, it’s the soul of the city’s rich musical and cultural heritage.",
+    lat: 29.9584,
+    lon: -90.0644,
+    climate: "Humid Subtropical",
+    landscape: "Historic Streets, Courtyards",
+    activities: ["Live Music", "Walking Tours", "Food Tasting"],
+    culture: "Creole, French, and African-American",
+    budget: "Moderate",
+    localAttractions: [
+      "Bourbon Street",
+      "Jackson Square",
+      "St. Louis Cathedral",
+      "Preservation Hall",
+      "French Market"
+    ],
+    adventures: [
+      "Jazz Bar Hopping",
+      "Haunted History Tours",
+      "Riverboat Cruises",
+      "Mardi Gras Festivities",
+      "Creole Cooking Classes"
+    ],
+    localCuisines: [
+      "Beignets",
+      "Jambalaya",
+      "Gumbo",
+      "Crawfish Étouffée",
+      "Po’ Boys"
+    ],
+    shopping: [
+      "Handmade Masks",
+      "Voodoo Dolls & Spices",
+      "French Market Souvenirs",
+      "Jazz Records",
+      "Locally Crafted Jewelry"
+    ]
+  },
+  {
+    id: 115,
+    name: "Waikiki Beach",
+    address: "Honolulu, Hawaii",
+    description: "A world-famous beachfront neighborhood known for its golden sand, surfing, and vibrant nightlife.",
+    about: "Waikiki Beach is one of the most iconic beaches in the world. Located on the south shore of Honolulu, it offers turquoise waters, stunning views of Diamond Head, and a blend of modern amenities with island culture.",
+    lat: 21.2766,
+    lon: -157.8275,
+    climate: "Tropical",
+    landscape: "Beach, Ocean, Volcano Views",
+    activities: ["Surfing", "Sunbathing", "Beach Walks"],
+    culture: "Hawaiian",
+    budget: "High",
+    localAttractions: [
+      "Diamond Head Crater",
+      "Royal Hawaiian Center",
+      "Kuhio Beach Park",
+      "Duke Kahanamoku Statue",
+      "Waikiki Aquarium"
+    ],
+    adventures: [
+      "Surf Lessons",
+      "Snorkeling Tours",
+      "Sunset Catamaran Cruises",
+      "Beach Volleyball",
+      "Stand-Up Paddleboarding"
+    ],
+    localCuisines: [
+      "Poke Bowls",
+      "Garlic Shrimp",
+      "Spam Musubi",
+      "Haupia Pie",
+      "Shave Ice"
+    ],
+    shopping: [
+      "Aloha Shirts",
+      "Hawaiian Jewelry",
+      "Ukuleles",
+      "Beach Accessories",
+      "Local Art Prints"
+    ]
+  },
+  {
+    id: 116,
+    name: "Santa Monica Pier",
+    address: "Santa Monica, California",
+    description: "A lively beachfront attraction with amusement rides, restaurants, and stunning sunset views.",
+    about: "Santa Monica Pier is a classic SoCal destination that combines beach fun with carnival charm. With its iconic Ferris wheel, arcade games, seafood spots, and ocean views, it offers a perfect family escape.",
+    lat: 34.0094,
+    lon: -118.4973,
+    climate: "Mediterranean",
+    landscape: "Coastal Urban",
+    activities: ["Beach Activities", "Amusement Rides", "Dining"],
+    culture: "Surf & Coastal California",
+    budget: "Moderate",
+    localAttractions: [
+      "Pacific Park",
+      "Muscle Beach",
+      "Santa Monica State Beach",
+      "Heal the Bay Aquarium",
+      "3rd Street Promenade"
+    ],
+    adventures: [
+      "Ferris Wheel Rides",
+      "Beachfront Biking",
+      "Ocean Fishing",
+      "Skateboarding",
+      "Surf Lessons"
+    ],
+    localCuisines: [
+      "Fish Tacos",
+      "Clam Chowder Bread Bowls",
+      "California Burgers",
+      "Organic Smoothies",
+      "Beachside Ice Cream"
+    ],
+    shopping: [
+      "Beach Apparel",
+      "California Souvenirs",
+      "Pier Toys & Games",
+      "Ocean-Themed Art",
+      "Surf Shop Gear"
+    ]
+  },
+  {
+    id: 117,
+    name: "Miami South Beach",
+    address: "Miami, Florida",
+    description: "A glamorous beachfront neighborhood known for Art Deco architecture, nightlife, and sun-kissed sands.",
+    about: "South Beach is Miami’s most famous beach destination. It's known for its vibrant nightlife, celebrity-studded events, colorful lifeguard stands, and crystal-clear waters, blending beach culture with luxury and art.",
+    lat: 25.7826,
+    lon: -80.1341,
+    climate: "Tropical",
+    landscape: "Urban Beachfront",
+    activities: ["Sunbathing", "Nightlife", "Jet Skiing"],
+    culture: "Latin-American, Art Deco, Glamour",
+    budget: "High",
+    localAttractions: [
+      "Ocean Drive",
+      "Art Deco Historic District",
+      "Lincoln Road Mall",
+      "Lummus Park",
+      "Versace Mansion"
+    ],
+    adventures: [
+      "Jet Ski Tours",
+      "Sunset Yacht Cruises",
+      "Nightclub Crawls",
+      "Beach Rollerblading",
+      "Salsa Dancing Events"
+    ],
+    localCuisines: [
+      "Cuban Sandwiches",
+      "Ceviche",
+      "Empanadas",
+      "Tropical Smoothies",
+      "Plantain Dishes"
+    ],
+    shopping: [
+      "Designer Boutiques",
+      "Beachwear & Swimsuits",
+      "Oceanfront Art Stalls",
+      "Cuban Cigar Shops",
+      "High-End Fashion Stores"
+    ]
+  },
+  {
+    id: 118,
+    name: "Santa Cruz Beach Boardwalk",
+    address: "Santa Cruz, California",
+    description: "A classic West Coast beach amusement park with ocean views and vintage rides.",
+    about: "Santa Cruz Beach Boardwalk is one of California’s oldest seaside amusement parks. From roller coasters to funnel cakes, it offers classic coastal charm alongside surfing culture and sandy fun.",
+    lat: 36.9643,
+    lon: -122.0178,
+    climate: "Mediterranean",
+    landscape: "Beachfront, Coastal Hills",
+    activities: ["Roller Coasters", "Surfing", "Sunbathing"],
+    culture: "California Surf & Retro Carnival",
+    budget: "Moderate",
+    localAttractions: [
+      "Giant Dipper Roller Coaster",
+      "Main Beach",
+      "Santa Cruz Wharf",
+      "Neptune’s Kingdom",
+      "Downtown Pacific Avenue"
+    ],
+    adventures: [
+      "Ride Vintage Attractions",
+      "Surf the Point",
+      "Beach Bonfires",
+      "Sailboat Rides",
+      "Seaside Zipline"
+    ],
+    localCuisines: [
+      "Fish Tacos",
+      "Garlic Fries",
+      "Saltwater Taffy",
+      "Clam Chowder Bread Bowls",
+      "Cinnamon Churros"
+    ],
+    shopping: [
+      "Surf Brand Apparel",
+      "Boardwalk Souvenirs",
+      "Local Artist Stalls",
+      "Retro Arcade Prizes",
+      "Shell Jewelry"
+    ]
+  },
+  {
+    id: 119,
+    name: "Boulder",
+    address: "Colorado, USA",
+    description: "An eco-conscious mountain town known for outdoor activities, university energy, and healthy living.",
+    about: "Boulder sits at the base of the Rocky Mountains and is home to the University of Colorado. It’s beloved for its natural beauty, adventurous spirit, and a culture focused on wellness and creativity.",
+    lat: 40.01499,
+    lon: -105.2705,
+    climate: "Semi-Arid",
+    landscape: "Mountains, Trails, Flatirons",
+    activities: ["Hiking", "Rock Climbing", "Biking"],
+    culture: "College Town Meets Outdoor Lifestyle",
+    budget: "Moderate",
+    localAttractions: [
+      "Pearl Street Mall",
+      "Flatirons Hiking Trails",
+      "University of Colorado Boulder",
+      "Chautauqua Park",
+      "Boulder Dushanbe Teahouse"
+    ],
+    adventures: [
+      "Boulder Creek Tubing",
+      "Mountain Biking Tours",
+      "Sunrise Hikes",
+      "Rock Climbing the Flatirons",
+      "Yoga in the Park"
+    ],
+    localCuisines: [
+      "Bison Burgers",
+      "Organic Smoothies",
+      "Kombucha on Tap",
+      "Plant-Based Bowls",
+      "Locally Made Chocolate"
+    ],
+    shopping: [
+      "Eco-Friendly Gear",
+      "Locally Made Art",
+      "University Apparel",
+      "Crystal & Wellness Shops",
+      "Bike & Climbing Gear"
+    ]
+  },
+  {
+    id: 120,
+    name: "Hershey Park",
+    address: "Hershey, Pennsylvania",
+    description: "A chocolate-themed amusement park packed with rides, sweets, and fun for all ages.",
+    about: "Hersheypark is a top family destination created by the founder of Hershey's chocolate. From roller coasters to chocolate tastings, it’s the perfect sweet escape for children and adults alike.",
+    lat: 40.2871,
+    lon: -76.6552,
+    climate: "Humid Continental",
+    landscape: "Theme Park, Suburban",
+    activities: ["Theme Rides", "Chocolate Tastings", "Water Slides"],
+    culture: "American Family Fun",
+    budget: "Moderate",
+    localAttractions: [
+      "Hersheypark Rides",
+      "Chocolate World",
+      "ZooAmerica",
+      "Hershey Gardens",
+      "The Hershey Story Museum"
+    ],
+    adventures: [
+      "Roller Coaster Thrills",
+      "Chocolate Factory Tour",
+      "4D Chocolate Theater",
+      "Lazy River Rides",
+      "Character Meet-and-Greets"
+    ],
+    localCuisines: [
+      "Chocolate-Dipped Pretzels",
+      "Hershey’s Ice Cream",
+      "Loaded Nachos",
+      "Theme Park Hot Dogs",
+      "Caramel Apples"
+    ],
+    shopping: [
+      "Giant Chocolate Bars",
+      "Hershey Apparel",
+      "Theme Toys & Candy",
+      "Custom M&M Mixes",
+      "Ride Memorabilia"
+    ]
+  },
+  {
+    id: 121,
+    name: "Woodstock",
+    address: "New York, USA",
+    description: "A small town with a big legacy in music, art, and counterculture history.",
+    about: "Though the 1969 festival took place nearby, Woodstock became synonymous with peace, music, and creativity. Today, it’s a haven for artists, musicians, and bohemians, offering a laid-back, artsy escape.",
+    lat: 42.0409,
+    lon: -74.1182,
+    climate: "Temperate",
+    landscape: "Mountains, Forests, Villages",
+    activities: ["Music Festivals", "Art Walks", "Hiking"],
+    culture: "Bohemian & Folk Rock",
+    budget: "Affordable to Moderate",
+    localAttractions: [
+      "Woodstock Artists Association Museum",
+      "The Maverick Concert Hall",
+      "Overlook Mountain Trail",
+      "Levon's Barn Concerts",
+      "Woodstock Farm Festival"
+    ],
+    adventures: [
+      "Live Music Sessions",
+      "Hiking Overlook Mountain",
+      "Indie Film Screenings",
+      "Folk Art Workshops",
+      "Camping in Catskills"
+    ],
+    localCuisines: [
+      "Vegan Wraps",
+      "Organic Smoothies",
+      "Wood-Fired Pizza",
+      "Gluten-Free Bakes",
+      "Craft Kombucha"
+    ],
+    shopping: [
+      "Tie-Dye Apparel",
+      "Vinyl Records",
+      "Handmade Ceramics",
+      "Local Poetry Books",
+      "Crystals and Incense"
+    ]
+  },
+  {
+    id: 122,
+    name: "Route 66 (Historic Towns)",
+    address: "Illinois to California, USA",
+    description: "America’s most iconic road trip route, lined with quirky towns, diners, and nostalgic roadside stops.",
+    about: "Route 66, the 'Mother Road,' stretches across 8 states and is famous for its small-town Americana, vintage signs, classic motels, and kitschy charm. It's a must-do for road trippers and nostalgia lovers.",
+    lat: 35.4676,
+    lon: -97.5164,  // Centered near Oklahoma City
+    climate: "Varies by Region",
+    landscape: "Highways, Deserts, Grasslands",
+    activities: ["Scenic Drives", "Photo Stops", "Museum Visits"],
+    culture: "Retro Americana & Motoring Culture",
+    budget: "Flexible",
+    localAttractions: [
+      "Cadillac Ranch (TX)",
+      "Blue Whale of Catoosa (OK)",
+      "Wigwam Motel (AZ)",
+      "Route 66 Hall of Fame (IL)",
+      "Santa Monica Pier (CA)"
+    ],
+    adventures: [
+      "Vintage Gas Station Hops",
+      "Classic Diner Crawls",
+      "Car Cruise Events",
+      "Desert Photography",
+      "Quirky Roadside Attractions"
+    ],
+    localCuisines: [
+      "Route 66 Diner Burgers",
+      "Milkshakes & Malts",
+      "Texas BBQ",
+      "Green Chile Dishes",
+      "Pie Stops at Old Cafés"
+    ],
+    shopping: [
+      "Retro Road Signs",
+      "License Plate Souvenirs",
+      "Motoring Memorabilia",
+      "Travel Journals",
+      "State Route Stickers"
+    ]
+  },
+  {
+    id: 123,
+    name: "Gatlinburg",
+    address: "Tennessee, USA",
+    description: "A mountain resort town at the gateway to Great Smoky Mountains National Park.",
+    about: "Gatlinburg is a charming and kitschy mountain town perfect for families and couples. It combines access to scenic nature with quirky attractions, artisan shops, and cozy cabins.",
+    lat: 35.7143,
+    lon: -83.5102,
+    climate: "Humid Subtropical",
+    landscape: "Mountains, Forests, Creeks",
+    activities: ["Scenic Rides", "Wildlife Watching", "Mini Golf"],
+    culture: "Southern Mountain Culture",
+    budget: "Affordable to Moderate",
+    localAttractions: [
+      "Gatlinburg SkyBridge",
+      "Ripley's Aquarium",
+      "Ober Mountain Tramway",
+      "Arts & Crafts Community",
+      "Anakeesta Adventure Park"
+    ],
+    adventures: [
+      "Ziplining",
+      "Smoky Mountain Hiking",
+      "Skiing in Winter",
+      "Alpine Coasters",
+      "Moonshine Tasting"
+    ],
+    localCuisines: [
+      "Southern Biscuits & Gravy",
+      "Apple Cider Donuts",
+      "Barbecue Plates",
+      "Mountain Fudge",
+      "Smoky Whiskey Tastings"
+    ],
+    shopping: [
+      "Handcrafted Wood Carvings",
+      "Moonshine Jars",
+      "Smoky Mountain Apparel",
+      "Candy & Fudge Stores",
+      "Local Soap & Candle Makers"
+    ]
+  },
+  {
+    id: 124,
+    name: "Magic Kingdom",
+    address: "Orlando, Florida",
+    description: "The flagship Disney park with iconic castles, fantasy lands, and classic rides.",
+    about: "Magic Kingdom is the heart of Walt Disney World. With Cinderella Castle at its center, this park brings fairy tales to life through rides like Space Mountain, themed lands, and nightly fireworks.",
+    lat: 28.4194,
+    lon: -81.5812,
+    climate: "Humid Subtropical",
+    landscape: "Fantasy-themed Lands, Lakes, Gardens",
+    activities: ["Theme Rides", "Character Meetups", "Parades"],
+    culture: "Disney Fantasy & Storytelling",
+    budget: "High",
+    localAttractions: [
+      "Cinderella Castle",
+      "Space Mountain",
+      "Pirates of the Caribbean",
+      "Haunted Mansion",
+      "It’s a Small World"
+    ],
+    adventures: [
+      "Fireworks at Cinderella Castle",
+      "Fantasyland Adventures",
+      "Character Dining",
+      "Dole Whip Tastings",
+      "Jungle Cruise"
+    ],
+    localCuisines: [
+      "Turkey Legs",
+      "Dole Whip",
+      "Mickey Pretzels",
+      "Themed Cupcakes",
+      "Pineapple Float"
+    ],
+    shopping: [
+      "Mickey Ears",
+      "Disney Pins",
+      "Princess Dresses",
+      "Themed Plush Toys",
+      "Park Map Posters"
+    ]
+  },
+  {
+    id: 125,
+    name: "EPCOT",
+    address: "Orlando, Florida",
+    description: "A park celebrating world cultures, future technology, and immersive global dining.",
+    about: "EPCOT blends innovation with international culture. Its World Showcase features 11 countries with authentic food and shops, while Future World offers attractions like Spaceship Earth and Test Track.",
+    lat: 28.3747,
+    lon: -81.5494,
+    climate: "Humid Subtropical",
+    landscape: "Pavilions, Waterways, Gardens",
+    activities: ["Cultural Exploration", "Rides", "Food Tasting"],
+    culture: "Global & Futuristic",
+    budget: "High",
+    localAttractions: [
+      "Spaceship Earth",
+      "Frozen Ever After",
+      "Test Track",
+      "World Showcase",
+      "Soarin’ Around the World"
+    ],
+    adventures: [
+      "Ride Through Time",
+      "World Pavilion Food Tasting",
+      "Cultural Performances",
+      "Fireworks Over the Lagoon",
+      "Interactive Science Exhibits"
+    ],
+    localCuisines: [
+      "Crepes from France",
+      "Sushi from Japan",
+      "Tacos from Mexico",
+      "Bratwurst from Germany",
+      "Baklava from Morocco"
+    ],
+    shopping: [
+      "World Showcase Souvenirs",
+      "Country-Themed Merchandise",
+      "EPCOT Pins & Shirts",
+      "Space-Themed Toys",
+      "Cultural Handicrafts"
+    ]
+  },
+  {
+    id: 126,
+    name: "Disney’s Animal Kingdom",
+    address: "Orlando, Florida",
+    description: "A wildlife-themed Disney park blending safari exploration with imaginative rides.",
+    about: "Animal Kingdom is Disney’s nature-inspired park, home to live animal safaris, Avatar’s Pandora world, and thrilling rides like Expedition Everest. It's a blend of wildlife conservation and immersive fantasy.",
+    lat: 28.3553,
+    lon: -81.5900,
+    climate: "Humid Subtropical",
+    landscape: "Jungles, Rivers, Mountains",
+    activities: ["Animal Viewing", "Themed Rides", "Cultural Shows"],
+    culture: "Global Ecology & Adventure",
+    budget: "High",
+    localAttractions: [
+      "Pandora – World of Avatar",
+      "Kilimanjaro Safaris",
+      "Expedition Everest",
+      "Festival of the Lion King",
+      "Tree of Life"
+    ],
+    adventures: [
+      "Flight of Passage 3D Ride",
+      "African Wildlife Safari",
+      "DinoLand USA Fossil Digs",
+      "Jungle Walks",
+      "Cultural Drum Circles"
+    ],
+    localCuisines: [
+      "African Skewers",
+      "Na’vi Blue Cheesecake",
+      "Asian Stir-Fry",
+      "Pulled Pork Sandwiches",
+      "Wildlife Cupcakes"
+    ],
+    shopping: [
+      "Safari Hats",
+      "Avatar Glow Gear",
+      "Tribal Jewelry",
+      "Animal Plush Toys",
+      "Eco-Friendly Disney Goods"
+    ]
+  },
+  {
+    id: 127,
+    name: "LEGOLAND California",
+    address: "Carlsbad, California",
+    description: "A colorful family theme park centered around LEGO-themed attractions and creativity.",
+    about: "LEGOLAND California is perfect for kids and LEGO fans of all ages. With interactive rides, hands-on building stations, and miniature LEGO cities, it blends creativity with excitement.",
+    lat: 33.1266,
+    lon: -117.3110,
+    climate: "Mediterranean",
+    landscape: "Mini Cities, Lakes, Gardens",
+    activities: ["LEGO Builds", "Water Rides", "Roller Coasters"],
+    culture: "Toy-Based Imagination",
+    budget: "Moderate",
+    localAttractions: [
+      "Miniland USA",
+      "Dragon Coaster",
+      "LEGO Ninjago Ride",
+      "LEGO Movie World",
+      "SEA LIFE Aquarium"
+    ],
+    adventures: [
+      "Build & Race LEGO Cars",
+      "Interactive Dark Rides",
+      "Water Splash Zones",
+      "LEGO Robotics Workshops",
+      "Firefighter Training Ride"
+    ],
+    localCuisines: [
+      "Giant LEGO Brick Pretzels",
+      "Theme Burgers",
+      "Fruit Smoothies",
+      "Kid-Friendly Mac & Cheese",
+      "Minifigure Cookies"
+    ],
+    shopping: [
+      "LEGO Sets",
+      "Minifigures",
+      "Park-Exclusive Kits",
+      "LEGO-Themed Backpacks",
+      "Custom Name Bricks"
+    ]
+  },
+  {
+    id: 128,
+    name: "SeaWorld Orlando",
+    address: "Orlando, Florida",
+    description: "A marine-themed park offering thrilling rides, animal encounters, and aquatic education.",
+    about: "SeaWorld Orlando is where marine life meets excitement. It’s home to thrilling coasters, dolphin shows, penguin encounters, and conservation education for all ages.",
+    lat: 28.4119,
+    lon: -81.4620,
+    climate: "Humid Subtropical",
+    landscape: "Aquariums, Lagoons, Coaster Zones",
+    activities: ["Roller Coasters", "Animal Shows", "Aquatic Exhibits"],
+    culture: "Marine Wildlife & Adventure",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Mako Roller Coaster",
+      "Infinity Falls",
+      "Dolphin Days Show",
+      "Antarctica: Empire of the Penguin",
+      "Shark Encounter Tunnel"
+    ],
+    adventures: [
+      "Feed Dolphins",
+      "Ride Ice Breaker Coaster",
+      "Splash Raft Rides",
+      "Up-Close Penguin Habitat Tour",
+      "Behind-the-Scenes Animal Rescue"
+    ],
+    localCuisines: [
+      "Seafood Platters",
+      "Shark-Bite Nachos",
+      "Pretzel Bites",
+      "Tropical Smoothies",
+      "Ice Cream Cones"
+    ],
+    shopping: [
+      "Stuffed Sea Animals",
+      "Shark Hats",
+      "Educational Toys",
+      "SeaWorld Apparel",
+      "Marine Fossil Kits"
+    ]
+  },
+  {
+    id: 129,
+    name: "Busch Gardens Tampa Bay",
+    address: "Tampa, Florida",
+    description: "A theme park blending African wildlife experiences with high-thrill roller coasters.",
+    about: "Busch Gardens is where safari meets scream. Ride intense coasters like SheiKra, see giraffes up close, and enjoy family shows, all within beautifully themed African-inspired zones.",
+    lat: 28.0388,
+    lon: -82.4201,
+    climate: "Humid Subtropical",
+    landscape: "Savannas, Coaster Tracks, Botanical Gardens",
+    activities: ["Roller Coasters", "Animal Encounters", "Live Shows"],
+    culture: "Safari Adventure & Thrill",
+    budget: "Moderate to High",
+    localAttractions: [
+      "SheiKra Dive Coaster",
+      "Cheetah Hunt",
+      "Serengeti Safari",
+      "Tigris Launch Coaster",
+      "Jungala Kids Zone"
+    ],
+    adventures: [
+      "Up-Close Animal Safaris",
+      "Tiger & Gorilla Viewing",
+      "Ride Floorless Coasters",
+      "Cultural Dance Shows",
+      "Wildlife Keeper Experiences"
+    ],
+    localCuisines: [
+      "African-Spiced Chicken",
+      "BBQ Platters",
+      "Ice-Cold Lemonade",
+      "Jungle Snacks",
+      "Roasted Corn Cups"
+    ],
+    shopping: [
+      "Safari Hats & Vests",
+      "Animal Plushies",
+      "Busch Gardens Gear",
+      "Nature Activity Books",
+      "Hand-Carved Souvenirs"
+    ]
+  },
+  {
+    id: 130,
+    name: "Dry Tortugas National Park",
+    address: "Key West, Florida (Accessible by Boat or Seaplane)",
+    description: "A remote island park with turquoise waters, coral reefs, and a massive Civil War-era fort.",
+    about: "Dry Tortugas is 70 miles west of Key West and one of the most isolated U.S. national parks. It's home to Fort Jefferson, pristine beaches, and world-class snorkeling, only reachable by ferry or seaplane.",
+    lat: 24.6285,
+    lon: -82.8732,
+    climate: "Tropical Marine",
+    landscape: "Coral Islands, Fort Walls, Turquoise Sea",
+    activities: ["Snorkeling", "Swimming", "Historical Touring"],
+    culture: "Coastal Defense History & Marine Ecology",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Fort Jefferson",
+      "Moat Walkway",
+      "Loggerhead Key",
+      "Underwater Coral Gardens",
+      "Bush Key Bird Sanctuary"
+    ],
+    adventures: [
+      "Snorkel Coral Reefs",
+      "Sunbathe on Remote Beaches",
+      "Seaplane Photo Flights",
+      "Kayaking Around the Fort",
+      "Birdwatching Rare Species"
+    ],
+    localCuisines: [
+      "Bring-Your-Own Picnic",
+      "Key West Snacks",
+      "Dried Mango Slices",
+      "Tropical Trail Mix",
+      "Coconut Water"
+    ],
+    shopping: [
+      "Park-Themed Gear (from Key West)",
+      "Marine Life Books",
+      "Waterproof Gear",
+      "Dry Tortugas Patches",
+      "Postcards from the Edge"
+    ]
+  },
+  {
+    id: 131,
+    name: "The Wave (Coyote Buttes North)",
+    address: "Arizona–Utah Border",
+    description: "A sandstone rock formation of undulating patterns and color bands, accessible by permit only.",
+    about: "The Wave is an ultra-exclusive geological marvel requiring a lottery permit to visit. Its swirling rock formations and remote desert location make it one of the most sought-after photo spots in the world.",
+    lat: 36.9955,
+    lon: -112.0069,
+    climate: "Desert",
+    landscape: "Striped Sandstone Hills, Barren Desert",
+    activities: ["Photography", "Backcountry Hiking", "Geological Exploration"],
+    culture: "Protected Wilderness & Geology",
+    budget: "Low (but limited access)",
+    localAttractions: [
+      "The Wave",
+      "Wire Pass Trail",
+      "Buckskin Gulch",
+      "Paria Canyon-Vermilion Cliffs",
+      "White Pocket"
+    ],
+    adventures: [
+      "Permit-Only Hikes",
+      "Sunrise & Sunset Photography",
+      "Solo Desert Trekking",
+      "GPS Navigation Challenges",
+      "Rock Art Exploration"
+    ],
+    localCuisines: [
+      "Pack-In Meals",
+      "Desert-Friendly Snacks",
+      "Dried Fruit & Trail Mix",
+      "Canteen Water Supplies",
+      "Energy Bars"
+    ],
+    shopping: [
+      "High-Res Prints of The Wave",
+      "Topographic Maps",
+      "Wilderness Permits",
+      "Southwest-Themed Gear",
+      "Hiker Journals"
+    ]
+  },
+  {
+    id: 132,
+    name: "New Orleans",
+    address: "Louisiana, USA",
+    description: "The Crescent City known for jazz, Mardi Gras, and a rich mix of Creole culture.",
+    about: "New Orleans is where music flows through the streets and every bite tells a cultural story. From Bourbon Street to Frenchmen Street, it’s a soulful city full of rhythm, food, and festive spirit.",
+    lat: 29.9511,
+    lon: -90.0715,
+    climate: "Humid Subtropical",
+    landscape: "Urban, Riverfront, Historic Quarters",
+    activities: ["Jazz Nights", "Ghost Tours", "Festivals"],
+    culture: "Creole, Jazz, and Carnival",
+    budget: "Flexible",
+    localAttractions: [
+      "French Quarter",
+      "Jackson Square",
+      "Mardi Gras World",
+      "Garden District",
+      "Frenchmen Street Music Clubs"
+    ],
+    adventures: [
+      "Voodoo History Walks",
+      "Riverboat Jazz Cruises",
+      "Cemetery Tours",
+      "Bayou Swamp Rides",
+      "Mardi Gras Parades"
+    ],
+    localCuisines: [
+      "Gumbo",
+      "Beignets",
+      "Crawfish Étouffée",
+      "Po’ Boys",
+      "Bananas Foster"
+    ],
+    shopping: [
+      "Voodoo Dolls",
+      "Mardi Gras Beads",
+      "Jazz Records",
+      "Creole Spices",
+      "French Market Finds"
+    ]
+  },
+  {
+    id: 133,
+    name: "Denali National Park",
+    address: "Alaska, USA",
+    description: "Home to North America's tallest peak and a vast wilderness filled with wildlife.",
+    about: "Denali National Park offers a raw, breathtaking landscape of alpine tundra, glaciers, and wildlife like grizzlies, moose, and wolves. The park is centered around the towering Denali (Mount McKinley).",
+    lat: 63.1148,
+    lon: -151.1926,
+    climate: "Subarctic",
+    landscape: "Mountains, Glaciers, Tundra",
+    activities: ["Wildlife Viewing", "Hiking", "Photography"],
+    culture: "Alaskan Wilderness & Native Heritage",
+    budget: "Moderate",
+    localAttractions: [
+      "Denali Park Road",
+      "Wonder Lake",
+      "Eielson Visitor Center",
+      "Mount Denali",
+      "Savage River Loop"
+    ],
+    adventures: [
+      "Backcountry Camping",
+      "Bus Wildlife Tours",
+      "Northern Lights Viewing",
+      "River Rafting",
+      "Mountaineering Expeditions"
+    ],
+    localCuisines: [
+      "Smoked Salmon",
+      "Wild Berry Jam",
+      "Reindeer Sausage",
+      "Caribou Stew",
+      "Alaskan Sourdough Bread"
+    ],
+    shopping: [
+      "Handcrafted Inuit Art",
+      "Wildlife Photography Prints",
+      "Trail Gear",
+      "Park Pins & Maps",
+      "Locally Made Preserves"
+    ]
+  },
+  {
+    id: 134,
+    name: "Glacier National Park",
+    address: "Montana, USA",
+    description: "A crown jewel of the Rockies with stunning alpine scenery and historic lodges.",
+    about: "Glacier National Park features glacier-carved valleys, crystal-clear lakes, and scenic drives like Going-to-the-Sun Road. It’s a haven for hikers, backpackers, and road trippers.",
+    lat: 48.7596,
+    lon: -113.7870,
+    climate: "Alpine",
+    landscape: "Glaciers, Valleys, Lakes",
+    activities: ["Hiking", "Road Tripping", "Wildlife Watching"],
+    culture: "Rocky Mountain Wilderness",
+    budget: "Moderate",
+    localAttractions: [
+      "Going-to-the-Sun Road",
+      "Lake McDonald",
+      "Many Glacier",
+      "Logan Pass",
+      "St. Mary Falls"
+    ],
+    adventures: [
+      "Grizzly Spotting",
+      "Glacier Lake Canoeing",
+      "Backcountry Trails",
+      "Scenic Drive Photography",
+      "Mountain Goat Hikes"
+    ],
+    localCuisines: [
+      "Montana Huckleberry Pie",
+      "Elk Burgers",
+      "Bison Chili",
+      "Lodge Hot Chocolate",
+      "Locally Roasted Coffee"
+    ],
+    shopping: [
+      "Huckleberry Products",
+      "Vintage Park Posters",
+      "Bear-Themed Apparel",
+      "Woodland Carvings",
+      "Photography Books"
+    ]
+  },
+  {
+    id: 135,
+    name: "Great Smoky Mountains Railroad",
+    address: "Bryson City, North Carolina",
+    description: "A scenic train ride through Appalachian forests, tunnels, and river gorges.",
+    about: "The Great Smoky Mountains Railroad offers heritage rail excursions through the Blue Ridge Mountains. It’s perfect for leaf peepers, history lovers, and slow-travel fans.",
+    lat: 35.4312,
+    lon: -83.4471,
+    climate: "Mountain Temperate",
+    landscape: "Forests, Rivers, Tunnels",
+    activities: ["Train Rides", "Sightseeing", "Photography"],
+    culture: "Southern Rail & Appalachian Heritage",
+    budget: "Moderate",
+    localAttractions: [
+      "Nantahala Gorge",
+      "Tuckasegee River Excursion",
+      "Railroad Museum",
+      "Fall Foliage Routes",
+      "Polar Express (Winter)"
+    ],
+    adventures: [
+      "River View Rides",
+      "Open-Air Gondola Experience",
+      "Leaf Season Photo Trips",
+      "Themed Holiday Trains",
+      "Lunch on the Rails"
+    ],
+    localCuisines: [
+      "Southern Fried Chicken",
+      "Cornbread & Honey Butter",
+      "Apple Cider",
+      "Grits with Cheese",
+      "Pecan Pie"
+    ],
+    shopping: [
+      "Railroad Caps",
+      "Model Trains",
+      "Appalachian Folk Crafts",
+      "Train-Themed Toys",
+      "Route Maps & Posters"
+    ]
+  },
+  {
+    id: 136,
+    name: "Cherry Springs State Park",
+    address: "Coudersport, Pennsylvania",
+    description: "One of the best stargazing spots in the eastern U.S. with near-zero light pollution.",
+    about: "Cherry Springs is a Dark Sky Park offering crystal-clear views of the Milky Way and meteor showers. It's beloved by astronomers, campers, and romantic skywatchers.",
+    lat: 41.6630,
+    lon: -77.8164,
+    climate: "Temperate Forest",
+    landscape: "Woodlands, Open Sky Fields",
+    activities: ["Stargazing", "Camping", "Astronomy Education"],
+    culture: "Dark Sky Conservation",
+    budget: "Affordable",
+    localAttractions: [
+      "Astronomy Field",
+      "Milky Way Views",
+      "Public Telescope Events",
+      "Star Parties",
+      "PA Wilds Trails"
+    ],
+    adventures: [
+      "Meteor Shower Watching",
+      "Astrophotography",
+      "Night Hikes",
+      "Guided Sky Tours",
+      "Northern Lights Spotting (Occasionally)"
+    ],
+    localCuisines: [
+      "Campfire Hot Dogs",
+      "Dutch Country Pretzels",
+      "Apple Butter Spread",
+      "Warm Spiced Cider",
+      "Trail Mix with Chocolate"
+    ],
+    shopping: [
+      "Glow-in-the-Dark Maps",
+      "Star Charts",
+      "Red Flashlights",
+      "Park Souvenirs",
+      "Astronomy Books"
+    ]
+  },
+  {
+    id: 137,
+    name: "Salem",
+    address: "Massachusetts, USA",
+    description: "A historic town best known for the 1692 witch trials and its spooky charm.",
+    about: "Salem is steeped in colonial and paranormal history. Walk cobbled streets filled with haunted tales, mystical shops, and witch-themed attractions perfect for fall travelers.",
+    lat: 42.5195,
+    lon: -70.8967,
+    climate: "Humid Continental",
+    landscape: "Historic Streets, Coastal Views",
+    activities: ["Witch Tours", "Museum Hopping", "Halloween Events"],
+    culture: "Colonial America & Occult Folklore",
+    budget: "Moderate",
+    localAttractions: [
+      "Salem Witch Museum",
+      "The Witch House",
+      "Old Burying Point Cemetery",
+      "Peabody Essex Museum",
+      "Haunted Happenings Festival"
+    ],
+    adventures: [
+      "Ghost Walks",
+      "Tarot Readings",
+      "Haunted Harbor Cruises",
+      "Costume Parades",
+      "Witch Trial Reenactments"
+    ],
+    localCuisines: [
+      "Clam Chowder",
+      "Pumpkin Pie",
+      "Witch’s Brew Lattes",
+      "Seafood Rolls",
+      "Apple Cider Donuts"
+    ],
+    shopping: [
+      "Crystal Wands",
+      "Spell Books",
+      "Witch-Themed Decor",
+      "Handmade Candles",
+      "Occult Jewelry"
+    ]
+  },
+  {
+    id: 138,
+    name: "Winslow",
+    address: "Arizona, USA",
+    description: "A Route 66 gem immortalized by the Eagles’ song 'Take It Easy'.",
+    about: "Winslow is a nostalgic stop on the old Route 66 trail. Known for its musical landmark, it also offers charming roadside history, local diners, and quirky Americana.",
+    lat: 35.0242,
+    lon: -110.6974,
+    climate: "Semi-Arid",
+    landscape: "High Desert, Historic Streets",
+    activities: ["Photo Ops", "Music History Tours", "Vintage Shopping"],
+    culture: "Classic Americana & 1970s Music",
+    budget: "Affordable",
+    localAttractions: [
+      "Standin’ on the Corner Park",
+      "Old Trails Museum",
+      "La Posada Hotel",
+      "Route 66 Plaza",
+      "Meteor Crater Nearby"
+    ],
+    adventures: [
+      "Retro Car Photography",
+      "Eagles Song Scavenger Hunt",
+      "Night Sky Gazing",
+      "Historic Route 66 Drive",
+      "Local Art Installations"
+    ],
+    localCuisines: [
+      "Diner Burgers",
+      "Blue Corn Enchiladas",
+      "Arizona Green Chile Stew",
+      "Cactus Tacos",
+      "Homestyle Milkshakes"
+    ],
+    shopping: [
+      "Route 66 Signs",
+      "Eagles Vinyls",
+      "Desert-Themed Art",
+      "Historic Postcards",
+      "Winslow Tees"
+    ]
+  },
+  {
+    id: 139,
+    name: "Hells Canyon",
+    address: "Oregon–Idaho Border, USA",
+    description: "The deepest river gorge in North America — even deeper than the Grand Canyon.",
+    about: "Hells Canyon, carved by the Snake River, offers remote wilderness, rugged trails, and powerful rafting experiences. It's a paradise for adventurers craving raw nature.",
+    lat: 45.1758,
+    lon: -116.7461,
+    climate: "Mountain Semi-Arid",
+    landscape: "River Gorge, Cliffs, Forests",
+    activities: ["Rafting", "Backpacking", "Scenic Drives"],
+    culture: "Pacific Northwest Wildlands",
+    budget: "Moderate",
+    localAttractions: [
+      "Snake River Overlook",
+      "Hells Canyon Scenic Byway",
+      "Hat Point Lookout",
+      "Hells Canyon Dam",
+      "Oxbow Bend"
+    ],
+    adventures: [
+      "Multi-Day River Rafting",
+      "Cliff Hiking",
+      "Backcountry Wildlife Tracking",
+      "Mountain Stargazing",
+      "Fishing Excursions"
+    ],
+    localCuisines: [
+      "Smoked Trout",
+      "Riverbank BBQ",
+      "Campfire Beans",
+      "Wild Berry Jam",
+      "Rustic Trail Mix"
+    ],
+    shopping: [
+      "River Maps",
+      "Hand-Carved Wooden Gear",
+      "Fishing Accessories",
+      "Adventure Journals",
+      "Hiking Pins"
+    ]
+  },
+  {
+    id: 140,
+    name: "San Juan",
+    address: "Puerto Rico (U.S. Territory)",
+    description: "A vibrant Caribbean capital rich in Spanish colonial history and beachside charm.",
+    about: "San Juan blends centuries-old fortresses and cobblestone streets with modern nightlife and tropical beaches. It’s a cultural powerhouse of Afro-Caribbean, Spanish, and American influences.",
+    lat: 18.4655,
+    lon: -66.1057,
+    climate: "Tropical",
+    landscape: "Beaches, Old City Walls, Rainforest Nearby",
+    activities: ["Walking Tours", "Salsa Dancing", "Beach Lounging"],
+    culture: "Colonial Heritage & Caribbean Flair",
+    budget: "Moderate",
+    localAttractions: [
+      "El Morro Fortress",
+      "Old San Juan",
+      "La Perla",
+      "Condado Beach",
+      "Paseo de la Princesa"
+    ],
+    adventures: [
+      "Bioluminescent Bay Kayaking",
+      "Snorkeling Reefs",
+      "Fortress Exploration",
+      "Salsa Nights in Santurce",
+      "Rainforest Ziplining (El Yunque)"
+    ],
+    localCuisines: [
+      "Mofongo",
+      "Arroz con Gandules",
+      "Tostones",
+      "Piña Colada",
+      "Tembleque"
+    ],
+    shopping: [
+      "Handmade Hammocks",
+      "Puerto Rican Coffee",
+      "Colorful Ceramics",
+      "Local Rum Bottles",
+      "Taino Symbol Jewelry"
+    ]
+  },
+  {
+    id: 141,
+    name: "Silicon Valley",
+    address: "California, USA",
+    description: "The global hub of technology, innovation, and modern entrepreneurship.",
+    about: "Silicon Valley, home to tech giants and startups, is where the future is built. Visitors explore campuses, innovation museums, and vibrant downtowns full of creative energy.",
+    lat: 37.3875,
+    lon: -122.0575,
+    climate: "Mediterranean",
+    landscape: "Corporate Campuses, Rolling Hills",
+    activities: ["Tech Tours", "Innovation Exhibits", "Startup Meetups"],
+    culture: "Entrepreneurial & Global",
+    budget: "High",
+    localAttractions: [
+      "Apple Park Visitor Center",
+      "Computer History Museum",
+      "Googleplex",
+      "Stanford University",
+      "Intel Museum"
+    ],
+    adventures: [
+      "Bike Tech Trails",
+      "Campus Photography",
+      "Startup Incubator Tours",
+      "AI Conference Events",
+      "Self-Guided VR Experiences"
+    ],
+    localCuisines: [
+      "Plant-Based Bowls",
+      "Techie Espresso Bars",
+      "Korean BBQ",
+      "Fusion Burritos",
+      "Bubble Tea"
+    ],
+    shopping: [
+      "Tech Swag Apparel",
+      "Startup Books",
+      "Smart Home Gadgets",
+      "VR Headsets",
+      "Custom Keyboard Gear"
+    ]
+  },
+  {
+    id: 142,
+    name: "Kauai",
+    address: "Hawaii, USA",
+    description: "The 'Garden Isle' filled with waterfalls, canyons, and tropical serenity.",
+    about: "Kauai is the oldest and lushest of the Hawaiian islands. Known for dramatic cliffs, hidden beaches, and rainforests, it’s a peaceful paradise often used as a Hollywood filming location.",
+    lat: 22.0964,
+    lon: -159.5261,
+    climate: "Tropical Rainforest",
+    landscape: "Rainforests, Cliffs, Beaches",
+    activities: ["Hiking", "Beach Picnics", "Helicopter Tours"],
+    culture: "Polynesian & Eco-Tourism",
+    budget: "High",
+    localAttractions: [
+      "Na Pali Coast",
+      "Waimea Canyon",
+      "Wailua River",
+      "Hanalei Bay",
+      "Tunnels Beach"
+    ],
+    adventures: [
+      "Jurassic Falls Helicopter Tour",
+      "Canoe the Wailua",
+      "Beach Camping",
+      "Sunset Surfing",
+      "Snorkeling with Sea Turtles"
+    ],
+    localCuisines: [
+      "Poke Bowls",
+      "Poi",
+      "Fresh Pineapple",
+      "Loco Moco",
+      "Coconut Shave Ice"
+    ],
+    shopping: [
+      "Hawaiian Prints",
+      "Locally Grown Coffee",
+      "Lava Rock Jewelry",
+      "Handwoven Baskets",
+      "Tropical Fruit Jams"
+    ]
+  },
+  {
+    id: 143,
+    name: "Astoria",
+    address: "Oregon, USA",
+    description: "A coastal port city famous for its role in 'The Goonies' and charming maritime vibe.",
+    about: "Astoria lies at the mouth of the Columbia River and exudes historic charm. Its film fame, Victorian homes, and riverwalk make it a Pacific Northwest gem.",
+    lat: 46.1879,
+    lon: -123.8313,
+    climate: "Oceanic",
+    landscape: "Riverfront Hills, Coastal Forests",
+    activities: ["Historic Tours", "Film Site Visits", "Fishing Excursions"],
+    culture: "Maritime & Pop Culture",
+    budget: "Moderate",
+    localAttractions: [
+      "Goonies House",
+      "Astoria Column",
+      "Columbia River Maritime Museum",
+      "Fort Stevens",
+      "Riverwalk Trail"
+    ],
+    adventures: [
+      "Watch Sea Lions",
+      "Goonies Filming Locations Tour",
+      "Ride the Riverfront Trolley",
+      "Shipwreck Hunting on Shore",
+      "Climb the Astoria Column"
+    ],
+    localCuisines: [
+      "Salmon Chowder",
+      "Dungeness Crab Rolls",
+      "Salted Caramel Ice Cream",
+      "Fisherman’s Platter",
+      "Craft Cider"
+    ],
+    shopping: [
+      "Goonies Memorabilia",
+      "Maritime Maps",
+      "Hand-Carved Buoys",
+      "Seashell Art",
+      "Vintage Bookstores"
+    ]
+  },
+  {
+    id: 144,
+    name: "Fallingwater",
+    address: "Mill Run, Pennsylvania",
+    description: "Frank Lloyd Wright’s masterpiece home built directly over a waterfall.",
+    about: "Fallingwater is one of the most iconic architectural feats in the U.S., harmonizing modernist design with nature. It’s a pilgrimage site for design enthusiasts worldwide.",
+    lat: 39.9066,
+    lon: -79.4674,
+    climate: "Temperate",
+    landscape: "Woodlands, Streams, Hills",
+    activities: ["Architecture Tours", "Nature Walks", "Photography"],
+    culture: "Modern Architecture & Natural Harmony",
+    budget: "Moderate",
+    localAttractions: [
+      "Fallingwater House",
+      "Bear Run Nature Reserve",
+      "Ohiopyle Falls",
+      "Kentuck Knob",
+      "Ferncliff Peninsula"
+    ],
+    adventures: [
+      "Guided Home Tours",
+      "Hiking the Laurel Highlands",
+      "Creekside Picnicking",
+      "Architectural Workshops",
+      "Wildflower Walks"
+    ],
+    localCuisines: [
+      "Farm-to-Table Sandwiches",
+      "Artisan Cheeses",
+      "Seasonal Berry Tarts",
+      "Locally Roasted Coffee",
+      "Homestyle Soups"
+    ],
+    shopping: [
+      "Architectural Books",
+      "Fallingwater Models",
+      "Crafted Pottery",
+      "Design Posters",
+      "Organic Garden Seeds"
+    ]
+  },
+  {
+    id: 145,
+    name: "Winchester Mystery House",
+    address: "San Jose, California",
+    description: "A bizarre Victorian mansion with staircases to nowhere and secret rooms.",
+    about: "Built by Sarah Winchester, heiress to the rifle fortune, this mysterious house is said to be haunted and was continuously constructed for decades to appease spirits.",
+    lat: 37.3184,
+    lon: -121.9500,
+    climate: "Mediterranean",
+    landscape: "Urban Gardens, Historic District",
+    activities: ["Haunted Tours", "Puzzle Rooms", "History Walks"],
+    culture: "Victorian Oddities & Paranormal Lore",
+    budget: "Moderate",
+    localAttractions: [
+      "Seance Room",
+      "Ghost Tours",
+      "Labyrinth Rooms",
+      "Garden Maze",
+      "Antique Firearms Museum"
+    ],
+    adventures: [
+      "Flashlight Night Tours",
+      "Mystery Solving Games",
+      "Spooky Storytelling Events",
+      "Paranormal Investigation Nights",
+      "Halloween Haunted House"
+    ],
+    localCuisines: [
+      "Victorian Tea Snacks",
+      "Bay Area Boba",
+      "Mini Quiches",
+      "Espresso Desserts",
+      "Ghost-Themed Donuts"
+    ],
+    shopping: [
+      "Mystery House Miniatures",
+      "Vintage Keys",
+      "Ghost Books",
+      "Puzzle Games",
+      "Steampunk Jewelry"
+    ]
+  },
+  {
+    id: 146,
+    name: "The Alamo",
+    address: "San Antonio, Texas",
+    description: "An enduring symbol of Texas independence and historic battleground.",
+    about: "The Alamo is one of the most visited historic sites in the U.S., memorializing the 1836 battle between Texians and the Mexican army. It’s both a museum and symbol of liberty.",
+    lat: 29.4259,
+    lon: -98.4861,
+    climate: "Subtropical",
+    landscape: "Urban Plaza, Historic Grounds",
+    activities: ["Historical Tours", "Interactive Exhibits", "Cultural Events"],
+    culture: "Texas History & Colonial Legacy",
+    budget: "Free to Moderate",
+    localAttractions: [
+      "Alamo Church",
+      "Long Barrack Museum",
+      "San Antonio Riverwalk",
+      "Hemisfair Park",
+      "La Villita Historic Arts Village"
+    ],
+    adventures: [
+      "Reenactments",
+      "Guided Walking Tours",
+      "Mission Trail Cycling",
+      "Evening Illumination Shows",
+      "Living History Events"
+    ],
+    localCuisines: [
+      "Texas Chili",
+      "Puffy Tacos",
+      "Barbacoa",
+      "Prickly Pear Lemonade",
+      "Sopapillas"
+    ],
+    shopping: [
+      "Alamo Replicas",
+      "Texas Flags",
+      "Hand-Stitched Leather Goods",
+      "Battle Maps",
+      "Cultural Crafts"
+    ]
+  },
+  {
+    id: 147,
+    name: "Carhenge",
+    address: "Alliance, Nebraska",
+    description: "A whimsical replica of Stonehenge built entirely from vintage cars.",
+    about: "Carhenge is one of the quirkiest roadside stops in America, made from painted gray automobiles aligned with the solstice. It’s a love letter to both history and highway culture.",
+    lat: 42.1335,
+    lon: -102.8658,
+    climate: "Plains Continental",
+    landscape: "Open Grasslands",
+    activities: ["Roadside Stops", "Art Installations", "Picnicking"],
+    culture: "American Kitsch & Car Culture",
+    budget: "Free",
+    localAttractions: [
+      "Carhenge Circle",
+      "Dino Car Sculpture",
+      "Visitor’s Interpretive Center",
+      "Solar Alignments",
+      "Route 385 History Signs"
+    ],
+    adventures: [
+      "Roadside Oddities Tour",
+      "Sunrise Alignment Viewing",
+      "Art Car Festivals",
+      "Photo Shoots",
+      "Stargazing on the Prairie"
+    ],
+    localCuisines: [
+      "Midwest Jerky Packs",
+      "Root Beer Floats",
+      "Corn on the Cob",
+      "Truck Stop Pies",
+      "Grilled Cheese Sandwiches"
+    ],
+    shopping: [
+      "Miniature Carhenge Replicas",
+      "Road Trip Magnets",
+      "Vintage Route 66 Tees",
+      "License Plate Art",
+      "Kitschy Travel Books"
+    ]
+  },
+  {
+    id: 148,
+    name: "Marfa",
+    address: "Texas, USA",
+    description: "A desert town where minimalist art meets mysterious lights.",
+    about: "Marfa is an artsy outpost in West Texas known for Donald Judd’s installations, quirky galleries, and the unexplained Marfa Lights—strange glowing orbs seen in the desert sky.",
+    lat: 30.3094,
+    lon: -104.0206,
+    climate: "Desert",
+    landscape: "Plateaus, Open Sky, Desert Brush",
+    activities: ["Art Viewing", "Light Watching", "Desert Drives"],
+    culture: "Minimalist Art & Texas Folklore",
+    budget: "Moderate",
+    localAttractions: [
+      "Chinati Foundation",
+      "Marfa Lights Viewing Area",
+      "Prada Marfa",
+      "Ballroom Marfa",
+      "Food Shark Bus"
+    ],
+    adventures: [
+      "Stargazing",
+      "Art Hopping",
+      "Light Phenomena Hunts",
+      "Photo Shoots with Prada Marfa",
+      "Ranch Tours"
+    ],
+    localCuisines: [
+      "Food Truck Tacos",
+      "Texas Queso",
+      "Iced Horchata",
+      "Desert Lemonade",
+      "Avocado Burgers"
+    ],
+    shopping: [
+      "Desert Art Prints",
+      "Marfa Tees",
+      "Southwestern Jewelry",
+      "Art Books",
+      "Handmade Hats"
+    ]
+  },
+  {
+    id: 149,
+    name: "Devils Tower",
+    address: "Wyoming, USA",
+    description: "A striking monolith and sacred Native site made famous by Spielberg's 'Close Encounters'.",
+    about: "Rising over 1,200 feet, Devils Tower is a geological wonder revered by Native tribes and made iconic by Hollywood. It's a favorite for climbers, hikers, and film buffs alike.",
+    lat: 44.5902,
+    lon: -104.7146,
+    climate: "Plains/Mountain",
+    landscape: "Buttes, Forests, Open Prairie",
+    activities: ["Hiking", "Climbing", "Sightseeing"],
+    culture: "Native Sacred Site & Film Legacy",
+    budget: "Moderate",
+    localAttractions: [
+      "Tower Trail",
+      "Visitor Center",
+      "Circle of Sacred Smoke",
+      "Climbing Routes",
+      "Close Encounters Info Spots"
+    ],
+    adventures: [
+      "Rock Climbing",
+      "Sunset Photography",
+      "Sacred Circle Hikes",
+      "Prairie Dog Watching",
+      "Cultural Ranger Talks"
+    ],
+    localCuisines: [
+      "Trail Mix",
+      "Local Jerky",
+      "Fry Bread",
+      "Wild Berry Snacks",
+      "Campfire Hot Dogs"
+    ],
+    shopping: [
+      "Alien-Themed Tees",
+      "Geology Kits",
+      "Postcards",
+      "Native Crafts",
+      "Monolith Mugs"
+    ]
+  },
+  {
+    id: 150,
+    name: "Wall Drug",
+    address: "Wall, South Dakota",
+    description: "A legendary roadside stop mixing cowboy kitsch, free water, and a Western town feel.",
+    about: "Originally offering free ice water, Wall Drug has grown into a kitschy mega-attraction featuring a cowboy-themed mall, animatronics, giant jackalopes, and photo ops galore.",
+    lat: 43.9904,
+    lon: -102.2416,
+    climate: "Plains",
+    landscape: "Flatlands, Roadside Strip",
+    activities: ["Shopping", "Photo Ops", "Food Sampling"],
+    culture: "Roadside Americana",
+    budget: "Affordable",
+    localAttractions: [
+      "Giant Dinosaur",
+      "Western Art Gallery",
+      "Backyard Playground",
+      "Shooting Gallery",
+      "Travel Chapel"
+    ],
+    adventures: [
+      "Jackalope Rides",
+      "Homemade Donut Sampling",
+      "Old-Timey Photo Booths",
+      "Animatronic Shows",
+      "Free Ice Water Stop"
+    ],
+    localCuisines: [
+      "Buffalo Burgers",
+      "Homemade Pie",
+      "Fudge Squares",
+      "Donuts",
+      "Fried Chicken"
+    ],
+    shopping: [
+      "Cowboy Boots",
+      "Western Hats",
+      "Dakota Souvenirs",
+      "Jackalope Figurines",
+      "Ranch Mugs"
+    ]
+  },
+  {
+    id: 151,
+    name: "Mount St. Helens",
+    address: "Washington, USA",
+    description: "A volcano that reshaped a region and reveals powerful geological history.",
+    about: "Mount St. Helens famously erupted in 1980, and its dramatic landscape now offers trails, viewpoints, and education on volcanoes and ecological recovery.",
+    lat: 46.1912,
+    lon: -122.1944,
+    climate: "Mountain Temperate",
+    landscape: "Volcano Crater, Alpine Forests",
+    activities: ["Hiking", "Educational Tours", "Geology Walks"],
+    culture: "Volcanology & Environmental Recovery",
+    budget: "Moderate",
+    localAttractions: [
+      "Johnston Ridge Observatory",
+      "Hummocks Trail",
+      "Spirit Lake",
+      "Windy Ridge",
+      "Ape Cave Lava Tubes"
+    ],
+    adventures: [
+      "Crater Rim Hiking",
+      "Lava Tube Caving",
+      "Helicopter Flyovers",
+      "Forest Regeneration Hikes",
+      "Mountain Biking"
+    ],
+    localCuisines: [
+      "Trail Snacks",
+      "Wild Berry Pastries",
+      "Campfire Stew",
+      "Artisan Honey",
+      "Granola Bars"
+    ],
+    shopping: [
+      "Volcano Rock Souvenirs",
+      "Educational Books",
+      "Park Patches",
+      "Eruption Memorabilia",
+      "Topographic Maps"
+    ]
+  },
+  {
+    id: 152,
+    name: "Hollywood Walk of Fame",
+    address: "Los Angeles, California",
+    description: "The sidewalk that honors stars of film, music, and television in Hollywood glamour.",
+    about: "Stretching along Hollywood Boulevard, the Walk of Fame celebrates entertainment legends with over 2,700 stars. It’s a must-visit for pop culture fans and dreamers alike.",
+    lat: 34.1016,
+    lon: -118.3269,
+    climate: "Mediterranean",
+    landscape: "Urban City Streets",
+    activities: ["Celebrity Spotting", "Star Tours", "Museum Visits"],
+    culture: "Cinema & Pop Culture History",
+    budget: "Free to Moderate",
+    localAttractions: [
+      "TCL Chinese Theatre",
+      "Hollywood & Highland Center",
+      "Hollywood Museum",
+      "Dolby Theatre",
+      "Capitol Records Building"
+    ],
+    adventures: [
+      "Star Map Tours",
+      "Hollywood Selfies",
+      "Behind-the-Scenes Walks",
+      "Live Taping Visits",
+      "Souvenir Hunts"
+    ],
+    localCuisines: [
+      "Celebrity Burgers",
+      "Street Tacos",
+      "Hollywood Smoothies",
+      "Churros",
+      "Fusion Sushi"
+    ],
+    shopping: [
+      "Hollywood Tees",
+      "Movie Star Posters",
+      "Film Gear",
+      "Walk of Fame Replicas",
+      "Pop Culture Mugs"
+    ]
+  },
+  {
+    id: 153,
+    name: "Bentonville",
+    address: "Arkansas, USA",
+    description: "A rising foodie city and art destination tucked in Northwest Arkansas.",
+    about: "Home to the Crystal Bridges Museum and a booming restaurant scene, Bentonville surprises visitors with its creative energy, cycling trails, and southern hospitality redefined.",
+    lat: 36.3729,
+    lon: -94.2088,
+    climate: "Humid Subtropical",
+    landscape: "Rolling Hills, Urban Parks, Modern Architecture",
+    activities: ["Dining", "Art Tours", "Cycling"],
+    culture: "Southern Creativity & Culinary Renaissance",
+    budget: "Moderate",
+    localAttractions: [
+      "Crystal Bridges Museum of American Art",
+      "The Momentary",
+      "21c Museum Hotel",
+      "Slaughter Pen Mountain Bike Trails",
+      "Bentonville Square"
+    ],
+    adventures: [
+      "Michelin-Caliber Dining",
+      "Bike & Brunch Events",
+      "Sip & Sketch Art Nights",
+      "Museum-Hopping on Foot",
+      "Outdoor Sculpture Scavenger Hunt"
+    ],
+    localCuisines: [
+      "Duck Fat Fries",
+      "Ozark Trout Tartare",
+      "Craft BBQ",
+      "Southern Grit Bowls",
+      "Pimento Cheese Burgers"
+    ],
+    shopping: [
+      "Locally Roasted Coffee",
+      "Modern Art Prints",
+      "Handmade Cutting Boards",
+      "Cycling Gear",
+      "Gallery Shop Books"
+    ]
+  },  
+  {
+    id: 154,
+    name: "Slab City",
+    address: "Niland, California",
+    description: "An off-grid desert community dubbed 'the last free place in America'.",
+    about: "Slab City is a lawless, off-the-grid encampment of artists, nomads, and free spirits. It's best known for Salvation Mountain—a colorful art installation devoted to love and peace.",
+    lat: 33.2587,
+    lon: -115.4644,
+    climate: "Desert",
+    landscape: "Barren Plains, Painted Hills",
+    activities: ["Art Viewing", "Alternative Living Tours", "Camping"],
+    culture: "Anarchist Art Community",
+    budget: "Free",
+    localAttractions: [
+      "Salvation Mountain",
+      "East Jesus Art Garden",
+      "Slab City Library",
+      "The Range (Open Mic Stage)",
+      "Desert Campgrounds"
+    ],
+    adventures: [
+      "Live Music Nights",
+      "Documentary Filming",
+      "Art Install Tours",
+      "Desert Stargazing",
+      "Photography Safaris"
+    ],
+    localCuisines: [
+      "BYO Meals",
+      "Desert Vegan Dishes",
+      "Solar Cooked Beans",
+      "Potluck Pies",
+      "Cactus Juice"
+    ],
+    shopping: [
+      "Desert Art Sculptures",
+      "Hand-Painted Bottles",
+      "Nomad Journals",
+      "Spray Paint Murals",
+      "Slab Stickers"
+    ]
+  },
+  {
+    id: 155,
+    name: "Mammoth Cave National Park",
+    address: "Kentucky, USA",
+    description: "The longest cave system in the world, stretching over 400 miles underground.",
+    about: "Mammoth Cave is a UNESCO World Heritage site known for its vast labyrinth of passageways, stunning formations, and rich geological and historical significance.",
+    lat: 37.1869,
+    lon: -86.1010,
+    climate: "Temperate",
+    landscape: "Forested Hills, Underground Caves",
+    activities: ["Cave Tours", "Hiking", "Canoeing"],
+    culture: "Speleology & Appalachian Heritage",
+    budget: "Moderate",
+    localAttractions: [
+      "Historic Cave Entrance",
+      "Frozen Niagara Tour",
+      "Green River Ferry",
+      "Domes & Dripstones",
+      "Echo River Spring"
+    ],
+    adventures: [
+      "Lantern Cave Tours",
+      "Wild Cave Crawling",
+      "Kayaking the Green River",
+      "Stalactite Photography",
+      "Bats & Boulders Exploration"
+    ],
+    localCuisines: [
+      "Country Ham Sandwiches",
+      "Kentucky Cornbread",
+      "Fried Green Tomatoes",
+      "Apple Cobbler",
+      "Sweet Tea"
+    ],
+    shopping: [
+      "Glow-in-the-Dark Cave Maps",
+      "Geode Kits",
+      "Park Ranger Badges",
+      "Fossil Replicas",
+      "Locally Carved Walking Sticks"
+    ]
+  },
+  {
+    id: 156,
+    name: "The Neon Boneyard",
+    address: "Las Vegas, Nevada",
+    description: "A museum of glowing history preserving vintage Vegas signs and electric culture.",
+    about: "The Neon Boneyard offers a nostalgic look at Las Vegas history through towering neon signs from old casinos, motels, and shows. It glows best after dark with guided light tours.",
+    lat: 36.1779,
+    lon: -115.1312,
+    climate: "Desert",
+    landscape: "Urban Exhibit Yards",
+    activities: ["Night Tours", "Photo Walks", "Design Exploration"],
+    culture: "Retro Vegas & Graphic Design",
+    budget: "Moderate",
+    localAttractions: [
+      "The Neon Museum",
+      "Brilliant! Light Show",
+      "Vintage Sign Garden",
+      "Vegas History Exhibits",
+      "Old Vegas Photo Ops"
+    ],
+    adventures: [
+      "Neon Night Tours",
+      "Time-Lapse Photography",
+      "Typography Study Walks",
+      "Light & Shadow Workshops",
+      "Historic Vegas Talks"
+    ],
+    localCuisines: [
+      "Classic Vegas Buffets",
+      "Loaded Nachos",
+      "Mobster Meatballs",
+      "Cocktail Samplers",
+      "Elvis Milkshakes"
+    ],
+    shopping: [
+      "Neon Mini Signs",
+      "Vegas Matchbooks",
+      "Design Sketchbooks",
+      "Retro Vegas Posters",
+      "Old Casino Chips"
+    ]
+  },
+  {
+    id: 157,
+    name: "Mount Rainier National Park",
+    address: "Washington, USA",
+    description: "A glaciated volcano surrounded by wildflower meadows and ancient forests.",
+    about: "Mount Rainier, an iconic stratovolcano, towers over the Pacific Northwest. Its national park offers alpine adventures, glacier hikes, and some of the best wildflower displays in the country.",
+    lat: 46.8799,
+    lon: -121.7269,
+    climate: "Alpine",
+    landscape: "Glaciers, Meadows, Old-Growth Forests",
+    activities: ["Hiking", "Wildflower Viewing", "Snowshoeing"],
+    culture: "Pacific Northwest Wilderness",
+    budget: "Moderate",
+    localAttractions: [
+      "Paradise Visitor Center",
+      "Skyline Trail",
+      "Sunrise Point",
+      "Mowich Lake",
+      "Reflection Lakes"
+    ],
+    adventures: [
+      "Summit Climbs",
+      "Snowfield Crossings",
+      "Waterfall Hiking",
+      "Wildflower Meadows Photography",
+      "Ranger-Led Ecology Tours"
+    ],
+    localCuisines: [
+      "Berry Pancakes",
+      "Campfire Chili",
+      "Northwest Salmon",
+      "Huckleberry Pie",
+      "Trail Coffee Blends"
+    ],
+    shopping: [
+      "Park Posters",
+      "Rainier Plush Animals",
+      "Trail Mix Jars",
+      "Field Guidebooks",
+      "Mount Rainier Apparel"
+    ]
+  },
+  {
+    id: 158,
+    name: "Bodie State Historic Park",
+    address: "California, USA",
+    description: "A preserved ghost town that brings the Wild West back to life.",
+    about: "Once a booming gold-mining town in the 1800s, Bodie is now a time capsule with abandoned saloons, homes, and stores left in 'arrested decay'. It’s one of the best-preserved ghost towns in the U.S.",
+    lat: 38.2124,
+    lon: -119.0116,
+    climate: "High Desert",
+    landscape: "Hills, Abandoned Streets, Sagebrush",
+    activities: ["Historical Exploration", "Photography", "Ghost Tours"],
+    culture: "Wild West Frontier",
+    budget: "Low to Moderate",
+    localAttractions: [
+      "Bodie Jail",
+      "Methodist Church",
+      "Standard Mill",
+      "Old Schoolhouse",
+      "Firehouse Ruins"
+    ],
+    adventures: [
+      "Dusty Trail Hikes",
+      "Self-Guided Town Tours",
+      "Sunset Ghost Photography",
+      "Ranger-Led Wild West Talks",
+      "Starry Night Campsites Nearby"
+    ],
+    localCuisines: [
+      "Bring Your Own",
+      "Gold Rush Trail Mix",
+      "Jerky & Beans",
+      "Cowboy Coffee",
+      "Canned Cornbread"
+    ],
+    shopping: [
+      "Gold Pan Replicas",
+      "Historic Map Prints",
+      "Ghost Town Tees",
+      "Bodie Photo Books",
+      "Old West Playing Cards"
+    ]
+  },
+  {
+    id: 159,
+    name: "Port Townsend",
+    address: "Washington, USA",
+    description: "A quirky Victorian seaport blending maritime heritage with art and nature.",
+    about: "Port Townsend sits on the Olympic Peninsula, offering boat-filled harbors, creative galleries, and access to stunning coastal trails. It’s a haven for artists and sailors alike.",
+    lat: 48.1181,
+    lon: -122.7604,
+    climate: "Marine West Coast",
+    landscape: "Coastal Bluffs, Historic District",
+    activities: ["Sailing", "Historic Walking Tours", "Gallery Hopping"],
+    culture: "Victorian Marine Town",
+    budget: "Moderate",
+    localAttractions: [
+      "Fort Worden",
+      "Jefferson Museum of Art & History",
+      "Port Townsend Marine Science Center",
+      "Chetzemoka Park",
+      "Wooden Boat Festival"
+    ],
+    adventures: [
+      "Whale Watching",
+      "Sunset Harbor Cruises",
+      "Lighthouse Exploring",
+      "Kayaking with Otters",
+      "Olympic Peninsula Day Trips"
+    ],
+    localCuisines: [
+      "Cedar-Planked Salmon",
+      "Dungeness Crab Cakes",
+      "Northwest Chowder",
+      "Blueberry Scones",
+      "Craft Cider"
+    ],
+    shopping: [
+      "Boat-Inspired Gifts",
+      "Handmade Maritime Soaps",
+      "Victorian Art Prints",
+      "Locally Crafted Jewelry",
+      "Nautical Decor"
+    ]
+  },
+  {
+    id: 160,
+    name: "Assateague Island",
+    address: "Maryland–Virginia Border",
+    description: "A barrier island famous for wild horses, remote beaches, and salt marshes.",
+    about: "Assateague is a nature-lover’s paradise, where herds of wild ponies roam the dunes. The island offers scenic trails, camping under the stars, and wildlife spotting.",
+    lat: 38.0942,
+    lon: -75.2096,
+    climate: "Coastal Temperate",
+    landscape: "Beaches, Marshes, Dunes",
+    activities: ["Wildlife Viewing", "Camping", "Beachcombing"],
+    culture: "Untamed Nature & Coastal Resilience",
+    budget: "Affordable",
+    localAttractions: [
+      "Assateague Lighthouse",
+      "Wild Horse Corrals",
+      "Life of the Dunes Trail",
+      "Tom's Cove Visitor Center",
+      "Chincoteague National Wildlife Refuge"
+    ],
+    adventures: [
+      "Pony Photography Walks",
+      "Backcountry Beach Camping",
+      "Kayaking Through Salt Marshes",
+      "Shell Collecting",
+      "Full Moon Bonfires"
+    ],
+    localCuisines: [
+      "Crab Claws",
+      "Old Bay Shrimp",
+      "Soft-Shell Sandwiches",
+      "Watermelon Slush",
+      "Clam Fritters"
+    ],
+    shopping: [
+      "Pony Plushies",
+      "Wildlife Field Guides",
+      "Shell Jewelry",
+      "Nature Art Prints",
+      "Assateague Tees"
+    ]
+  },
+  {
+    id: 161,
+    name: "Centralia",
+    address: "Pennsylvania, USA",
+    description: "A ghost town with an underground mine fire that’s been burning since 1962.",
+    about: "Centralia is mostly abandoned, with smoke rising from cracks in the earth. Once a bustling coal town, it's now a surreal, eerie site with graffiti-covered roads and urban legends.",
+    lat: 40.8043,
+    lon: -76.3400,
+    climate: "Humid Continental",
+    landscape: "Abandoned Roads, Forest Encroachment",
+    activities: ["Urban Exploration", "Photography", "History Walking"],
+    culture: "Industrial Tragedy & Urban Legend",
+    budget: "Free",
+    localAttractions: [
+      "Graffiti Highway (Closed but visible)",
+      "Cemetery Hills",
+      "Smoke Vents",
+      "Remaining Church",
+      "Centralia Signposts"
+    ],
+    adventures: [
+      "Steam Vent Hunting",
+      "Eerie Photo Ops",
+      "Silent Walks Through Forest Roads",
+      "Local Legend Tours",
+      "Ghost Story Picnics"
+    ],
+    localCuisines: [
+      "Nearby Diner Fare",
+      "Coal Miner’s Chili",
+      "Smoky Jerky",
+      "Canned Goods",
+      "Pennsylvania Dutch Pretzels"
+    ],
+    shopping: [
+      "Ghost Town Tees",
+      "Coal Rock Souvenirs",
+      "Urban Explorer Patches",
+      "Photography Zines",
+      "Apocalyptic Stickers"
+    ]
+  },
+  {
+    id: 162,
+    name: "Ocean City Boardwalk",
+    address: "Maryland, USA",
+    description: "A classic East Coast boardwalk packed with arcades, treats, and beach fun.",
+    about: "Ocean City Boardwalk stretches 3 miles along the Atlantic and features iconic treats, theme parks, and lively nightlife. It’s a nostalgic family destination with salt in the air and fun at every turn.",
+    lat: 38.3365,
+    lon: -75.0849,
+    climate: "Humid Subtropical",
+    landscape: "Sandy Beaches, Amusement Parks",
+    activities: ["Beach Bumming", "Arcade Gaming", "Boardwalk Strolling"],
+    culture: "Classic Seaside Americana",
+    budget: "Flexible",
+    localAttractions: [
+      "Trimper’s Rides",
+      "Jolly Roger Amusement Park",
+      "Ripley’s Believe It or Not",
+      "Thrasher’s Fries",
+      "Ocean Gallery"
+    ],
+    adventures: [
+      "Ferris Wheel Rides",
+      "Cotton Candy Sunsets",
+      "Haunted House Experience",
+      "Kite Flying",
+      "Bike Rides on the Boardwalk"
+    ],
+    localCuisines: [
+      "Boardwalk Fries",
+      "Funnel Cake",
+      "Saltwater Taffy",
+      "Crab Pretzels",
+      "Soft Serve Swirls"
+    ],
+    shopping: [
+      "OC Beachwear",
+      "Retro Arcade Prizes",
+      "Shell Necklaces",
+      "Caricature Art",
+      "Mini Surfboards"
+    ]
+  },
+  {
+    id: 163,
+    name: "Ruby Falls",
+    address: "Chattanooga, Tennessee",
+    description: "An underground waterfall hidden within Lookout Mountain.",
+    about: "Ruby Falls is America’s deepest commercial cave waterfall, discovered in 1928. The illuminated underground wonder offers a magical guided tour through caverns and crystal formations.",
+    lat: 35.0106,
+    lon: -85.3382,
+    climate: "Underground Cool",
+    landscape: "Caverns, Limestone Formations, Waterfalls",
+    activities: ["Cave Tours", "Light Shows", "Geology Exploration"],
+    culture: "Subterranean Exploration & Scenic Wonder",
+    budget: "Moderate",
+    localAttractions: [
+      "Ruby Falls Waterfall",
+      "Cavern Castle",
+      "Lookout Mountain Overlook",
+      "Rock City Nearby",
+      "Incline Railway"
+    ],
+    adventures: [
+      "Cave Trail Guided Tours",
+      "Limestone Formation Photography",
+      "Underground Light Shows",
+      "Mountain Hiking Post-Tour",
+      "Ziplining at High Point"
+    ],
+    localCuisines: [
+      "Mountain Fudge",
+      "Tennessee BBQ",
+      "Cave-Aged Cheddar",
+      "Local Honey",
+      "Stone-Ground Grits"
+    ],
+    shopping: [
+      "Geode Crystals",
+      "Glow-in-the-Dark Shirts",
+      "Cave Souvenirs",
+      "Hand-Carved Stalactite Models",
+      "Nature Trail Maps"
+    ]
+  },
+  {
+    id: 164,
+    name: "White Sands Missile Range Museum",
+    address: "New Mexico, USA",
+    description: "A historical missile range and museum in the heart of a blinding white desert.",
+    about: "Located near White Sands National Park, this military museum displays space race relics, early missiles, and Cold War history in one of the most dramatic landscapes in the U.S.",
+    lat: 32.3823,
+    lon: -106.4885,
+    climate: "Desert",
+    landscape: "White Dunes, Military Sites",
+    activities: ["Museum Exploration", "Military History", "Photography"],
+    culture: "Cold War Legacy & Scientific Advancement",
+    budget: "Free",
+    localAttractions: [
+      "Missile Park Outdoor Exhibit",
+      "V-2 Rocket Display",
+      "Atomic Testing Info",
+      "Visitor Center",
+      "Historic Launch Pads"
+    ],
+    adventures: [
+      "Explore Retired Missiles",
+      "Desert Trek to Exhibit Grounds",
+      "Space Race History Walks",
+      "Photography in the Dunes",
+      "Viewing Satellite Models"
+    ],
+    localCuisines: [
+      "Canteen Tacos",
+      "Desert Jerky",
+      "Military MRE Tasting",
+      "New Mexico Salsa",
+      "Tortilla Chips with Hatch Chile"
+    ],
+    shopping: [
+      "Missile Keychains",
+      "Cold War Posters",
+      "White Sands Patches",
+      "Model Rockets",
+      "Declassified Document Reprints"
+    ]
+  },
+  {
+    id: 165,
+    name: "Blue Ridge Parkway",
+    address: "Virginia–North Carolina Border",
+    description: "A 469-mile scenic drive through Appalachian beauty, rich in history and natural splendor.",
+    about: "Dubbed 'America’s Favorite Drive,' the Blue Ridge Parkway winds through rolling hills, tunnels, waterfalls, and mountain overlooks. It connects Shenandoah and Great Smoky Mountains National Parks.",
+    lat: 36.5626,
+    lon: -79.0460,
+    climate: "Mountain Temperate",
+    landscape: "Ridges, Forests, Valleys",
+    activities: ["Scenic Driving", "Leaf Peeping", "Hiking"],
+    culture: "Appalachian Folklore & Nature Preservation",
+    budget: "Free",
+    localAttractions: [
+      "Mabry Mill",
+      "Linn Cove Viaduct",
+      "Craggy Gardens",
+      "Peaks of Otter",
+      "Folk Art Center"
+    ],
+    adventures: [
+      "Fall Color Photography",
+      "Hike to Waterrock Knob",
+      "Drive Through Foggy Tunnels",
+      "Camp in Pisgah Forest",
+      "Wildflower Bloom Walks"
+    ],
+    localCuisines: [
+      "Apple Butter Biscuits",
+      "Fried Green Tomatoes",
+      "Buttermilk Cornbread",
+      "Mountain Trout",
+      "Molasses Pie"
+    ],
+    shopping: [
+      "Hand-Carved Wood Art",
+      "Mountain Quilts",
+      "Blue Ridge Pottery",
+      "Folk Music CDs",
+      "Wildflower Seed Packs"
+    ]
+  },
+  {
+    id: 166,
+    name: "Hilo",
+    address: "Big Island, Hawaii",
+    description: "A lush town near active lava fields and waterfalls, rich in Hawaiian culture.",
+    about: "Hilo blends tropical rainforest vibes with a front-row seat to volcanic power. From black sand beaches to lava tubes, it’s a gateway to Hawai‘i Volcanoes National Park.",
+    lat: 19.7076,
+    lon: -155.0885,
+    climate: "Tropical Rainforest",
+    landscape: "Coastline, Lava Fields, Jungle",
+    activities: ["Waterfall Hikes", "Lava Tours", "Snorkeling"],
+    culture: "Native Hawaiian Heritage & Volcanic Science",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Akaka Falls",
+      "Rainbow Falls",
+      "Liliʻuokalani Gardens",
+      "Kaumana Caves",
+      "Hilo Farmers Market"
+    ],
+    adventures: [
+      "Lava Tube Crawling",
+      "Helicopter Volcano Flights",
+      "Black Sand Beach Exploring",
+      "Snorkeling at Richardson Beach",
+      "Hiking Volcano Crater Rims"
+    ],
+    localCuisines: [
+      "Loco Moco",
+      "Spam Musubi",
+      "Macadamia Nut Pancakes",
+      "Poke Bowls",
+      "Shave Ice"
+    ],
+    shopping: [
+      "Lava Rock Jewelry",
+      "Hawaiian Print Shirts",
+      "Island Honey",
+      "Koa Wood Carvings",
+      "Volcano Science Kits"
+    ]
+  },
+  {
+    id: 167,
+    name: "Museum of the Weird",
+    address: "Austin, Texas",
+    description: "A freaky little museum filled with mummies, shrunken heads, and urban legends.",
+    about: "Located on 6th Street, the Museum of the Weird is a cabinet of curiosities where Ripley’s meets haunted house. It’s filled with oddities, monster wax figures, and daily sideshow acts.",
+    lat: 30.2672,
+    lon: -97.7391,
+    climate: "Subtropical",
+    landscape: "Urban Historic District",
+    activities: ["Oddities Viewing", "Interactive Shows", "Photo Ops"],
+    culture: "Retro Horror & Circus Lore",
+    budget: "Low to Moderate",
+    localAttractions: [
+      "Creature Theater",
+      "Ice Man Exhibit",
+      "Fiji Mermaid",
+      "Vampire Skull",
+      "Haunted Mirror"
+    ],
+    adventures: [
+      "Live Sideshow Acts",
+      "Weird Selfies",
+      "Ghostly History Tours",
+      "Oddity Collecting",
+      "Tarot Readings"
+    ],
+    localCuisines: [
+      "Fried Pickles",
+      "Tex-Mex Tacos",
+      "Hot Chicken Sliders",
+      "Craft Beer Floats",
+      "Bacon Donuts"
+    ],
+    shopping: [
+      "Weird Books",
+      "Monster Figurines",
+      "Vintage Posters",
+      "Glow-in-the-Dark Mugs",
+      "Cryptid T-Shirts"
+    ]
+  },
+  {
+    id: 168,
+    name: "Hotel Monte Vista",
+    address: "Flagstaff, Arizona",
+    description: "A historic hotel haunted by spirits and steeped in Route 66 legend.",
+    about: "Built in 1927, this hotel has hosted Hollywood stars, gangsters, and ghosts. Guests report hearing whispers, phantom bellboys, and unexplainable phone calls in the night.",
+    lat: 35.1983,
+    lon: -111.6513,
+    climate: "Semi-Arid",
+    landscape: "Historic Downtown Flagstaff",
+    activities: ["Ghost Hunting", "Historical Tours", "Live Music"],
+    culture: "Prohibition-Era Glamour & Paranormal Tourism",
+    budget: "Moderate",
+    localAttractions: [
+      "Flagstaff Haunted Walk",
+      "Route 66 Plaza",
+      "Lowell Observatory",
+      "Historic Brewing Company",
+      "Riordan Mansion"
+    ],
+    adventures: [
+      "Book a Haunted Room",
+      "Nighttime EVP Sessions",
+      "Bar Crawl with a Ghost Guide",
+      "Late-Night Piano Bar Visits",
+      "Stories from the Bell Tower"
+    ],
+    localCuisines: [
+      "Arizona Green Chile Burgers",
+      "Old-Fashioned Milkshakes",
+      "Craft Beers",
+      "Road Trip Nachos",
+      "Whiskey Soaked Brownies"
+    ],
+    shopping: [
+      "Ghost Hunting Kits",
+      "Vintage Keys",
+      "Route 66 Memorabilia",
+      "Spooky Shot Glasses",
+      "Flagstaff Tees"
+    ]
+  },
+  {
+    id: 169,
+    name: "The Stanley Hotel",
+    address: "Estes Park, Colorado",
+    description: "The real-life inspiration for Stephen King’s *The Shining*, known for its grand views and ghostly guests.",
+    about: "This 1909 hotel is famous for paranormal activity and cinematic lore. Visitors come for the eerie energy, haunted tours, and luxurious mountain views.",
+    lat: 40.3833,
+    lon: -105.5186,
+    climate: "Alpine",
+    landscape: "Mountain Foothills, Historic Architecture",
+    activities: ["Ghost Tours", "Luxury Stays", "Film History"],
+    culture: "Haunted History & Literary Fame",
+    budget: "High",
+    localAttractions: [
+      "Room 217",
+      "Stanley Ghost Tour",
+      "Whiskey Bar",
+      "Stanley Film Center",
+      "Rocky Mountain National Park (Nearby)"
+    ],
+    adventures: [
+      "Night Ghost Hunts",
+      "Spooky Hotel Photo Sessions",
+      "Historic Architecture Tours",
+      "Whiskey Tastings",
+      "Watch *The Shining* on Site"
+    ],
+    localCuisines: [
+      "Elk Sliders",
+      "Craft Cocktails",
+      "Rocky Mountain Trout",
+      "Cinnamon Bread Pudding",
+      "Haunted Hot Cocoa"
+    ],
+    shopping: [
+      "Shining Merchandise",
+      "Stanley Mugs",
+      "Ghost Tour Souvenirs",
+      "Luxury Spa Products",
+      "Colorado Candle Sets"
+    ]
+  },
+  {
+    id: 170,
+    name: "Corning Museum of Glass",
+    address: "Corning, New York",
+    description: "The world’s largest glass museum where art, science, and fire collide.",
+    about: "Corning’s museum houses 3,500+ years of glass history and live glassblowing shows. Visitors can create their own ornaments, see fiber optic demos, and explore glowing art installations.",
+    lat: 42.1487,
+    lon: -77.0547,
+    climate: "Temperate",
+    landscape: "Riverside Town, Museum Campus",
+    activities: ["Glassblowing", "Museum Tours", "Workshops"],
+    culture: "Science Meets Art",
+    budget: "Moderate",
+    localAttractions: [
+      "Contemporary Glass Art Gallery",
+      "Hot Glass Demos",
+      "Glass Innovation Center",
+      "Glass Lab Studios",
+      "Historic Glass Collections"
+    ],
+    adventures: [
+      "Make Your Own Glass Ornament",
+      "Molten Glass Sculpting",
+      "Interactive Fiber Optic Exhibits",
+      "Walking the Glass Skywalk",
+      "Nighttime Fire Shows"
+    ],
+    localCuisines: [
+      "Craft Sandwiches",
+      "Upstate Apple Pie",
+      "Museum Café Quiches",
+      "Local Ice Wines",
+      "Gourmet Mac & Cheese"
+    ],
+    shopping: [
+      "Blown Glass Jewelry",
+      "Crystal Figurines",
+      "Glass Ornaments",
+      "DIY Glass Kits",
+      "Corning Lab Mugs"
+    ]
+  },
+  {
+    id: 171,
+    name: "Gibbs Gardens",
+    address: "Ball Ground, Georgia",
+    description: "A world-class garden oasis with seasonal color shows, water lily ponds, and Japanese landscapes.",
+    about: "Tucked into the foothills of the Appalachians, Gibbs Gardens is a hidden floral sanctuary that changes with the seasons—from daffodil festivals to fall color explosions.",
+    lat: 34.3682,
+    lon: -84.3726,
+    climate: "Humid Subtropical",
+    landscape: "Terraced Gardens, Streams, Japanese Bridges",
+    activities: ["Botanical Walks", "Photography", "Relaxation"],
+    culture: "Zen Garden Aesthetics & Southern Bloom Culture",
+    budget: "Moderate",
+    localAttractions: [
+      "Japanese Gardens",
+      "Daffodil Fields",
+      "Water Lily Ponds",
+      "Manor House Gardens",
+      "Maple Tree Canopy Walk"
+    ],
+    adventures: [
+      "Zen Bridge Meditations",
+      "Seasonal Flower Hunts",
+      "Daffodil Bloom Photography",
+      "Picnics Under Dogwoods",
+      "Nature Journaling Retreats"
+    ],
+    localCuisines: [
+      "Garden Café Paninis",
+      "Lemon Lavender Cookies",
+      "Peach Tea",
+      "Southern Pimento Cheese Wraps",
+      "Fresh Herb Lemonade"
+    ],
+    shopping: [
+      "Pressed Flower Art",
+      "Botanical Notebooks",
+      "Garden Tools",
+      "Locally Grown Seeds",
+      "Floral Tea Sets"
+    ]
+  },
+  {
+    id: 172,
+    name: "International Banana Museum",
+    address: "Mecca, California",
+    description: "Home to 25,000 banana-related items, making it the world’s most a-peeling attraction.",
+    about: "This quirky roadside museum pays tribute to the banana in all forms—from plush toys to banana soda. It’s kitsch at its finest, with a retro diner vibe and frozen treats on site.",
+    lat: 33.5784,
+    lon: -116.0841,
+    climate: "Desert",
+    landscape: "Roadside Stop by the Salton Sea",
+    activities: ["Museum Tours", "Photo Ops", "Banana Treat Tasting"],
+    culture: "Fruit Obsession & Americana Kitsch",
+    budget: "Affordable",
+    localAttractions: [
+      "Banana Soda Fountain",
+      "25,000+ Banana Items",
+      "Banana Selfie Wall",
+      "Peel-Safe Zone",
+      "Banana Trivia Corner"
+    ],
+    adventures: [
+      "Banana Split Eating Contest",
+      "Diner Jukebox Dance Party",
+      "Costume Selfies",
+      "Fruit Museum Hopping",
+      "Desert Ice Cream Picnics"
+    ],
+    localCuisines: [
+      "Banana Ice Cream",
+      "Frozen Chocolate Bananas",
+      "Banana Milkshakes",
+      "Banana Bread Slices",
+      "Tropical Banana Punch"
+    ],
+    shopping: [
+      "Banana Sunglasses",
+      "Fruit Plushies",
+      "Retro Banana Mugs",
+      "Peel Out T-Shirts",
+      "Novelty Banana Pens"
+    ]
+  },
+  {
+    id: 173,
+    name: "North Pole – Santa’s Village",
+    address: "Jefferson, New Hampshire",
+    description: "A Christmas-themed amusement park that brings Santa’s world to life year-round.",
+    about: "Nestled in the White Mountains, Santa’s Village is filled with reindeer, elves, candy canes, and holiday rides—even in summer. Perfect for families and the Christmas-obsessed.",
+    lat: 44.4023,
+    lon: -71.4724,
+    climate: "Cold Winters, Mild Summers",
+    landscape: "Snow-Capped Mountains, Evergreen Forests",
+    activities: ["Theme Park Rides", "Holiday Shopping", "Meet Santa"],
+    culture: "Christmas Cheer & Family Whimsy",
+    budget: "Moderate",
+    localAttractions: [
+      "Elf University",
+      "Yule Log Flume",
+      "Reindeer Carousel",
+      "Santa’s House",
+      "Candy Cane Express Train"
+    ],
+    adventures: [
+      "Summer Sleigh Rides",
+      "Letter Writing in Santa’s Post Office",
+      "Cookie Decorating Workshops",
+      "Snowball Soft Zone",
+      "Find-the-Elf Treasure Hunts"
+    ],
+    localCuisines: [
+      "Hot Cocoa (Even in July)",
+      "Gingerbread Cookies",
+      "Elf-Sized Burgers",
+      "Snowflake Donuts",
+      "Peppermint Ice Cream"
+    ],
+    shopping: [
+      "Personalized Ornaments",
+      "Reindeer Antlers",
+      "Santa’s Village Tees",
+      "Christmas Pajamas",
+      "North Pole Snow Globes"
+    ]
+  },
+  {
+    id: 174,
+    name: "Muscle Shoals",
+    address: "Alabama, USA",
+    description: "A small town with a massive influence on American music history.",
+    about: "Muscle Shoals gave birth to countless legendary soul, rock, and country hits. Its iconic studios recorded artists like Aretha Franklin, The Rolling Stones, and Etta James.",
+    lat: 34.7445,
+    lon: -87.6671,
+    climate: "Humid Subtropical",
+    landscape: "Riverside Town, Studio Rows",
+    activities: ["Studio Tours", "Live Music", "Music History Exploration"],
+    culture: "Southern Soul & Classic Rock",
+    budget: "Low to Moderate",
+    localAttractions: [
+      "FAME Recording Studios",
+      "Muscle Shoals Sound Studio",
+      "Alabama Music Hall of Fame",
+      "Sheffield Walking Tour",
+      "Wilson Dam"
+    ],
+    adventures: [
+      "Vinyl Record Shopping",
+      "Blues Jam Nights",
+      "Documentary Screenings",
+      "Studio Control Room Demos",
+      "Soul Soundtrack Bike Ride"
+    ],
+    localCuisines: [
+      "Fried Catfish",
+      "Buttermilk Pie",
+      "Sweet Tea Ribs",
+      "Soul Slaw",
+      "Banana Pudding"
+    ],
+    shopping: [
+      "Music Studio Tees",
+      "Autographed Posters",
+      "Retro Microphones",
+      "Vinyl LPs",
+      "Guitar Picks with Local Logos"
+    ]
+  },
+  {
+    id: 175,
+    name: "Jerome",
+    address: "Arizona, USA",
+    description: "A haunted mining town turned bohemian artist haven perched on a mountainside.",
+    about: "Once known as the 'Wickedest Town in the West,' Jerome is now home to galleries, wineries, and paranormal tours. Its steep streets and old saloons still whisper ghost stories.",
+    lat: 34.7486,
+    lon: -112.1132,
+    climate: "Semi-Arid",
+    landscape: "Cliffside Views, Historic Mining Ruins",
+    activities: ["Ghost Tours", "Gallery Visits", "Winery Tastings"],
+    culture: "Old West & Artistic Revival",
+    budget: "Moderate",
+    localAttractions: [
+      "Jerome State Historic Park",
+      "Haunted Hamburger",
+      "Jerome Grand Hotel",
+      "Gold King Mine",
+      "Main Street Art Walk"
+    ],
+    adventures: [
+      "Haunted Hotel Overnights",
+      "Mining Shaft Tours",
+      "Sculpture Garden Strolls",
+      "Cliffside Café Crawls",
+      "Moonlight Cemetery Visits"
+    ],
+    localCuisines: [
+      "Ghost Pepper Nachos",
+      "Arizona Wine Flights",
+      "Ranch Chili",
+      "Copper-Crust Pizza",
+      "Spirit-Laced Brownies"
+    ],
+    shopping: [
+      "Hand-Blown Glass",
+      "Spooky Scented Candles",
+      "Silver Ore Jewelry",
+      "Desert-Inspired Paintings",
+      "Ghost Story Books"
+    ]
+  },
+  {
+    id: 176,
+    name: "Cumbres & Toltec Scenic Railroad",
+    address: "Antonito, Colorado – Chama, New Mexico",
+    description: "A coal-fired steam train adventure through the Rocky Mountains.",
+    about: "This narrow-gauge railway is a National Historic Landmark offering epic alpine views, tunnels, and Old West vibes. It’s a step back into 1880s frontier travel.",
+    lat: 37.0006,
+    lon: -106.5804,
+    climate: "Mountain",
+    landscape: "Canyons, Forests, High Mountain Passes",
+    activities: ["Train Rides", "Photography", "Mountain Viewing"],
+    culture: "Railroad Heritage & Wild West History",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Toltec Gorge",
+      "Cumbres Pass Summit",
+      "Osier Dining Stop",
+      "Historic Water Tower",
+      "Engine Yard Tour"
+    ],
+    adventures: [
+      "Steam Cab Ride Experience",
+      "Bridge Crossing Photos",
+      "Fall Foliage Rail Tours",
+      "Vintage Coach Seating",
+      "Snowy Polar Express (Seasonal)"
+    ],
+    localCuisines: [
+      "Train Car Roast Beef",
+      "Old-Timey Lemon Cake",
+      "Hearty Chili Bowls",
+      "Bison Sausage Links",
+      "Sourdough Rolls"
+    ],
+    shopping: [
+      "Engineer Caps",
+      "Brass Whistles",
+      "Railway Maps",
+      "Toy Locomotives",
+      "Cumbres & Toltec Patches"
+    ]
+  },
+  {
+    id: 177,
+    name: "Great Basin Highway",
+    address: "Nevada, USA",
+    description: "A scenic road trip through Nevada’s most underrated wonders and alien landscapes.",
+    about: "Highway 93 stretches from Las Vegas to Ely, showcasing ancient bristlecone pines, dark sky parks, and quirky UFO-themed pit stops. It’s pure high-desert mystery and solitude.",
+    lat: 38.9738,
+    lon: -114.3080,
+    climate: "High Desert",
+    landscape: "Mountains, Alien Valleys, Stargazing Outposts",
+    activities: ["Road Trips", "Stargazing", "Quirky Stops"],
+    culture: "Off-the-Grid Freedom & Cosmic Americana",
+    budget: "Flexible",
+    localAttractions: [
+      "Great Basin National Park",
+      "Lehman Caves",
+      "Extraterrestrial Highway Junction",
+      "Ward Charcoal Ovens",
+      "Ely Murals"
+    ],
+    adventures: [
+      "Camp in Isolation",
+      "Visit an Alien Gas Station",
+      "Desert Sunrise Drives",
+      "Ancient Pine Tree Hiking",
+      "Meteor Shower Viewing"
+    ],
+    localCuisines: [
+      "Nevada Roadside Jerky",
+      "Area 51 Burgers",
+      "Cave-Aged Cheddar",
+      "Truck Stop Milkshakes",
+      "Elko Cowboy Chili"
+    ],
+    shopping: [
+      "Glow-in-the-Dark Alien Tees",
+      "Desert Route Maps",
+      "Astronomy Books",
+      "Vintage Postcards",
+      "Highway Patch Kits"
+    ]
+  },
+  {
+    id: 178,
+    name: "Letchworth State Park",
+    address: "Castile, New York",
+    description: "The 'Grand Canyon of the East' with stunning waterfalls and lush gorge trails.",
+    about: "With 600-foot cliffs and roaring waterfalls along the Genesee River, Letchworth is a hidden gem for hikers, kayakers, and hot-air ballooners — especially radiant in fall.",
+    lat: 42.5968,
+    lon: -77.9989,
+    climate: "Temperate",
+    landscape: "Gorges, Forests, Waterfalls",
+    activities: ["Hiking", "Canoeing", "Ballooning"],
+    culture: "Northeastern Wilderness & Natural Beauty",
+    budget: "Low to Moderate",
+    localAttractions: [
+      "Upper Falls",
+      "Middle Falls",
+      "Lower Falls",
+      "Glen Iris Inn",
+      "Autumn Foliage Trails"
+    ],
+    adventures: [
+      "Hot Air Balloon Rides",
+      "River Rafting",
+      "Canyon Photography",
+      "Trail Running",
+      "Sunset Lookouts"
+    ],
+    localCuisines: [
+      "Upstate Apple Cider",
+      "Maple Syrup Pancakes",
+      "Forest Berry Muffins",
+      "Grilled Cheese with Jam",
+      "Homemade Ice Cream"
+    ],
+    shopping: [
+      "Waterfall Art Prints",
+      "Park Badges",
+      "Hiking Socks",
+      "Locally Made Maple Syrup",
+      "Nature Guidebooks"
+    ]
+  },
+  {
+    id: 179,
+    name: "Burlington",
+    address: "Vermont, USA",
+    description: "A laid-back college town nestled on Lake Champlain with indie vibes and mountain views.",
+    about: "Home to the University of Vermont and Ben & Jerry’s roots, Burlington combines music, farmer’s markets, and waterfront beauty — perfect for a green getaway.",
+    lat: 44.4759,
+    lon: -73.2121,
+    climate: "Humid Continental",
+    landscape: "Lakefront, College Town Streets, Forested Hills",
+    activities: ["Biking", "Music Festivals", "Art Walks"],
+    culture: "College Creativity & Eco-Living",
+    budget: "Moderate",
+    localAttractions: [
+      "Church Street Marketplace",
+      "ECHO Lake Aquarium",
+      "Waterfront Park",
+      "Ben & Jerry’s Factory (nearby)",
+      "Battery Park"
+    ],
+    adventures: [
+      "Kayak on Lake Champlain",
+      "Sunset Walks on the Waterfront",
+      "Maple Syrup Farm Visits",
+      "Snowshoe Trails",
+      "Farm-to-Table Cooking Classes"
+    ],
+    localCuisines: [
+      "Maple Creemees",
+      "Heady Topper Beer",
+      "Cheddar Cheese Platters",
+      "Vegetarian Grain Bowls",
+      "Blueberry Pancakes"
+    ],
+    shopping: [
+      "Vermont Flannel Shirts",
+      "Maple Syrup Bottles",
+      "Local Vinyl Records",
+      "Student Art Prints",
+      "Eco-Tote Bags"
+    ]
+  },
+  {
+    id: 180,
+    name: "Calistoga",
+    address: "California, USA",
+    description: "A serene Napa Valley town famous for mud baths, hot springs, and wine retreats.",
+    about: "Calistoga offers a mellow spa-town vibe nestled among vineyards and volcanic soil. With natural springs, boutique resorts, and cozy inns, it’s a peaceful wellness haven.",
+    lat: 38.5785,
+    lon: -122.5797,
+    climate: "Mediterranean",
+    landscape: "Vineyards, Volcanic Springs, Rolling Hills",
+    activities: ["Wine Tasting", "Spa Retreats", "Hot Spring Soaks"],
+    culture: "Wellness & Wine",
+    budget: "High",
+    localAttractions: [
+      "Old Faithful Geyser of California",
+      "Castello di Amorosa Winery",
+      "Calistoga Hot Springs",
+      "Petrified Forest",
+      "Lincoln Avenue Boutiques"
+    ],
+    adventures: [
+      "Mud Bath Treatments",
+      "Yoga in the Vines",
+      "Thermal Mineral Pool Swims",
+      "Sunset Wine Tastings",
+      "Volcanic Rock Garden Strolls"
+    ],
+    localCuisines: [
+      "Fig & Goat Cheese Flatbread",
+      "Organic Wine Pairings",
+      "Lavender Lemon Bars",
+      "Vineyard Tapas",
+      "Basil Infused Lemonade"
+    ],
+    shopping: [
+      "Wellness Skincare",
+      "Locally Bottled Olive Oil",
+      "Wine Barrel Accessories",
+      "Aromatherapy Candles",
+      "Calistoga Spa Robes"
+    ]
+  },
+  {
+    id: 181,
+    name: "Kennedy Space Center",
+    address: "Merritt Island, Florida",
+    description: "NASA’s historic launch site for Apollo missions and SpaceX rocket launches.",
+    about: "The Kennedy Space Center is a living museum of space exploration where you can see actual rockets, meet astronauts, and witness modern launches. It’s the ultimate space-lover’s destination.",
+    lat: 28.5729,
+    lon: -80.6489,
+    climate: "Subtropical",
+    landscape: "Coastal Wetlands, Launch Pads, Space Complexes",
+    activities: ["Rocket Tours", "Astronaut Encounters", "Space Simulators"],
+    culture: "Science, Innovation & Human Exploration",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Space Shuttle Atlantis",
+      "Rocket Garden",
+      "Apollo/Saturn V Center",
+      "Astronaut Training Experience",
+      "Launch Viewing Zones"
+    ],
+    adventures: [
+      "Watch a Rocket Launch",
+      "Touch a Moon Rock",
+      "Mars Rover Simulations",
+      "Virtual Space Walks",
+      "Bus Tour to Launch Complex 39A"
+    ],
+    localCuisines: [
+      "Galaxy-Themed Burgers",
+      "Freeze-Dried Ice Cream",
+      "Rocket Fuel Smoothies",
+      "Astronaut Snack Packs",
+      "Space Chili"
+    ],
+    shopping: [
+      "NASA Patches",
+      "Space Shuttle Models",
+      "Mission Badges",
+      "Moon Dust Necklaces",
+      "Zero-Gravity Pens"
+    ]
+  },
+  {
+    id: 182,
+    name: "Taos Pueblo",
+    address: "Taos, New Mexico",
+    description: "A 1,000-year-old Native American village and UNESCO World Heritage Site.",
+    about: "Taos Pueblo is one of the oldest continuously inhabited communities in the U.S., made of multi-storied adobe buildings and home to rich Puebloan traditions. Visitors can explore Native art, food, and culture.",
+    lat: 36.4381,
+    lon: -105.5456,
+    climate: "High Desert",
+    landscape: "Adobe Villages, Mountains, River Valleys",
+    activities: ["Cultural Tours", "Art Shopping", "Native Feast Days"],
+    culture: "Puebloan Heritage & Indigenous Preservation",
+    budget: "Low to Moderate",
+    localAttractions: [
+      "San Geronimo Church",
+      "Red Willow Creek",
+      "Taos Mountain Views",
+      "Traditional Pueblo Homes",
+      "Native Artisan Market"
+    ],
+    adventures: [
+      "Attend a Pueblo Ceremony",
+      "Explore Adobe Alleyways",
+      "Sample Fry Bread",
+      "Purchase Handmade Pottery",
+      "Hear Oral History Stories"
+    ],
+    localCuisines: [
+      "Blue Corn Pancakes",
+      "Pueblo Stew",
+      "Roasted Chiles",
+      "Fry Bread with Honey",
+      "Chico Beans"
+    ],
+    shopping: [
+      "Handmade Pottery",
+      "Silver and Turquoise Jewelry",
+      "Dreamcatchers",
+      "Traditional Drums",
+      "Woven Textiles"
+    ]
+  },
+  {
+    id: 183,
+    name: "Durango & Silverton Narrow Gauge Railroad",
+    address: "Durango, Colorado",
+    description: "A historic steam-powered train winding through remote Rocky Mountain canyons.",
+    about: "Built in the 1880s, this scenic railroad offers a breathtaking ride along the Animas River, through cliffs, forests, and old mining camps. A must-do for nature lovers and rail fans.",
+    lat: 37.2753,
+    lon: -107.8801,
+    climate: "Mountain",
+    landscape: "Canyons, Forests, High Elevation Trails",
+    activities: ["Scenic Train Rides", "Mining History Tours", "Photography"],
+    culture: "Frontier Mining & Steam Heritage",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Animas River Gorge",
+      "Silverton Mining Town",
+      "Durango Station Museum",
+      "Highline Viewpoints",
+      "Cascade Canyon Wye"
+    ],
+    adventures: [
+      "Cab Ride with the Engineer",
+      "Steam Whistle Photography",
+      "Fall Colors Rail Tour",
+      "Winter Polar Express Experience",
+      "Hike Back from Silverton"
+    ],
+    localCuisines: [
+      "Mountain Chili",
+      "Train Station Burritos",
+      "Warm Cinnamon Rolls",
+      "Railroad Coffee",
+      "Silverton Apple Pie"
+    ],
+    shopping: [
+      "Train Whistles",
+      "Railroad Caps",
+      "Vintage Tickets",
+      "Mining Camp Souvenirs",
+      "Durango Rail Posters"
+    ]
+  },
+  {
+    id: 184,
+    name: "Cherokee Heritage Center",
+    address: "Tahlequah, Oklahoma",
+    description: "A living museum preserving the culture, language, and stories of the Cherokee people.",
+    about: "Located in the capital of the Cherokee Nation, this center includes a recreated 1710s village, interactive exhibits, and the Trail of Tears experience, celebrating and honoring Cherokee resilience.",
+    lat: 35.8974,
+    lon: -94.9787,
+    climate: "Temperate",
+    landscape: "Rolling Hills, Forests, Historical Grounds",
+    activities: ["Cultural Tours", "Language Workshops", "Art Demos"],
+    culture: "Cherokee Nation & Indigenous Education",
+    budget: "Moderate",
+    localAttractions: [
+      "Ancient Village Tour",
+      "Cherokee National History Museum",
+      "Adams Corner",
+      "Trail of Tears Exhibit",
+      "Stickball Field"
+    ],
+    adventures: [
+      "Participate in a Stomp Dance",
+      "Watch Bow Making",
+      "Learn Cherokee Syllabary",
+      "Attend Cultural Festivals",
+      "Explore Traditional Homes"
+    ],
+    localCuisines: [
+      "Grape Dumplings",
+      "Hominy Soup",
+      "Fried Cornmeal Bread",
+      "Cherokee Sausage Stew",
+      "Wild Berry Jam"
+    ],
+    shopping: [
+      "Beaded Jewelry",
+      "Story Blankets",
+      "Cherokee Language Prints",
+      "Traditional Pottery",
+      "Wooden Flutes"
+    ]
+  },
+  {
+    id: 185,
+    name: "Holland Tulip Time Festival",
+    address: "Holland, Michigan",
+    description: "An explosion of Dutch culture, tulips, and wooden shoes in the Midwest each spring.",
+    about: "Held every May, this festival celebrates Holland’s Dutch roots with millions of tulips, authentic food, parades, and traditional dance. It’s like visiting the Netherlands — without the flight.",
+    lat: 42.7875,
+    lon: -86.1089,
+    climate: "Temperate",
+    landscape: "Tulip Gardens, Windmills, Lake Michigan Shoreline",
+    activities: ["Flower Viewing", "Dutch Dancing", "Cultural Performances"],
+    culture: "Dutch Heritage & Spring Celebration",
+    budget: "Affordable to Moderate",
+    localAttractions: [
+      "Windmill Island Gardens",
+      "Tulip Lanes",
+      "Dutch Village",
+      "Klompen Dancers",
+      "Parade of Tulips"
+    ],
+    adventures: [
+      "Ride a Windmill Ferry",
+      "Try on Wooden Shoes",
+      "Bike Among 6 Million Tulips",
+      "Watch a Tulip Parade",
+      "Enjoy Spring Lake Picnics"
+    ],
+    localCuisines: [
+      "Stroopwafels",
+      "Dutch Apple Tarts",
+      "Saucijzenbroodjes (Dutch Sausage Rolls)",
+      "Herring Sandwiches",
+      "Speculaas Cookies"
+    ],
+    shopping: [
+      "Wooden Clogs",
+      "Tulip Bulbs",
+      "Dutch Ceramics",
+      "Festival Aprons",
+      "Windmill Magnets"
+    ]
+  },
+  {
+    id: 186,
+    name: "Skyline Drive-In",
+    address: "Shelton, Washington",
+    description: "One of America’s last-standing drive-in theaters nestled among Pacific Northwest evergreens.",
+    about: "Skyline Drive-In offers classic double features under the stars with retro speakers and snacks. It’s an old-school cinematic escape surrounded by towering trees and night skies.",
+    lat: 47.2198,
+    lon: -123.1001,
+    climate: "Marine West Coast",
+    landscape: "Forest, Open Field, Highway",
+    activities: ["Movie Nights", "Stargazing", "Picnicking"],
+    culture: "Vintage Americana & Drive-In Nostalgia",
+    budget: "Affordable",
+    localAttractions: [
+      "Double Feature Nights",
+      "Old-School Snack Bar",
+      "Classic Car Rows",
+      "Retro Trailer Parking",
+      "Open-Air Screen Backdrop"
+    ],
+    adventures: [
+      "Camp in Your Car",
+      "Midnight Movie Marathons",
+      "Rainy Night Screenings",
+      "Retro Costume Nights",
+      "Classic Film Weekends"
+    ],
+    localCuisines: [
+      "Butter Popcorn",
+      "Cheddar Pretzels",
+      "Root Beer Floats",
+      "Corn Dogs",
+      "Drive-In Nachos"
+    ],
+    shopping: [
+      "Vintage Movie Posters",
+      "Skyline Tees",
+      "Glow Sticks",
+      "Old Film Reels",
+      "Popcorn Buckets"
+    ]
+  },
+  {
+    id: 187,
+    name: "Heceta Head Lighthouse",
+    address: "Florence, Oregon",
+    description: "A working lighthouse where guests can sleep with Pacific waves and foghorns.",
+    about: "Heceta Head Lighthouse offers overnight stays in the keeper’s house with oceanfront views, misty cliffs, and the comforting sound of a guiding light. It’s one of the most photographed lighthouses in America.",
+    lat: 44.1376,
+    lon: -124.1260,
+    climate: "Coastal Marine",
+    landscape: "Sea Cliffs, Forests, Beaches",
+    activities: ["Lighthouse Tours", "Tidepooling", "Whale Watching"],
+    culture: "Nautical History & Coastal Solitude",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Keeper’s House B&B",
+      "Lighthouse Tower Tour",
+      "Devil’s Elbow State Park",
+      "Cape Creek Bridge",
+      "Sea Lion Caves Nearby"
+    ],
+    adventures: [
+      "Stay Overnight in a Lighthouse",
+      "Watch Fog Roll from the Porch",
+      "Hike to Clifftop Views",
+      "Spot Gray Whales",
+      "Sunrise Coffee on the Bluff"
+    ],
+    localCuisines: [
+      "Crab Omelets",
+      "Sourdough French Toast",
+      "Chowder in Bread Bowls",
+      "Oregon Berry Jam",
+      "Saltwater Taffy"
+    ],
+    shopping: [
+      "Lighthouse Models",
+      "Nautical Diaries",
+      "Foggy Coast Photo Prints",
+      "Whale Watching Binoculars",
+      "Glass Floats"
+    ]
+  },
+  {
+    id: 188,
+    name: "Providence",
+    address: "Rhode Island, USA",
+    description: "A small city with a huge appetite — packed with culinary creativity and historic architecture.",
+    about: "Known for Johnson & Wales University’s culinary school, Providence mixes Federal-style buildings with an exploding food scene. Think WaterFire festivals and globally inspired flavors.",
+    lat: 41.8240,
+    lon: -71.4128,
+    climate: "Humid Continental",
+    landscape: "Riverside Downtown, Cobblestone Streets",
+    activities: ["Food Tasting", "Architecture Walks", "Festival Events"],
+    culture: "Historic Elegance & Culinary Diversity",
+    budget: "Moderate",
+    localAttractions: [
+      "WaterFire Providence",
+      "Federal Hill (Little Italy)",
+      "RISD Museum",
+      "Benefit Street",
+      "Providence Riverwalk"
+    ],
+    adventures: [
+      "Attend a WaterFire Lighting",
+      "Take a Pasta-Making Class",
+      "Graffiti Bridge Photography",
+      "Global Food Truck Tasting",
+      "Sail on a Sunset Gondola Ride"
+    ],
+    localCuisines: [
+      "Stuffies (Stuffed Quahogs)",
+      "Coffee Milk",
+      "Clam Cakes",
+      "Spicy Calamari",
+      "French Pastry Towers"
+    ],
+    shopping: [
+      "Gourmet Spice Blends",
+      "Locally Designed Cookware",
+      "Architecture Photography",
+      "Artisan Chocolates",
+      "Foodie Aprons"
+    ]
+  },  
+  {
+    id: 189,
+    name: "Wind Cave National Park",
+    address: "South Dakota, USA",
+    description: "An underground maze of boxwork formations and sacred Lakota sites above.",
+    about: "Wind Cave is one of the oldest and most complex caves in the world, with rare formations called boxwork. Above ground, bison roam rolling prairie tied to Native spiritual traditions.",
+    lat: 43.5683,
+    lon: -103.4837,
+    climate: "Prairie/Mountain",
+    landscape: "Underground Maze, Grasslands, Forest Edges",
+    activities: ["Cave Tours", "Wildlife Watching", "Hiking"],
+    culture: "Geology & Lakota Spiritual History",
+    budget: "Moderate",
+    localAttractions: [
+      "Natural Entrance",
+      "Boxwork Chambers",
+      "Rankin Ridge Trail",
+      "Prairie Dog Town",
+      "Visitor Center Exhibits"
+    ],
+    adventures: [
+      "Ranger-Led Cave Crawls",
+      "Sunset Bison Watching",
+      "Sacred Lakota Storytime",
+      "Above-Below Terrain Hikes",
+      "Trail Camera Tracking"
+    ],
+    localCuisines: [
+      "Campfire Buffalo Burgers",
+      "Prairie Honey",
+      "Berry Preserves",
+      "Trail Cornbread",
+      "Iron Pot Beans"
+    ],
+    shopping: [
+      "Boxwork Replica Rocks",
+      "Lakota Stories Books",
+      "Park Ranger Gear",
+      "Animal Track Cards",
+      "Wind Cave Tees"
+    ]
+  },
+  {
+    id: 190,
+    name: "Longwood Gardens",
+    address: "Kennett Square, Pennsylvania",
+    description: "One of the world’s premier botanical gardens featuring dancing fountains and exotic conservatories.",
+    about: "Founded by Pierre du Pont, Longwood Gardens spans over 1,000 acres of meadows, topiary, greenhouses, and seasonal displays. Its illuminated fountain shows and orchid collections are spectacular.",
+    lat: 39.8703,
+    lon: -75.6770,
+    climate: "Temperate",
+    landscape: "Formal Gardens, Woodlands, Conservatories",
+    activities: ["Garden Walks", "Light Shows", "Horticultural Classes"],
+    culture: "Landscape Architecture & Plant Diversity",
+    budget: "Moderate to High",
+    localAttractions: [
+      "Main Fountain Garden",
+      "Orchid House",
+      "Topiary Garden",
+      "Meadow Garden",
+      "Christmas Light Show"
+    ],
+    adventures: [
+      "Evening Illuminated Fountain Shows",
+      "Indoor Rainforest Tours",
+      "Bloom Season Photography",
+      "Garden Sculpting Classes",
+      "Behind-the-Scenes Conservatory Tours"
+    ],
+    localCuisines: [
+      "Garden Café Sandwiches",
+      "Seasonal Fruit Tarts",
+      "Lemon Herb Chicken",
+      "Berry Iced Tea",
+      "Artisan Salads"
+    ],
+    shopping: [
+      "Botanical Art Prints",
+      "Rare Plant Seeds",
+      "Gardening Tools",
+      "Horticulture Books",
+      "Handmade Pottery"
+    ]
+  },
+  {
+    id: 191,
+    name: "Leavenworth",
+    address: "Washington, USA",
+    description: "A Bavarian-style village nestled in the Cascades with alpine culture and year-round festivities.",
+    about: "Leavenworth is a charming town designed like a Bavarian village, complete with wooden chalets, German food, and themed events from Oktoberfest to Christmas markets.",
+    lat: 47.5962,
+    lon: -120.6615,
+    climate: "Alpine",
+    landscape: "Mountain Valley, Timbered Streets, River Views",
+    activities: ["Cultural Events", "Brewery Hopping", "Holiday Markets"],
+    culture: "German Traditions & Alpine Vibes",
+    budget: "Moderate",
+    localAttractions: [
+      "Nutcracker Museum",
+      "Front Street Park",
+      "Oktoberfest Celebrations",
+      "Reindeer Farm",
+      "Leavenworth Christmas Lights"
+    ],
+    adventures: [
+      "Alpine Slide in Summer",
+      "Sleigh Rides in Winter",
+      "River Tubing",
+      "Dirndl & Lederhosen Dress-Up",
+      "Hiking Icicle Ridge"
+    ],
+    localCuisines: [
+      "Bratwurst with Sauerkraut",
+      "Bavarian Pretzels",
+      "Schnitzel Sandwiches",
+      "Black Forest Cake",
+      "Hot Mulled Wine"
+    ],
+    shopping: [
+      "German Steins",
+      "Hand-Carved Cuckoo Clocks",
+      "Traditional Hats",
+      "Alpine Ornaments",
+      "Bavarian Chocolates"
+    ]
+  },
+  {
+    id: 192,
+    name: "Forks",
+    address: "Washington, USA",
+    description: "The misty logging town that became globally known through the Twilight Saga.",
+    about: "Once a quiet town on the Olympic Peninsula, Forks now draws Twilight fans who visit Bella’s house, the vampire trail, and themed stores — surrounded by epic rainforest beauty.",
+    lat: 47.9502,
+    lon: -124.3850,
+    climate: "Temperate Rainforest",
+    landscape: "Forests, Rivers, Cloudy Skies",
+    activities: ["Fandom Tours", "Rainforest Hiking", "Beachcombing"],
+    culture: "Fan Pilgrimage Meets Small-Town Charm",
+    budget: "Affordable",
+    localAttractions: [
+      "Bella’s House",
+      "Twilight Museum",
+      "La Push Beach",
+      "Hoh Rainforest (Nearby)",
+      "Forks Outfitters"
+    ],
+    adventures: [
+      "Take a Twilight Selfie Tour",
+      "Explore Hoh Rainforest",
+      "Storm Watch on Rialto Beach",
+      "Watch for Vampires in the Fog",
+      "Attend a Twilight Festival"
+    ],
+    localCuisines: [
+      "Berry Cobbler",
+      "Campfire Chili",
+      "Espresso from the Diner",
+      "Salmon Burgers",
+      "Apple Pie à la Bella"
+    ],
+    shopping: [
+      "Twilight Merchandise",
+      "Fan Autograph Maps",
+      "Wolf Pack Tees",
+      "Hoodies with Forks Logos",
+      "Locally Made Vampire Fangs"
+    ]
+  },
+  {
+    id: 193,
+    name: "Gettysburg National Military Park",
+    address: "Gettysburg, Pennsylvania",
+    description: "The turning point of the Civil War and one of the most hallowed grounds in U.S. history.",
+    about: "Gettysburg preserves the site of the Civil War’s bloodiest battle. Visitors walk the fields, hear Lincoln’s echoes, and explore a powerful museum dedicated to the cost of freedom.",
+    lat: 39.8309,
+    lon: -77.2311,
+    climate: "Temperate",
+    landscape: "Fields, Monuments, Wooded Trails",
+    activities: ["Battlefield Tours", "Museum Visits", "Ghost Tours"],
+    culture: "Civil War Heritage & Historical Reflection",
+    budget: "Low to Moderate",
+    localAttractions: [
+      "Gettysburg National Cemetery",
+      "Cyclorama Exhibit",
+      "Pickett’s Charge Trail",
+      "Devil’s Den",
+      "Eisenhower Farm"
+    ],
+    adventures: [
+      "Ranger-Led Battlefield Hikes",
+      "Sunset Monument Photography",
+      "Attend a Civil War Reenactment",
+      "Explore Haunted Inns",
+      "Horseback Tours Across the Battlefield"
+    ],
+    localCuisines: [
+      "Civil War Corn Cakes",
+      "Apple Butter Biscuits",
+      "Shoo-Fly Pie",
+      "PA Dutch Chicken Pot Pie",
+      "Hard Cider Tastings"
+    ],
+    shopping: [
+      "Civil War Reenactor Gear",
+      "Historical Books",
+      "Battlefield Maps",
+      "Bayonet Keychains",
+      "Lincoln Quote Posters"
+    ]
+  },
+  {
+    id: 194,
+    name: "Green Bank",
+    address: "West Virginia, USA",
+    description: "A quiet zone town where Wi-Fi and cell service are banned to protect deep space science.",
+    about: "Green Bank is home to the world’s largest steerable radio telescope, where no phones or wireless tech is allowed. It’s a rare place of silence, stars, and deep cosmic exploration.",
+    lat: 38.4319,
+    lon: -79.8181,
+    climate: "Mountain Temperate",
+    landscape: "Forested Valleys, Clear Night Skies",
+    activities: ["Observatory Tours", "Astronomy Walks", "Analog Retreats"],
+    culture: "Scientific Discovery & Radio Quiet Living",
+    budget: "Low to Moderate",
+    localAttractions: [
+      "Green Bank Observatory",
+      "Science Center",
+      "Quiet Zone Perimeter Drive",
+      "Allegheny Trail",
+      "Pocahontas County Historical Museum"
+    ],
+    adventures: [
+      "Unplug for a Week",
+      "Star Party Attendance",
+      "Astrophotography Workshops",
+      "Ham Radio Field Day",
+      "Explore Cosmic Listening Devices"
+    ],
+    localCuisines: [
+      "Hearty Mountain Chili",
+      "Cinnamon Apple Pancakes",
+      "Local Honey Cornbread",
+      "Blackberry Jam Biscuits",
+      "Campfire Cocoa"
+    ],
+    shopping: [
+      "Quiet Zone Mugs",
+      "Vintage Radios",
+      "Telescope Keychains",
+      "Space-Themed Stationery",
+      "Astronomer Patches"
+    ]
+  },
+  {
+    id: 195,
+    name: "Bisbee",
+    address: "Arizona, USA",
+    description: "A quirky former mining town turned desert artist enclave with Victorian flair.",
+    about: "Nestled in the Mule Mountains, Bisbee charms visitors with its steep stairways, boho boutiques, colorful murals, and a blend of Old West grit and modern creativity.",
+    lat: 31.4482,
+    lon: -109.9284,
+    climate: "High Desert",
+    landscape: "Hillsides, Art Alleys, Red Rock Ridges",
+    activities: ["Gallery Hopping", "Historic Tours", "Ghost Walks"],
+    culture: "Desert Bohemia & Mining Heritage",
+    budget: "Affordable to Moderate",
+    localAttractions: [
+      "Copper Queen Mine Tour",
+      "Bisbee Mining & Historical Museum",
+      "Bisbee 1000 Stair Climb",
+      "Artsy Brewery Gulch",
+      "Lavender Pit Overlook"
+    ],
+    adventures: [
+      "Explore Abandoned Stairways",
+      "Ghost Tours by Lantern",
+      "Hike High Desert Trails",
+      "Discover Hidden Murals",
+      "Stay in a Haunted Inn"
+    ],
+    localCuisines: [
+      "Sonoran Hot Dogs",
+      "Chili-Lime Corn",
+      "Copper Town Tacos",
+      "Desert Lavender Lattes",
+      "Street Tamales"
+    ],
+    shopping: [
+      "Desert Rock Jewelry",
+      "Copper Sculptures",
+      "Retro Postcards",
+      "Locally Made Zines",
+      "Whimsical Home Decor"
+    ]
+  },
+  {
+    id: 196,
+    name: "Hannibal",
+    address: "Missouri, USA",
+    description: "Mark Twain’s boyhood hometown and the model for Tom Sawyer’s adventures.",
+    about: "Perched on the Mississippi, Hannibal feels like stepping into the 1800s. Explore caves, riverboats, and the house where Samuel Clemens became America’s greatest humorist.",
+    lat: 39.7084,
+    lon: -91.3585,
+    climate: "Humid Continental",
+    landscape: "Riverfront, Bluffs, Historic Downtown",
+    activities: ["Steamboat Rides", "Cave Tours", "Museum Visits"],
+    culture: "Literary Legacy & River Culture",
+    budget: "Affordable",
+    localAttractions: [
+      "Mark Twain Boyhood Home",
+      "Mark Twain Cave",
+      "Tom Sawyer Fence",
+      "Becky Thatcher House",
+      "Lover’s Leap Overlook"
+    ],
+    adventures: [
+      "Cruise the Mississippi",
+      "Tour the Famous Cave",
+      "Write on the Riverfront",
+      "Read Twain’s Words on the Porch",
+      "Paint the Iconic Fence"
+    ],
+    localCuisines: [
+      "Fried Catfish",
+      "Huckleberry Pie",
+      "Riverboat Burgers",
+      "Missouri Slaw Dogs",
+      "Cornbread Muffins"
+    ],
+    shopping: [
+      "Quill Pens",
+      "Twain Portraits",
+      "Classic Leather-Bound Novels",
+      "River Pilot Maps",
+      "Vintage Postcards"
+    ]
+  },
+  {
+    id: 197,
+    name: "Little Norway",
+    address: "Blue Mounds, Wisconsin",
+    description: "A historic Scandinavian homestead turned folk museum of Nordic heritage.",
+    about: "Little Norway was a recreated 19th-century Norwegian village featuring an authentic stave church replica, log cabins, and rosemaling crafts — now closed, but preserved in local memory and museum pieces.",
+    lat: 43.0161,
+    lon: -89.8446,
+    climate: "Continental",
+    landscape: "Hillsides, Pine Forest, Countryside",
+    activities: ["Nordic Heritage Tours", "Folk Crafts", "Costume Exhibits"],
+    culture: "Scandinavian Immigration & Prairie Homesteading",
+    budget: "Low",
+    localAttractions: [
+      "Stave Church Replica",
+      "Rosemaling Displays",
+      "Folk Costume Collection",
+      "Immigrant Cabin Interiors",
+      "Norwegian Craft Market (Seasonal)"
+    ],
+    adventures: [
+      "Try Norwegian Dancing",
+      "Learn Viking History",
+      "Taste Lefse",
+      "Join a Solstice Festival",
+      "Weave Traditional Textiles"
+    ],
+    localCuisines: [
+      "Lefse with Cinnamon Sugar",
+      "Lutefisk (if you dare)",
+      "Kringle Pastries",
+      "Meatballs with Lingonberry Sauce",
+      "Norwegian Waffles"
+    ],
+    shopping: [
+      "Rosemaling Bowls",
+      "Wooden Troll Figures",
+      "Viking Helmets",
+      "Scandi Cookbooks",
+      "Handwoven Table Runners"
+    ]
+  },
+  {
+    id: 198,
+    name: "Newberry National Volcanic Monument",
+    address: "Bend, Oregon",
+    description: "A geologically rich site filled with lava tubes, volcanic lakes, and obsidian fields.",
+    about: "Created by a massive caldera eruption, this monument features surreal volcanic landscapes, hiking trails, and lava caves to explore just minutes from Bend's brew scene.",
+    lat: 43.6767,
+    lon: -121.2482,
+    climate: "High Desert",
+    landscape: "Lava Fields, Obsidian Flows, Cinder Cones",
+    activities: ["Caving", "Hiking", "Paddleboarding"],
+    culture: "Geological Discovery & Outdoor Recreation",
+    budget: "Moderate",
+    localAttractions: [
+      "Lava River Cave",
+      "Paulina Lake",
+      "Obsidian Flow Trail",
+      "East Lake Hot Springs",
+      "Big Obsidian Field"
+    ],
+    adventures: [
+      "Explore the Lava Tube",
+      "Soak in Hot Springs",
+      "Hike on Razor-Sharp Obsidian",
+      "Kayak a Volcanic Lake",
+      "Camp Under the Stars"
+    ],
+    localCuisines: [
+      "Woodfired Trout",
+      "High Desert Trail Mix",
+      "Pine Ale from Bend",
+      "Smoked Elk Jerky",
+      "Campfire S’mores Brownies"
+    ],
+    shopping: [
+      "Obsidian Necklaces",
+      "Volcano-Themed Hoodies",
+      "Lava Tube Flashlights",
+      "Geology Field Guides",
+      "Bend Brewery Merchandise"
+    ]
+  },
+  {
+    id: 199,
+    name: "Utqiaġvik (Barrow)",
+    address: "Alaska, USA",
+    description: "The northernmost city in the U.S., where the sun disappears for 65 days each winter.",
+    about: "Utqiaġvik offers a rare arctic frontier experience with Inupiat culture, whale festivals, permafrost tundra, and endless summer sunlight or polar night.",
+    lat: 71.2906,
+    lon: -156.7887,
+    climate: "Polar",
+    landscape: "Tundra, Frozen Coastline, Arctic Ocean",
+    activities: ["Northern Lights Viewing", "Cultural Tours", "Arctic Wildlife Spotting"],
+    culture: "Inupiat Heritage & Polar Science",
+    budget: "High",
+    localAttractions: [
+      "Iñupiat Heritage Center",
+      "Top of the World Monument",
+      "Whale Bone Arch",
+      "Tundra Walks",
+      "Arctic Ocean Shoreline"
+    ],
+    adventures: [
+      "Midnight Sun Hikes",
+      "Ice Road Drives",
+      "Witness the Polar Night",
+      "Traditional Blanket Toss Festivals",
+      "Aurora Borealis Chasing"
+    ],
+    localCuisines: [
+      "Muktuk (Whale Blubber)",
+      "Seal Stew",
+      "Cloudberry Jam",
+      "Fresh Bannock",
+      "Caribou Jerky"
+    ],
+    shopping: [
+      "Ivory Carvings",
+      "Arctic Maps",
+      "Polar Parkas",
+      "Hand-Beaded Mittens",
+      "Tundra Photography Books"
+    ]
+  },
+  {
+    id: 200,
+    name: "Golden Spike National Historical Park",
+    address: "Promontory Summit, Utah",
+    description: "The spot where east met west and the Transcontinental Railroad was completed in 1869.",
+    about: "Golden Spike honors the epic engineering feat that connected America’s coasts by rail. With reenactments, vintage locomotives, and prairie landscapes, it’s a rail history lover’s dream.",
+    lat: 41.6175,
+    lon: -112.5475,
+    climate: "Semi-Arid",
+    landscape: "Grasslands, Rolling Hills, Historical Tracks",
+    activities: ["Railroad History Tours", "Steam Engine Demonstrations", "Reenactments"],
+    culture: "Railway Engineering & Western Expansion",
+    budget: "Affordable",
+    localAttractions: [
+      "Replica Steam Trains",
+      "Golden Spike Monument",
+      "Engine House Museum",
+      "Big Fill Trail",
+      "Chinese Railroad Workers Tribute"
+    ],
+    adventures: [
+      "See the Train Meet Reenactment",
+      "Ride a Handcar",
+      "Hike the Original Grade",
+      "Attend Railroad Days Festival",
+      "Tour the Engine Cab"
+    ],
+    localCuisines: [
+      "Cowboy Chili",
+      "Iron Skillet Cornbread",
+      "Locomotive Trail Mix",
+      "Apple Cobbler",
+      "Dutch Oven Chicken"
+    ],
+    shopping: [
+      "Golden Spike Replicas",
+      "Rail Worker Caps",
+      "Old Train Whistles",
+      "Historic Map Prints",
+      "Railroad Poster Art"
+    ]
+  }  
 ];
