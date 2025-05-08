@@ -4,7 +4,13 @@ import Link from "next/link";
 
 export default function Favorites() {
   const [favorites, setFavorites] = useState([]);
+  const [isClient, setIsClient] = useState(false); // 👈 New state
   const [placeImages, setPlaceImages] = useState<{ [key: string]: string }>({});
+
+  // Set client-render flag
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   useEffect(() => {
     const fetchFavorites = async () => {
@@ -64,10 +70,27 @@ export default function Favorites() {
   return (
     <>
       <Navbar />
-      <main className="max-w-7xl mx-auto mt-20 px-4">
-        <h2 className="text-4xl font-extrabold text-gray-800 mb-10 text-center">
+
+      {isClient && (
+        <div className="fixed inset-0 z-[-1] overflow-hidden">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover blur-[3px] scale-105"
+          >
+            <source src="/videos/background.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className="absolute inset-0 bg-white opacity-20" />
+        </div>
+      )}
+
+      <main className="max-w-7xl mx-auto mt-10 px-4">
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-blue-800 mb-10 tracking-tight text-center animate-fade-in-up">
           Your Favorite Places ❤️
-        </h2>
+        </h1>
 
         {favorites.length === 0 ? (
           <div className="bg-white/70 border border-gray-200 rounded-2xl p-8 text-center shadow-md backdrop-blur-md">

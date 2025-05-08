@@ -2984,44 +2984,44 @@ export const trendingPlaces = [
   },  
   {
     id: 68,
-    name: "Havasu Falls",
-    address: "Supai, Arizona",
-    description: "A breathtaking waterfall with turquoise waters set against red rock canyons.",
-    about: "Located within the Havasupai Indian Reservation, Havasu Falls is renowned for its striking blue-green waters and dramatic desert surroundings. Access requires a challenging hike or horseback ride.",
-    lat: 36.2554,
-    lon: -112.6980,
-    climate: "Desert",
-    landscape: "Waterfalls, Red Rock Canyons, Desert Oasis",
-    activities: ["Hiking", "Swimming", "Camping", "Photography"],
-    culture: "Native American",
-    budget: "Moderate",
+    name: "Hawaii Volcanoes National Park",
+    address: "Big Island, Hawaii",
+    description: "A volcanic adventure zone where you can hike across lava fields and see glowing craters.",
+    about: "On Hawaii’s Big Island, this park offers active lava landscapes, steam vents, and magma-lit hikes. Volcano enthusiasts and daring explorers flock to see nature’s power up close.",
+    lat: 19.4194,
+    lon: -155.2886,
+    climate: "Tropical Rainforest & Volcanic",
+    landscape: "Lava Fields, Craters, Steam Vents",
+    activities: ["Lava Hiking", "Night Trekking", "Heli Tours"],
+    culture: "Polynesian Roots & Volcanic Majesty",
+    budget: "Moderate to High",
     localAttractions: [
-      "Havasu Falls",
-      "Mooney Falls",
-      "Beaver Falls",
-      "Havasupai Village",
-      "Supai Trading Post"
+      "Kīlauea Crater",
+      "Chain of Craters Road",
+      "Puʻu ʻŌʻō Trail",
+      "Jaggar Museum",
+      "Lava Tube Caves"
     ],
     adventures: [
-      "Backpacking to the Falls",
-      "Camping Under the Stars",
-      "Exploring Hidden Canyons",
-      "Swimming in Natural Pools",
-      "Photography Expeditions"
+      "Hike Through Lava Tubes",
+      "Helicopter Over Live Craters",
+      "Trek Across Fresh Lava Flow",
+      "Bike the Chain of Craters",
+      "Camp Beside Steam Vents"
     ],
     localCuisines: [
-      "Frybread Tacos",
-      "Chili Beans",
-      "Blue Corn Mush",
-      "Traditional Stews",
-      "Herbal Teas"
+      "Kalua Pork Wraps",
+      "Hawaiian Shave Ice",
+      "Poi Bowls",
+      "Grilled Pineapple Skewers",
+      "Mango Energy Bars"
     ],
     shopping: [
-      "Handmade Jewelry",
-      "Native Crafts",
-      "Local Artwork",
-      "Souvenir T-Shirts",
-      "Postcards"
+      "Volcano Rock Jewelry",
+      "Glow-in-the-Dark Crater Tees",
+      "Lava Tube Maps",
+      "Island Adventure Journals",
+      "Hula Patch Stickers"
     ]
   },  
   {

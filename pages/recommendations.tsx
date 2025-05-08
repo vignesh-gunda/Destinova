@@ -187,6 +187,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Link from "next/link";
 import { extractFeatures, cosineSimilarity } from "../utils/featureExtractor";
+import { useSwipeable } from "react-swipeable";
 
 export default function Recommendations() {
   const [recommendations, setRecommendations] = useState<any[]>([]);
@@ -194,6 +195,13 @@ export default function Recommendations() {
   const [favorites, setFavorites] = useState<any[]>([]);
   const [message, setMessage] = useState("");
   const [imageUrl, setImageUrl] = useState<string>("");
+  const [loadingImage, setLoadingImage] = useState(true);
+  const [isClient, setIsClient] = useState(false);
+  const [animationClass, setAnimationClass] = useState<string>("");
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   useEffect(() => {
     const fetchRecommendations = async () => {
@@ -207,6 +215,7 @@ export default function Recommendations() {
 
   useEffect(() => {
     if (recommendations[currentIndex]) {
+      setLoadingImage(true);
       fetchUnsplashImage(recommendations[currentIndex].name);
     }
   }, [currentIndex, recommendations]);
@@ -228,27 +237,29 @@ export default function Recommendations() {
     } catch (err) {
       console.error("Image fetch failed:", err);
       setImageUrl("/images/default.jpg");
+    } finally {
+      setLoadingImage(false);
     }
   };
 
   const handleNext = () => {
-    if (favorites.length > 0) {
-      const sorted = recommendations
-        .filter((_, idx) => idx !== currentIndex)
-        .sort((a, b) => {
-          return (
-            getSimilarityScore(b, favorites) - getSimilarityScore(a, favorites)
-          );
-        });
+    setAnimationClass("animate-slide-out-right");
+    setTimeout(() => {
+      if (favorites.length > 0) {
+        const sorted = recommendations
+          .filter((_, idx) => idx !== currentIndex)
+          .sort((a, b) => getSimilarityScore(b, favorites) - getSimilarityScore(a, favorites));
 
-      if (sorted.length > 0) {
-        setCurrentIndex(recommendations.indexOf(sorted[0]));
+        if (sorted.length > 0) {
+          setCurrentIndex(recommendations.indexOf(sorted[0]));
+        } else {
+          setCurrentIndex((prev) => (prev + 1) % recommendations.length);
+        }
       } else {
         setCurrentIndex((prev) => (prev + 1) % recommendations.length);
       }
-    } else {
-      setCurrentIndex((prev) => (prev + 1) % recommendations.length);
-    }
+      setAnimationClass("animate-slide-in-up");
+    }, 300);
     setMessage("");
   };
 
@@ -275,74 +286,87 @@ export default function Recommendations() {
   };
 
   const averageVectors = (vectors: number[][]) => {
-    const avg = vectors[0].map((_, idx) =>
-      vectors.reduce((sum, vec) => sum + vec[idx], 0) / vectors.length
-    );
-    return avg;
+    return vectors[0].map((_, idx) => vectors.reduce((sum, vec) => sum + vec[idx], 0) / vectors.length);
   };
 
   const current = recommendations[currentIndex];
   const slug = current?.name.toLowerCase().replace(/\s+/g, "-");
 
+  const swipeHandlers = useSwipeable({
+    onSwipedLeft: handleNext,
+    trackMouse: true,
+  });
+
   return (
     <>
       <Navbar />
+
+      {isClient && (
+        <div className="fixed inset-0 z-[-1] overflow-hidden">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover blur-[3px] scale-105"
+          >
+            <source src="/videos/background.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-white opacity-20" />
+        </div>
+      )}
+
       <main className="max-w-5xl mx-auto min-h-screen px-3 py-8 flex flex-col items-center justify-start">
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-blue-800 mb-8 tracking-tight text-center animate-fade-in-up">
+        <h1 className="text-4xl font-extrabold text-blue-800 mb-8 tracking-tight text-center animate-fade-in-up">
           Your Recommended Destinations
         </h1>
 
         {current ? (
-          <div className="relative w-full bg-white/90 backdrop-blur-md rounded-2xl shadow-xl border border-gray-300 overflow-hidden animate-fade-in-up transition-all duration-500">
-
-            {/* Image Section */}
+          <div
+            {...swipeHandlers}
+            className={`relative w-full bg-white/90 backdrop-blur-md rounded-2xl shadow-xl border border-gray-300 overflow-hidden transition-all duration-500 ${animationClass}`}
+          >
             <div className="relative group">
-              <img
-                src={imageUrl}
-                alt={current.name}
-                className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-left">
-                <h3 className="text-2xl font-bold text-white drop-shadow-md">
-                  {current.name}
-                </h3>
+              {loadingImage ? (
+                <div className="w-full h-56 flex items-center justify-center bg-gray-200 animate-pulse">
+                  <p className="text-gray-500">Loading image...</p>
+                </div>
+              ) : (
+                <img
+                  src={imageUrl}
+                  alt={current.name}
+                  className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+              )}
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
+                <h3 className="text-2xl font-bold text-white drop-shadow-md">{current.name}</h3>
                 <p className="text-white/80 mt-1 text-xs">{current.description}</p>
               </div>
             </div>
 
-            {/* Destination Info Section */}
-            <div className="p-5 sm:p-6 text-center bg-gray-100">
-              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 text-xl text-gray-700 mb-4 ">
-                {[
-                  { label: "Climate", value: current.climate },
-                  { label: "Landscape", value: current.landscape },
-                  { label: "Culture", value: current.culture },
-                  { label: "Budget", value: current.budget },
-                ].map((item, index) => (
+            <div className="p-5 bg-gray-100 text-center">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-xl text-gray-700 mb-4">
+                {["Climate", "Landscape", "Culture", "Budget"].map((label, i) => (
                   <div
-                    key={index}
+                    key={i}
                     className="bg-white border-2 border-gray-300 rounded-md p-3 shadow-sm hover:shadow-md hover:border-indigo-400 transition"
                   >
-                    <span className="block font-semibold text-indigo-700 text-md mb-1">{item.label}</span>
-                    <p className="text-gray-800 text-sm">{item.value}</p>
+                    <span className="block font-semibold text-indigo-700 text-md mb-1">{label}</span>
+                    <p className="text-gray-800 text-sm">{current[label.toLowerCase()]}</p>
                   </div>
                 ))}
               </div>
 
-              <div className="bg-white border-2 border-gray-300 px-4 py-3 rounded-md shadow-sm hover:shadow-md hover:border-indigo-400 transition mb-4 text-md sm:text-sm">
+              <div className="bg-white border-2 border-gray-300 px-4 py-3 rounded-md shadow-sm hover:shadow-md hover:border-indigo-400 mb-4">
                 <span className="block font-semibold text-indigo-700 text-xl mb-1">Activities</span>
-                <p className="text-gray-800">{current.activities.join(", ")}</p>
+                <p className="text-gray-800 text-sm">{current.activities.join(", ")}</p>
               </div>
 
-              {/* 🔗 New field: Link to details page */}
               <p className="text-sm text-indigo-700 font-medium mb-6">
-                Want to know more about the place?{" "}
-                <Link href={`/destination/${slug}`}>
-                  <div className="underline text-lg hover:text-indigo-900">Click here</div>
-                </Link>
+                Want to know more about the place?{' '}
+                <Link href={`/destination/${slug}`} className="underline text-lg hover:text-indigo-900">Click here</Link>
               </p>
 
-              {/* Buttons */}
               <div className="flex flex-wrap justify-center gap-3">
                 {recommendations.length > 1 && (
                   <button
