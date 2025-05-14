@@ -4957,48 +4957,6 @@ export const trendingPlaces = [
     ]
   },
   {
-    id: 115,
-    name: "Waikiki Beach",
-    address: "Honolulu, Hawaii",
-    description: "A world-famous beachfront neighborhood known for its golden sand, surfing, and vibrant nightlife.",
-    about: "Waikiki Beach is one of the most iconic beaches in the world. Located on the south shore of Honolulu, it offers turquoise waters, stunning views of Diamond Head, and a blend of modern amenities with island culture.",
-    lat: 21.2766,
-    lon: -157.8275,
-    climate: "Tropical",
-    landscape: "Beach, Ocean, Volcano Views",
-    activities: ["Surfing", "Sunbathing", "Beach Walks"],
-    culture: "Hawaiian",
-    budget: "High",
-    localAttractions: [
-      "Diamond Head Crater",
-      "Royal Hawaiian Center",
-      "Kuhio Beach Park",
-      "Duke Kahanamoku Statue",
-      "Waikiki Aquarium"
-    ],
-    adventures: [
-      "Surf Lessons",
-      "Snorkeling Tours",
-      "Sunset Catamaran Cruises",
-      "Beach Volleyball",
-      "Stand-Up Paddleboarding"
-    ],
-    localCuisines: [
-      "Poke Bowls",
-      "Garlic Shrimp",
-      "Spam Musubi",
-      "Haupia Pie",
-      "Shave Ice"
-    ],
-    shopping: [
-      "Aloha Shirts",
-      "Hawaiian Jewelry",
-      "Ukuleles",
-      "Beach Accessories",
-      "Local Art Prints"
-    ]
-  },
-  {
     id: 116,
     name: "Santa Monica Pier",
     address: "Santa Monica, California",
